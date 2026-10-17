@@ -1,0 +1,58 @@
+{
+  "run_id": "apollo-422381a98c8d",
+  "started_at": "2026-10-17T14:22:17.160667+00:00",
+  "status": "PASS",
+  "steps": [
+    {
+      "provider": "Anchor",
+      "status": "PASS",
+      "summary": "Read Example Domain from the cloud browser."
+    },
+    {
+      "provider": "Daytona",
+      "status": "PASS",
+      "summary": "Verified Anchor\u2019s page and independently downloaded its SHA-256 result."
+    },
+    {
+      "provider": "SurrealDB",
+      "status": "PASS",
+      "summary": "Stored Daytona\u2019s result and recalled the exact record through a fresh connection."
+    },
+    {
+      "provider": "Arize AX",
+      "status": "PASS",
+      "summary": "Independently read back all four spans for this exact run."
+    }
+  ],
+  "cleanup": {
+    "Daytona": "PASS",
+    "Anchor": "PASS"
+  },
+  "trace_id": "b480cd641f243f2ee38b1af46ecadebe",
+  "limitations": [
+    "Synthetic public-page test; no hosted evaluator.",
+    "The iOS app displays a bundled captured run; it does not hold provider credentials."
+  ],
+  "page": {
+    "run_id": "apollo-422381a98c8d",
+    "title": "Example Domain",
+    "url": "https://example.com/",
+    "digest": "86960a178eebb05aaba7d0633b81b13502ff563c699f72638e34f68bbc16bc8f",
+    "verified": true
+  },
+  "memory_chunk_id": "bge10x28b1i7m4m6aiqj",
+  "arize": {
+    "state": "PASS",
+    "trace_id": "b480cd641f243f2ee38b1af46ecadebe",
+    "checked_at": "2026-10-17T14:22:33.108850+00:00",
+    "span_names": [
+      "anchor.read_page",
+      "apollo.e2e",
+      "daytona.verify_page",
+      "surreal.persist_and_recall"
+    ],
+    "project_id": "TW9kZWw6MTA0ODQ4Nzk0NDE6L0pRNQ==",
+    "tries": 1
+  },
+  "finished_at": "2026-10-17T14:22:33.108919+00:00"
+}

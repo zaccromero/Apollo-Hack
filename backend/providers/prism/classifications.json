@@ -1,0 +1,33 @@
+{
+  "corpus_hash": "a12ef01ad7a58511db770f0f78ca75417747058d62034c0a931eea5ae984a569",
+  "classification_kind": "source-reviewed mapping for frozen historical WINA notes; not owner acceptance",
+  "tracks_by_source": {
+    "S1": [
+      "leadership"
+    ],
+    "S2": [
+      "promises_results"
+    ],
+    "S3": [
+      "leadership",
+      "promises_results"
+    ],
+    "S4": [
+      "promises_results"
+    ],
+    "S5": [
+      "promises_results"
+    ],
+    "S6": [
+      "public_sentiment"
+    ]
+  },
+  "date_kinds": {
+    "S1": "published_at",
+    "S2": "published_at",
+    "S3": "published_at",
+    "S4": "published_at",
+    "S5": "published_at",
+    "S6": "published_at"
+  }
+}

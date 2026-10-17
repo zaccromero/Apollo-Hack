@@ -1,0 +1,88 @@
+{
+  "experience_kind": "landing",
+  "scope": "Rebuild the full existing single marketing homepage. Ascending A and blue/light preserved. No extra routes or native changes.",
+  "audience": "People curious about investing who want to learn without real-money trades.",
+  "story": "Direct promise, actual blue Discover screenshot, connected website learning exercise, actual native comparison screenshot, seven asset types, FAQ and honest beta availability.",
+  "references": "Reuse inspected Apollo-Marketing-Grill.json R1 Bloom product/benefit pairing, R2 Invstr named tasks/outcomes, R3 Finimize content specificity; 16 prior captures. No claims copied.",
+  "signature": "One illustrative idea progresses through Discover, Understand, explicit paper preview and confirm into a coherent website-only portfolio.",
+  "plan_challenge": "No decorative orbits, generic benefit grid or repeated serif slogans. Avenir Next/system sans display and body, Georgia only for teaching question, mono for money; accepted cool-white/white/midnight/royal-blue palette.",
+  "promises": {
+    "Try the example": "#try-it; three distinct stock/ETF/options teaching examples and visible staged results",
+    "Inside the app": "#inside; actual blue comparison capture, render-only scope",
+    "iPhone beta": "#access; unavailable until verified install contract",
+    "Questions": "#questions; four actual FAQ answers"
+  },
+  "invariants": {
+    "startingCash": 10000,
+    "stock": {
+      "price": 100,
+      "multiplier": 1,
+      "quantity": 10,
+      "cost": 1000,
+      "cashAfter": 9000,
+      "equityAfter": 10000
+    },
+    "etf": {
+      "price": 50,
+      "multiplier": 1,
+      "quantity": 10,
+      "cost": 500,
+      "cashAfter": 9500,
+      "equityAfter": 10000
+    },
+    "option": {
+      "price": 5,
+      "multiplier": 100,
+      "quantity": 1,
+      "cost": 500,
+      "cashAfter": 9500,
+      "equityAfter": 10000
+    },
+    "guards": [
+      "No execution on stage change",
+      "Reject empty, fractional, negative, over-budget quantity",
+      "No duplicate confirmation",
+      "No network orders or owner-account writes",
+      "Reset/reload clears website exercise only"
+    ]
+  },
+  "architecture": {
+    "styles": [
+      "styles.css"
+    ],
+    "state": [
+      "demo-data.js"
+    ],
+    "components": [
+      "app.js"
+    ],
+    "views": [
+      "index.html"
+    ]
+  },
+  "principles": {
+    "visual_hierarchy": "Inspect native desktop/all sections plus 1440,768,390,320; clear first-screen purpose/action",
+    "usability": "All examples/stages/confirm, invalid/recovery/duplicate/reset, anchors/direct/reload/Back",
+    "design_consistency": "Exact logo/colors, raw approved blue app captures, action cues match controls",
+    "motion": "No timed or ambient animation; immediate state feedback. No library needed.",
+    "accessibility": "Semantic controls, keyboard/focus/error labels, no overflow; full SR/physical audit separate",
+    "return_value": "No save promise: website-only example resets on reload; native persistence outside scope",
+    "validation": "Executable assertions on actual browser receipts and negative control; owner acceptance separate"
+  },
+  "tools": {
+    "used": [
+      "Existing native logo/assets",
+      "Reused inspected competitor captures",
+      "Shared browser",
+      "Python standard library"
+    ],
+    "not_needed": [
+      "New framework",
+      "Raster generation",
+      "Paid tools",
+      "New native capture operation"
+    ]
+  },
+  "cutoffs": "16:00 EDT workready; 16:00-16:30 recording;16:30 judging.",
+  "ownership": "Marketing web/marketing and own lane record; preserve baseline, release exact old/new manifest for Integration."
+}

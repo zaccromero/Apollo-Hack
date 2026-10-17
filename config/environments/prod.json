@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "environment": "prod",
+  "contract_only": true,
+  "runtime_wired": false,
+  "bundle_id": "com.zaccromero.ApolloHack",
+  "team_id": "6GB3JDVN8D",
+  "runtime": {
+    "enabled": false,
+    "mode": "disabled",
+    "backend_url": null,
+    "endpoint_allowlist": []
+  },
+  "data": {
+    "storage_namespace": null,
+    "backend_database": null,
+    "test_identity": null,
+    "identity_is_authenticated": false,
+    "private_profile_import": false
+  },
+  "safety": {
+    "real_money_trades": false,
+    "paid_provider_calls": false,
+    "provider_network": false,
+    "telemetry": false,
+    "automatic_upload": false,
+    "external_testers": false,
+    "public_release": false,
+    "new_signing_assets": false
+  },
+  "delivery": {
+    "channel": "none",
+    "signing": "none",
+    "testflight_internal_only": false,
+    "upload_authorized_by_template": false
+  }
+}

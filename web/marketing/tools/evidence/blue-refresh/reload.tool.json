@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Script ran on page and returned:\n```json\n{\"url\":\"http://127.0.0.1:4181/#preview\",\"kind\":\"STOCKS\",\"closed\":true,\"#preview\":{\"hash\":\"#preview\",\"visible\":true},\"#access\":{\"hash\":\"#access\",\"visible\":true}}\n```\nPage navigated to http://127.0.0.1:4181/#access."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Four measured widths, no horizontal overflow",
+    "Every section inspected and navigation visible",
+    "Ascending A logos loaded in header and footer",
+    "Owner blue-on-light palette rendered",
+    "Three distinct learning examples open/select/close",
+    "All visible images load",
+    "Unavailable installation remains truthful",
+    "Keyboard activation and focus visible",
+    "Direct reload and both primary anchors work",
+    "Behavior and install bytes unchanged on actual base"
+  ],
+  "scope": "Targeted owner-authorized branding delta; originalfullreview not restarted"
+}

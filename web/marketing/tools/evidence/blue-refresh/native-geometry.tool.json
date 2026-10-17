@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Script ran on page and returned:\n```json\n{\"innerWidth\":1512,\"innerHeight\":861,\"outerWidth\":1512,\"outerHeight\":861,\"dpr\":2,\"logo\":\"brand/ascending-blue/logo-light.svg\",\"background\":\"rgb(244, 247, 255)\",\"fullscreenDOM\":false}\n```"
+    }
+  ]
+}

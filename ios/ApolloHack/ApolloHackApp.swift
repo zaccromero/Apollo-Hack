@@ -15,8 +15,59 @@ struct Run: Decodable {
 }
 
 @main
+@MainActor
 struct ApolloHackApp: App {
-    var body: some Scene { WindowGroup { RunView() } }
+    private let service: (any ApolloGameService)?
+    private let configuration: ApolloRuntimeConfiguration?
+    private let configurationError: String?
+    init() {
+        #if DEBUG
+        let isDebug = true
+        #else
+        let isDebug = false
+        #endif
+        do {
+            let config = try ApolloRuntimeConfiguration.resolve(
+                declaredEnvironment: Bundle.main.object(forInfoDictionaryKey: "ApolloEnvironment") as? String,
+                isDebugBuild: isDebug, arguments: ProcessInfo.processInfo.arguments)
+            if config.environment == .staging {
+                try ApolloStagingCarryover.prepare(validateSupplement: { key, data in
+                    if key == "apollo.demo.onboarding.v1" { _ = try JSONDecoder().decode(ApolloOnboardingProgress.self, from: data) }
+                    else if key == "apollo.demo.discovery.v1" { _ = try JSONDecoder().decode(ApolloDiscoveryPreferences.self, from: data) }
+                }, validateAccount: { data in
+                    _ = try JSONDecoder().decode(ApolloAccount.self, from: data)
+                })
+            }
+            let resolvedService: any ApolloGameService
+            if let url = config.backendURL { resolvedService = ApolloHTTPGameService(baseURL: url) }
+            else { resolvedService = ApolloDemoGameService(storageKey: config.paperStorageKey, catalog: try ApolloBundledInstruments.reviewedDemoCatalog()) }
+            service = resolvedService
+            configuration = config
+            configurationError = nil
+        } catch {
+            configuration = nil; service = nil
+            configurationError = error.localizedDescription
+        }
+    }
+    var body: some Scene {
+        WindowGroup {
+            if let configurationError {
+                ContentUnavailableView("Practice unavailable", systemImage: "lock.shield", description: Text(configurationError))
+            } else if let config = configuration, let service {
+                if config.diagnosticsEnabled { RunView() }
+                else {
+                    ApolloAppHost(service: service, namespace: config.stateNamespace, initialComparison: config.initialComparison, allowsDiagnostics: config.environment == .dev)
+                        .safeAreaInset(edge: .top, spacing: 0) {
+                            if config.environment == .staging {
+                                Text("TestFlight practice · your saved paper portfolio")
+                                    .font(.caption2).foregroundStyle(.secondary).frame(maxWidth: .infinity).padding(.vertical, 3)
+                                    .background(.thinMaterial)
+                            }
+                        }
+                }
+            }
+        }
+    }
 }
 
 struct RunView: View {

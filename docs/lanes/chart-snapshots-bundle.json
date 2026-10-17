@@ -1,0 +1,10 @@
+{
+  "source": "ResearchAPI public cached AAPL/WINA OHLC, read-only Plutus cache",
+  "sha256": "da7587a38705531ee7f8ce67ec176d4fd375d5715e4c359003aeb2f001332289",
+  "no_provider_calls": true,
+  "scope": "offline chart only; no execution price or account changes",
+  "observations": {
+    "AAPL": 60,
+    "WINA": 60
+  }
+}

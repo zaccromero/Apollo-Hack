@@ -1,0 +1,1 @@
+RESTORED native fullscreen; UI_PROOF_STATE=NATIVE_FULLSCREEN; VIEWPORT_NATIVE=yes; FULLSCREEN_CLAIM_ALLOWED=yes. Actual tool receipt: inner1512x861,outer1512x861,DPR2; native OS window fullscreen. Responsive emulation cleared. Screenshot exported into owner Visual Reviews packet. Earlier emulated1440x900 and390x844 captures remain diagnostic.

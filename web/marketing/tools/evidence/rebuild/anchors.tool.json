@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Script ran on page and returned:\n```json\n{\"hash\":\"#try-it\",\"links\":[{\"label\":\"Skip to content\",\"href\":\"#main\",\"exists\":true},{\"label\":\"Apollo home\",\"href\":\"#main\",\"exists\":true},{\"label\":\"Try the example\",\"href\":\"#try-it\",\"exists\":true},{\"label\":\"Inside the app\",\"href\":\"#inside\",\"exists\":true},{\"label\":\"iPhone beta\\n↗\",\"href\":\"#access\",\"exists\":true},{\"label\":\"Try the guided example\\n↓\",\"href\":\"#try-it\",\"exists\":true},{\"label\":\"See inside Apollo\\n↗\",\"href\":\"#inside\",\"exists\":true},{\"label\":\"Try the guided example\\n↑\",\"href\":\"#try-it\",\"exists\":true},{\"label\":\"Apollo home\",\"href\":\"#main\",\"exists\":true},{\"label\":\"Questions\",\"href\":\"#questions\",\"exists\":true},{\"label\":\"Back to top ↑\",\"href\":\"#main\",\"exists\":true}],\"images\":true,\"canvas\":\"rgb(244, 247, 255)\",\"accent\":\"rgb(50, 104, 223)\",\"logo\":\"brand/ascending-blue/logo-light.svg\"}\n```"
+    }
+  ]
+}

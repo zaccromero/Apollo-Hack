@@ -1,0 +1,132 @@
+{
+  "manifest": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-marketing-lane/outputs/APOLLO-MARKETING-MANIFEST.json",
+  "files": [
+    {
+      "path": "docs/lanes/marketing.md",
+      "sha256": "01f43781d81ff3415b09759c430f1202ea695885a8a43ddf80385e85b6cf28b4",
+      "bytes": 10642
+    },
+    {
+      "path": "web/marketing/README.md",
+      "sha256": "b52b4d65dd1a418ad50e46a478e201fda098f31734fa571ab6f43be29e716cae",
+      "bytes": 3181
+    },
+    {
+      "path": "web/marketing/app.js",
+      "sha256": "5a0049940873f1b8ed0fb786d0b84d754e707d5f944ed5594ad77e48352db6dd",
+      "bytes": 4841
+    },
+    {
+      "path": "web/marketing/assets/apollo-demo.jpg",
+      "sha256": "9843f50876df2651214db7a24de9992f43656248348bd61bff918ff05e55086c",
+      "bytes": 53039
+    },
+    {
+      "path": "web/marketing/assets/sun.svg",
+      "sha256": "19a5c1b22cde1681ac49d9b7ea1c1c326bd4a6d76e48d68a82949998f1d852b2",
+      "bytes": 281
+    },
+    {
+      "path": "web/marketing/brand/GUIDE.md",
+      "sha256": "89c133d36e6e759fac834cc60270385a28dd511d2ae52f53243ed4c0a5291615",
+      "bytes": 4215
+    },
+    {
+      "path": "web/marketing/brand/app-icon-1024.png",
+      "sha256": "45487f268694d56522072ed1ec7f5e858ef837aea7feb1ca88bee42b2e1c852e",
+      "bytes": 29680
+    },
+    {
+      "path": "web/marketing/brand/app-icon-180.png",
+      "sha256": "b248ac9fe5d5237621859ec6d186683d26dd8e20e20cb2212762fed3b3e6308d",
+      "bytes": 6113
+    },
+    {
+      "path": "web/marketing/brand/app-icon.svg",
+      "sha256": "ab7ca6e8737365fcccf8fa27bab179380bfaaa1545c111ea2cce74d3190bf4ab",
+      "bytes": 396
+    },
+    {
+      "path": "web/marketing/brand/icon-manifest.json",
+      "sha256": "b6b44f7b6640d20bbaa962957de10007b02117b44a1070b67c4d40d84ff7cc38",
+      "bytes": 383
+    },
+    {
+      "path": "web/marketing/brand/tokens.json",
+      "sha256": "b795cd3ffbf2f453e8cf695b299056f8b9e3c3842bf0bb1d6a5ab28db769d624",
+      "bytes": 556
+    },
+    {
+      "path": "web/marketing/delivery.json",
+      "sha256": "9579353b42a691dc17a242c8c69086a1e82c398f05299369b757bc14f082a79e",
+      "bytes": 6029
+    },
+    {
+      "path": "web/marketing/index.html",
+      "sha256": "6e6487ebe9dd5e4aee5a49aa4a0963cf84ccf59ec58e2c464c1bfef5ecc4c93b",
+      "bytes": 9353
+    },
+    {
+      "path": "web/marketing/install.json",
+      "sha256": "4043ecea55bc45d83e78f2d481e6e0867435454b92fc0b3f8347a53f591a803a",
+      "bytes": 121
+    },
+    {
+      "path": "web/marketing/styles.css",
+      "sha256": "e514f41cb7576fe6a81cf73c7f49a348b69acafc9fd881e05b3edc5544f3192e",
+      "bytes": 12797
+    },
+    {
+      "path": "web/marketing/tools/assert-receipts.py",
+      "sha256": "68f19eaa663798469f681590bc00f2bfbe3a05734b7fa95b5fa45800eb42ebd4",
+      "bytes": 2951
+    },
+    {
+      "path": "web/marketing/tools/configure-install.py",
+      "sha256": "c1c66fc663a99c18c86ca7cede0e3f4364df05cf9b3009ff3320b16fdf590213",
+      "bytes": 1933
+    },
+    {
+      "path": "web/marketing/tools/evidence/browser-examples.tool.json",
+      "sha256": "11dc8e850d46b3d14c8a74bfeda0a00e9a7c3a1468fc337da75290ea64d8d635",
+      "bytes": 1517
+    },
+    {
+      "path": "web/marketing/tools/evidence/final.tool.json",
+      "sha256": "3283fe836a9f83fe59c9619ad80cf965a1973a278b82c6852137b3d0f9ca4035",
+      "bytes": 2208
+    },
+    {
+      "path": "web/marketing/tools/evidence/gate.json",
+      "sha256": "dc6b0a4a95da23cae51fde36c7b6791a07b63b5a3c4b8ba8784d9b2e8fa8136e",
+      "bytes": 3667
+    },
+    {
+      "path": "web/marketing/tools/evidence/guards.tool.json",
+      "sha256": "5055bab8787776ebf43db8b7dc1c408597bf306492a62aa8c30865f6ab7702b8",
+      "bytes": 556
+    },
+    {
+      "path": "web/marketing/tools/evidence/keyboard.tool.json",
+      "sha256": "36bab531da5d0f78d3e94b1bc70d6627ed22de9754bc6d28b9558490f3b200c8",
+      "bytes": 512
+    },
+    {
+      "path": "web/marketing/tools/evidence/reload.tool.json",
+      "sha256": "3680cc8cb0efccc1c43f20e546bc5b1a4c91b7ae546de2fbab28b936a423abed",
+      "bytes": 344
+    },
+    {
+      "path": "web/marketing/tools/evidence/responsive.tool.json",
+      "sha256": "0dfece1935dba795d73fcc933c3030ff5af107deb96df80cb0c1fc89be1ebabb",
+      "bytes": 3783
+    },
+    {
+      "path": "web/marketing/tools/qr.swift",
+      "sha256": "c70cd3b32239d45b3c931701124336256bfbe9df9c1fa3467e0bf8efa1051405",
+      "bytes": 1398
+    }
+  ],
+  "hosting": "NOT_RUN",
+  "owner_acceptance": "OPEN"
+}

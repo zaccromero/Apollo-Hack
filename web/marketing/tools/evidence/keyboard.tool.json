@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Script ran on page and returned:\n```json\n{\"mode\":\"browser\",\"tool\":\"mcp__chrome_devtools__press_key\",\"width\":392,\"height\":849,\"focused\":\"reveal\",\"kind\":\"OPTIONS\",\"expanded\":\"true\",\"answerHidden\":false,\"answer\":\"$5 × 100 = $500 before fees. For a long option, the entire premium can be lost. Expiration and contract terms matter as much as the direction of the underlying asset.\",\"outline\":\"solid\"}\n```"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "release_id": "apollo-environment-policy-v2",
+  "released_at": "2026-10-17T17:47:21.072466+00:00",
+  "receiving_lane_chat": "01a14abe-3093-7971-9ebe-02574df0bc29",
+  "import_owner_chat": "01a14a33-e4a0-7ae1-a942-353fd5883fd3",
+  "repository": "/Users/zaccromero/code/hackathon/Apollo-Hack",
+  "release": "EXPLICITLY_RELEASED_TO_INTEGRATION_FOR_EXACT_SCOPED_IMPORT",
+  "files": [
+    {
+      "destination": "config/environments/ApolloEnvironmentPolicy.swift",
+      "source": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-environments-lane/outputs/apollo-environment-policy-v2/config/environments/ApolloEnvironmentPolicy.swift",
+      "expected_old_sha256": null,
+      "expected_destination_state": "ABSENT",
+      "new_sha256": "054040b6294d89b51b7b7043b0bd4077c1305cacbf713d73282fa85f0ab581ee",
+      "bytes": 4778
+    },
+    {
+      "destination": "config/environments/Tests/ApolloEnvironmentPolicyChecks.swift",
+      "source": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-environments-lane/outputs/apollo-environment-policy-v2/config/environments/Tests/ApolloEnvironmentPolicyChecks.swift",
+      "expected_old_sha256": null,
+      "expected_destination_state": "ABSENT",
+      "new_sha256": "79a9bff9d3a31ba262119228590763110f1b49c030064213c612e60d6454448e",
+      "bytes": 5202
+    },
+    {
+      "destination": "config/environments/guard-checks-v2.json",
+      "source": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-environments-lane/outputs/apollo-environment-policy-v2/config/environments/guard-checks-v2.json",
+      "expected_old_sha256": null,
+      "expected_destination_state": "ABSENT",
+      "new_sha256": "4e1d3ce2e9d343c25b703441b5974aa7bc2fadc7a599f8a84cf781b191c54c76",
+      "bytes": 2606
+    },
+    {
+      "destination": "docs/lanes/environments.md",
+      "source": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-environments-lane/outputs/apollo-environment-policy-v2/docs/lanes/environments.md",
+      "expected_old_sha256": "8db24ad262d0cced72696d6392180997f102035da7343d316a342faa0d7593cf",
+      "expected_destination_state": "MATCH_HASH",
+      "new_sha256": "450557a82838da1c223620e1886d5d58cdc6a612938606cf83bd475d2dd8ec5e",
+      "bytes": 15868
+    }
+  ],
+  "helper_sha256": "054040b6294d89b51b7b7043b0bd4077c1305cacbf713d73282fa85f0ab581ee",
+  "guard_checks": "PASS_48",
+  "storage_component_checks": "PASS_16_REUSED",
+  "runtime_root_wiring": "NOT_RUN",
+  "native_environment_isolation": "NOT_RUN",
+  "parent_gate": "NOT_RUN_BY_THIS_LANE",
+  "production": "REJECTED_BY_HELPER; native adoption pending",
+  "target_membership": "Include ApolloEnvironmentPolicy.swift only; exclude Tests/**",
+  "authority": "Direct human runtime-isolation direction and Integration explicit no-overlap helper release; no shared/root/project/device ownership transfer",
+  "deadline": "2026-10-17 16:00 America/New_York",
+  "recording_buffer": "16:00-16:30; judging16:30"
+}

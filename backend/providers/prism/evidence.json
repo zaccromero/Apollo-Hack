@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "scope": "historical_plutus_not_current_apollo_game",
+  "observed_at": "2026-10-17T15:43:36.240918+00:00",
+  "audit_source": "backend/research/sponsor_audit.json",
+  "audit_sha256": "f6cadfd210c5c3a9c1c1bdeb0c7223b34d761fff961aa1845d9779c462a19a17",
+  "historical": {
+    "project_id": "af6031aa-fa52-4044-a63a-65d0f3c219fa",
+    "agent_id": "money-talks-2-winmark",
+    "date_range_utc": [
+      "2026-10-17T05:10:59Z",
+      "2026-10-17T05:38:10Z"
+    ],
+    "historical_database_records": 107,
+    "matched_runs": 100,
+    "knowledge_base": {
+      "status": "PASS",
+      "assigned_documents": [
+        {
+          "id": "f1189a12-85f3-4f13-8a16-c9a38a94c41f",
+          "name": "S1-a12ef01a.md",
+          "agent_id": "money-talks-2-winmark",
+          "status": "ready"
+        },
+        {
+          "id": "375ca83b-5454-4106-9480-80b9d17c5159",
+          "name": "S2-a12ef01a.md",
+          "agent_id": "money-talks-2-winmark",
+          "status": "ready"
+        },
+        {
+          "id": "9c757bde-170e-4df7-a8cd-792fcca01de5",
+          "name": "S3-a12ef01a.md",
+          "agent_id": "money-talks-2-winmark",
+          "status": "ready"
+        },
+        {
+          "id": "7a957dea-8c0a-4c55-9084-83526ab43c7d",
+          "name": "S4-a12ef01a.md",
+          "agent_id": "money-talks-2-winmark",
+          "status": "ready"
+        },
+        {
+          "id": "f1f89bbf-d2e9-4621-aa8a-cd23f1e18cc8",
+          "name": "S5-a12ef01a.md",
+          "agent_id": "money-talks-2-winmark",
+          "status": "ready"
+        },
+        {
+          "id": "8ee037e0-e581-407a-ace5-61f9b492fb0b",
+          "name": "S6-a12ef01a.md",
+          "agent_id": "money-talks-2-winmark",
+          "status": "ready"
+        }
+      ],
+      "note_count": 6,
+      "distinct_source_urls": 5,
+      "curation": "Human-curated public-source notes",
+      "agent_id": "money-talks-2-winmark",
+      "live_retrieval_verified": true,
+      "corpus_hash": "a12ef01ad7a58511db770f0f78ca75417747058d62034c0a931eea5ae984a569"
+    },
+    "root_cause": {
+      "status": "PASS",
+      "cluster_id": "71ed4b6d-2927-4f34-96a9-ad1d79ac726b",
+      "member_count": 3,
+      "platform_cause": "tool",
+      "platform_evidence_tier": "likely",
+      "evidence_trace_ids": [
+        "23b7b209-a253-442b-860a-9d96c4245c46",
+        "ff5d410b-3597-4572-a783-e098a746ba82",
+        "0125b215-15db-415c-8389-4d7b0660b8ce"
+      ],
+      "matched_genuine_failed_reproductions": true,
+      "explanation": "The failing tool was response-contract validation, rejecting incomplete JSON. Retrieval succeeded. Every invalid baseline reply used the 1200-token ceiling. The platform\u2019s broader wording about retrieval unavailability is not established; no source-localized or human-verified diagnosis is claimed.",
+      "original_unknown_cluster_retained": "3a83f301-599b-4941-8720-616dc20dbfb0"
+    },
+    "custom_evaluator": {
+      "status": "PASS",
+      "id": "286bb56a-c6eb-4e91-bd7e-1ffdc2554e90",
+      "rubric_hash": "ac9c4d2c3d97d432eb3f216ff569062681e6c066fb78557779e061338ab8e3ce",
+      "criterion_frozen_before_baseline": true,
+      "same_50_user_questions_verified": true,
+      "all_100_scored_trace_ids_verified": true,
+      "v1": {
+        "task_id": "0ddf7958-dc54-4273-a12c-a3c24992cff0",
+        "runs": 50,
+        "structured_answers": 24,
+        "mean_score": 68.98,
+        "evaluator_pass": 34,
+        "evaluator_fail": 16
+      },
+      "v2": {
+        "task_id": "d2509c61-9748-40d8-9305-624cf035b4f6",
+        "runs": 50,
+        "structured_answers": 50,
+        "mean_score": 75.44,
+        "evaluator_pass": 41,
+        "evaluator_fail": 9
+      },
+      "remaining_flags": [
+        {
+          "case_id": "W13",
+          "score": 42,
+          "trace_id": "f8c2fd25-f57a-4eed-9e77-6f7718859f84"
+        },
+        {
+          "case_id": "W14",
+          "score": 62,
+          "trace_id": "96717143-66d7-445c-ba9d-8994449eee5e"
+        },
+        {
+          "case_id": "W25",
+          "score": 42,
+          "trace_id": "d587e556-70af-4190-b665-4bceb38002d5"
+        },
+        {
+          "case_id": "W26",
+          "score": 42,
+          "trace_id": "d901c236-b1fd-488f-8381-606e3c61d435"
+        },
+        {
+          "case_id": "W27",
+          "score": 42,
+          "trace_id": "c6ae4ef6-085b-41da-9d1c-96c36ca30624"
+        },
+        {
+          "case_id": "W30",
+          "score": 18,
+          "trace_id": "e5068ae2-5664-40ab-afe0-574b4d7e9777"
+        },
+        {
+          "case_id": "W31",
+          "score": 42,
+          "trace_id": "9f7492ca-ae0d-491c-b7b5-da97835143c7"
+        },
+        {
+          "case_id": "W35",
+          "score": 42,
+          "trace_id": "14e2d9fc-284a-449e-bfff-46851bf09535"
+        },
+        {
+          "case_id": "W41",
+          "score": 42,
+          "trace_id": "f2bc2c5c-e087-4408-b793-4bb8330e2405"
+        }
+      ],
+      "interpretation": "LLM-judge scores, not measured financial accuracy or returns. Some reasoning raises context or question-interpretation concerns that need adjudication; no scores or labels were changed."
+    },
+    "eligibility": {
+      "pre_event_build": true,
+      "pre_event_work_disclosed": true,
+      "advance_build_rules": "UNKNOWN",
+      "submission_cutoff": "UNKNOWN",
+      "eligibility": "NOT_VERIFIED"
+    },
+    "owner_sentence_status": "No independent human-authored/accepted explanation found; historical agent explanation exists only",
+    "suggested_sentence_for_owner_review": "Root Cause grouped three failed response-contract checks; their traces show retrieval succeeded, so incomplete JSON validation was the actionable issue, not demonstrated retrieval unavailability.",
+    "gaps": [
+      "Whether pre-event work/runs count under event rules is unverified.",
+      "Historical Winmark evaluator is not an Apollo gameplay evaluator.",
+      "Current deterministic game research does not call PRISM/Nicrron.",
+      "Any new required sponsor runs would conflict with the existing no-credit/no-new-provider-call boundary and need an explicit owner decision."
+    ]
+  },
+  "receipt_integrity": [
+    {
+      "path": "/Users/zaccromero/code/hackathon/plutus/research/receipts/build-receipt.json",
+      "expected_sha256": "c3651635750b652c002750fce75c1d82d0779e685bf63b19a19e75fe6f9130a7",
+      "actual_sha256": "c3651635750b652c002750fce75c1d82d0779e685bf63b19a19e75fe6f9130a7",
+      "status": "MATCH"
+    },
+    {
+      "path": "/Users/zaccromero/code/hackathon/plutus/research/receipts/kb.json",
+      "expected_sha256": "bd547a2c3527068fe307814fa310bac7cbf73b184edd8a794d383acae60caba7",
+      "actual_sha256": "bd547a2c3527068fe307814fa310bac7cbf73b184edd8a794d383acae60caba7",
+      "status": "MATCH"
+    },
+    {
+      "path": "/Users/zaccromero/code/hackathon/plutus/research/receipts/evaluator.json",
+      "expected_sha256": "985872d7c84609a93629bc1c42d07a57242df37917057b0ed353cce9f99ac137",
+      "actual_sha256": "985872d7c84609a93629bc1c42d07a57242df37917057b0ed353cce9f99ac137",
+      "status": "MATCH"
+    },
+    {
+      "path": "/Users/zaccromero/code/hackathon/plutus/research/receipts/comparison.json",
+      "expected_sha256": "eb2f41266dc38bb8f1865657768e6200b4899dcd51d2f4e8cf954b6e259bce5d",
+      "actual_sha256": "eb2f41266dc38bb8f1865657768e6200b4899dcd51d2f4e8cf954b6e259bce5d",
+      "status": "MATCH"
+    },
+    {
+      "path": "/Users/zaccromero/code/hackathon/plutus/research/receipts/platform-eval-status.json",
+      "expected_sha256": "2c29c33c6b7402eba7a2c10cbe62f39ed87d2d85ebe84a87cb57b972b9273869",
+      "actual_sha256": "2c29c33c6b7402eba7a2c10cbe62f39ed87d2d85ebe84a87cb57b972b9273869",
+      "status": "MATCH"
+    },
+    {
+      "path": "/Users/zaccromero/code/hackathon/plutus/research/receipts/platform-eval-results.json",
+      "expected_sha256": "24e715d0929fb6958753f7ec32b6b8fde717ad950e0fef2811469f8fdc108b21",
+      "actual_sha256": "24e715d0929fb6958753f7ec32b6b8fde717ad950e0fef2811469f8fdc108b21",
+      "status": "MATCH"
+    },
+    {
+      "path": "/Users/zaccromero/code/hackathon/plutus/research/receipts/evaluation-v2-latest.json",
+      "expected_sha256": "0e5943750847d1a877eaf335d62a7bdfb05df4764dbcf18bcaf24f9155a49fe5",
+      "actual_sha256": "0e5943750847d1a877eaf335d62a7bdfb05df4764dbcf18bcaf24f9155a49fe5",
+      "status": "MATCH"
+    },
+    {
+      "path": "/Users/zaccromero/code/hackathon/plutus/research/receipts/root-cause-enriched.json",
+      "expected_sha256": "ae8e01cc04168b3ae141469d20d0cdfa8070ce8a6dd7dda80bec60b3c91207c3",
+      "actual_sha256": "ae8e01cc04168b3ae141469d20d0cdfa8070ce8a6dd7dda80bec60b3c91207c3",
+      "status": "MATCH"
+    },
+    {
+      "path": "/Users/zaccromero/code/hackathon/plutus/research/receipts/diagnostic-reproductions.json",
+      "expected_sha256": "55a1a6613dc77c0f48320c90ffc59e498dcbcc7c8237ae0ded81b518a28a691c",
+      "actual_sha256": "55a1a6613dc77c0f48320c90ffc59e498dcbcc7c8237ae0ded81b518a28a691c",
+      "status": "MATCH"
+    },
+    {
+      "path": "/Users/zaccromero/code/hackathon/plutus/research/receipts/local-v3-receipt.json",
+      "expected_sha256": "28b2d4a433c380313e8afd1485d4b6f3817f1ec4fe0ba6590cbc7c77c5498cc5",
+      "actual_sha256": "28b2d4a433c380313e8afd1485d4b6f3817f1ec4fe0ba6590cbc7c77c5498cc5",
+      "status": "MATCH"
+    }
+  ],
+  "current_game": {
+    "retrieval": "NOT_RUN",
+    "provider_trace": "NOT_RUN",
+    "custom_evaluator": "NOT_RUN",
+    "root_cause": "NOT_RUN",
+    "owner_acceptance": false
+  },
+  "authority": {
+    "network_enabled": false,
+    "telemetry_enabled": false,
+    "paid_runs_authorized": false,
+    "credit_pause_preserved": true
+  },
+  "docs": {
+    "official_url": "https://blockconvey.com/docs",
+    "checked_at": "2026-10-17",
+    "sdk": "prismtrace-sdk; import prismtrace",
+    "path": "direct HTTP; no SDK dependency added",
+    "contracts": [
+      "POST /api/knowledge-base/search",
+      "POST /api/traces",
+      "POST /api/spans/ingest"
+    ],
+    "metered_actions_implemented": false
+  },
+  "current_research_identity": {
+    "asset_id": "WINA",
+    "corpus_hash": "f4ac7c6b2702cf94b1176750ed262cc213a22418936d1060e01667885a1fc020",
+    "research_service_sha256": "79aa92b3196758a2637d13dde564bf676dc674ec6e0a6e34a8ad2e60fb36f54e",
+    "assigned_historical_corpus_differs": true,
+    "integration_request_must_match_corpus": true
+  }
+}

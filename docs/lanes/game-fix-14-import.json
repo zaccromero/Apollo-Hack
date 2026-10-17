@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-17T17:31:25.714003+00:00",
+  "manifest_sha256": "4ce6e73d01b666f6b5a3ae6670d5e95626a502308fa8325cb12dd7b3e6e478eb",
+  "files": [
+    {
+      "name": "ApolloGameRootView.swift",
+      "expected_destination_sha256": "56137ca846609f9dd13e6b4322da5b8c93edbf15ddf13710e7cd35b107978a70",
+      "sha256": "1b1a1845e8520e705543d5507e44405e5fc1888c00c8d82df3f23bb815b54b6c"
+    }
+  ],
+  "scope": "exact source boundary; no financial/state/provider change"
+}

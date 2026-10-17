@@ -1,0 +1,95 @@
+{
+  "asset_id": "WINA",
+  "agent_id": "money-talks-2-winmark",
+  "cutoff": "2026-10-17",
+  "corpus_hash": "a12ef01ad7a58511db770f0f78ca75417747058d62034c0a931eea5ae984a569",
+  "provenance": "frozen_historical_curated_corpus",
+  "sources": [
+    {
+      "id": "S1",
+      "date": "2025-09-22",
+      "kind": "company_release",
+      "title": "Lisa Hake joins as CMO",
+      "url": "https://winmarkcorporation.com/wp-content/uploads/2025/09/Winmark-Corporation-Announces-Leadership-Addition.pdf",
+      "text": "Lisa Hake joins Winmark as Chief Marketing Officer effective October 1, 2025, a newly created role. Brett D. Heffes is Chair and CEO. The release describes investment in franchise marketing and improving per-unit performance but supplies no numerical target or deadline. It does not establish the causal effect of this hire on later earnings."
+    },
+    {
+      "id": "S2",
+      "date": "2026-07-15",
+      "kind": "sec_filing",
+      "title": "First-half 2026 share repurchases",
+      "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000028/wina-20260627x10q.htm",
+      "text": "For the six months ended June 27, 2026, Winmark did not repurchase any common stock. This historical period is not evidence that repurchases were still zero in the next quarter."
+    },
+    {
+      "id": "S3",
+      "date": "2026-10-14",
+      "kind": "sec_exhibit",
+      "title": "Q3 results and marketing execution",
+      "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000038/wina-ex99d1.htm",
+      "text": "Quarter ended September 26, 2026: net income $11,818,100 versus $11,136,500; diluted EPS $3.21 versus $3.02. Nine-month net income $31,467,700 versus $31,694,200. Prior-year nine-month results included $2.2 million of leasing litigation settlement income. Plato\u2019s Closet North American Advertising Fund launched during the quarter. A point-of-sale pilot was delivered at one franchised location. Once Upon A Child and Play It Again Sports advertising campaigns are planned for 2027; their result is not yet due at the corpus cutoff. A pilot is not a systemwide rollout. These actions do not isolate the new CMO\u2019s contribution to profits."
+    },
+    {
+      "id": "S4",
+      "date": "2026-10-14",
+      "kind": "sec_exhibit",
+      "title": "Revenue quality and executed repurchases",
+      "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000038/wina-ex99d1.htm",
+      "text": "Q3 total revenue $27,890,500 versus $22,632,900. Advertising fund revenue $3,825,300 has matching advertising fund expense $3,825,300. Royalties $21,707,800 versus $20,911,300. Analyst calculation: total revenue growth 23.2%; excluding advertising fund revenue, growth about 6.3%, not a company-defined non-GAAP measure. Nine-month program stock repurchases executed $9.85 million, with $1.75 million accrued at September 26; cash flow repurchases $8,091,600 and quarter cash payments rounded $8.10 million. Execution, settlement cash, and authorization are different. Repurchases do not establish fair value or an insider\u2019s personal purchase."
+    },
+    {
+      "id": "S5",
+      "date": "2026-10-14",
+      "kind": "sec_exhibit",
+      "title": "Dividend and competing cash demands",
+      "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000038/wina-ex99d2.htm",
+      "text": "Quarterly dividend $1.02 and special dividend $4.00 per share announced payable December 1, 2026; record date November 11, 2026. Special dividend total approximately $14.2 million, expected to use cash on hand. Future dividends require board approval. CEO Brett Heffes explains higher cash supports repurchase flexibility and $60 million of debt maturity over the next thirty months. This is not a dated commitment to spend all cash on buybacks and not proof the stock is cheap."
+    },
+    {
+      "id": "S6",
+      "date": "2026-10-14",
+      "kind": "sampled_public_opinion",
+      "title": "One published valuation commentary, not a sentiment survey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/winmark-wina-justify-valuation-dividends-031923857.html",
+      "text": "Human-curated paraphrase of one Simply Wall St article, published October 14, 2026 at 11:19 PM EDT via Yahoo Finance. The article portrays Winmark as a solid cash generator with a stock that has stumbled and raises whether dividends and Q3 results justify its valuation. This is published editorial commentary, not a representative investor survey, a verified trade, author profitability, or independent proof of fair value. No current Reddit comment was reproduced in this corpus verification. There is no measured market-wide sentiment score."
+    }
+  ],
+  "documents": [
+    {
+      "id": "f1189a12-85f3-4f13-8a16-c9a38a94c41f",
+      "name": "S1-a12ef01a.md",
+      "agent_id": "money-talks-2-winmark",
+      "status": "ready"
+    },
+    {
+      "id": "375ca83b-5454-4106-9480-80b9d17c5159",
+      "name": "S2-a12ef01a.md",
+      "agent_id": "money-talks-2-winmark",
+      "status": "ready"
+    },
+    {
+      "id": "9c757bde-170e-4df7-a8cd-792fcca01de5",
+      "name": "S3-a12ef01a.md",
+      "agent_id": "money-talks-2-winmark",
+      "status": "ready"
+    },
+    {
+      "id": "7a957dea-8c0a-4c55-9084-83526ab43c7d",
+      "name": "S4-a12ef01a.md",
+      "agent_id": "money-talks-2-winmark",
+      "status": "ready"
+    },
+    {
+      "id": "f1f89bbf-d2e9-4621-aa8a-cd23f1e18cc8",
+      "name": "S5-a12ef01a.md",
+      "agent_id": "money-talks-2-winmark",
+      "status": "ready"
+    },
+    {
+      "id": "8ee037e0-e581-407a-ace5-61f9b492fb0b",
+      "name": "S6-a12ef01a.md",
+      "agent_id": "money-talks-2-winmark",
+      "status": "ready"
+    }
+  ]
+}

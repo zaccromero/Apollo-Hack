@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Script ran on page and returned:\n```json\n{\"cash\":\"$9,800.00\",\"holdings\":\"$200.00\",\"focused\":\"panel-title\",\"scope\":\"You confirmed 2 shares of example company in this website example. No app account was changed.\"}\n```"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "mode": "TARGETED_CONTRACT_CHECK",
+  "result": "PASS",
+  "cases": 13,
+  "results": [
+    {
+      "case": "three safe preparation profiles",
+      "result": "PASS"
+    },
+    {
+      "case": "production activation",
+      "result": "PASS",
+      "rejected_errors": [
+        "production must stay inert"
+      ]
+    },
+    {
+      "case": "staging endpoint leak",
+      "result": "PASS",
+      "rejected_errors": [
+        "backend is unconfigured; endpoint activation requires Integration"
+      ]
+    },
+    {
+      "case": "real trades",
+      "result": "PASS",
+      "rejected_errors": [
+        "all network/spending/release authority must remain off"
+      ]
+    },
+    {
+      "case": "paid calls and telemetry",
+      "result": "PASS",
+      "rejected_errors": [
+        "all network/spending/release authority must remain off"
+      ]
+    },
+    {
+      "case": "foreign bundle",
+      "result": "PASS",
+      "rejected_errors": [
+        "Apollo identity mismatch"
+      ]
+    },
+    {
+      "case": "external/public distribution",
+      "result": "PASS",
+      "rejected_errors": [
+        "all network/spending/release authority must remain off"
+      ]
+    },
+    {
+      "case": "database traversal",
+      "result": "PASS",
+      "rejected_errors": [
+        "database must stay inside its environment data directory"
+      ]
+    },
+    {
+      "case": "unexpected secret field",
+      "result": "PASS",
+      "rejected_errors": [
+        "contract: unexpected or missing fields"
+      ]
+    },
+    {
+      "case": "false runtime proof",
+      "result": "PASS",
+      "rejected_errors": [
+        "templates must not claim runtime wiring"
+      ]
+    },
+    {
+      "case": "new signing asset authority",
+      "result": "PASS",
+      "rejected_errors": [
+        "all network/spending/release authority must remain off"
+      ]
+    },
+    {
+      "case": "missing safety block",
+      "result": "PASS",
+      "rejected_errors": [
+        "contract: unexpected or missing fields",
+        "safety: unexpected or missing fields",
+        "all network/spending/release authority must remain off"
+      ]
+    },
+    {
+      "case": "cross-environment data collision",
+      "result": "PASS",
+      "rejected_errors": [
+        "storage_namespace: environment data collision"
+      ]
+    }
+  ],
+  "source_runtime_wired": false,
+  "full_gate": "NOT_RUN",
+  "native_environment_isolation": "NOT_RUN",
+  "network_or_signing_actions": 0
+}

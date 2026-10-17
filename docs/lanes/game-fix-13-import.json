@@ -1,0 +1,12 @@
+{
+  "imported_at": "2026-10-17T17:09:33.908383+00:00",
+  "manifest_sha256": "842109eb518ff9c057f7292aa92bcf13122b7445b82bd4eab4f8dcca3ebee1ff",
+  "scope": "one containment modifier; no extra provider run",
+  "files": [
+    {
+      "name": "ApolloThesisChallengeView.swift",
+      "expected_destination_sha256": "5f01e86336513f21e603ca529b8615c7e9b4348a6bca3d865b2cd7307fe5149e",
+      "sha256": "557791b5f6f5657487720a9e6327e02f90d182269292e0d03a123287d230b267"
+    }
+  ]
+}

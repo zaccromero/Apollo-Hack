@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "assertions": 29,
+  "checks": [
+    {
+      "name": "stock explicit preview protects balance",
+      "status": "PASS"
+    },
+    {
+      "name": "stock confirmed arithmetic",
+      "status": "PASS"
+    },
+    {
+      "name": "stock website scope and duplicate protection",
+      "status": "PASS"
+    },
+    {
+      "name": "stock distinct reasoning and reset",
+      "status": "PASS"
+    },
+    {
+      "name": "etf explicit preview protects balance",
+      "status": "PASS"
+    },
+    {
+      "name": "etf confirmed arithmetic",
+      "status": "PASS"
+    },
+    {
+      "name": "etf website scope and duplicate protection",
+      "status": "PASS"
+    },
+    {
+      "name": "etf distinct reasoning and reset",
+      "status": "PASS"
+    },
+    {
+      "name": "option explicit preview protects balance",
+      "status": "PASS"
+    },
+    {
+      "name": "option confirmed arithmetic",
+      "status": "PASS"
+    },
+    {
+      "name": "option website scope and duplicate protection",
+      "status": "PASS"
+    },
+    {
+      "name": "option distinct reasoning and reset",
+      "status": "PASS"
+    },
+    {
+      "name": "invalid quantities reject actual confirmation",
+      "status": "PASS"
+    },
+    {
+      "name": "valid recovery after invalid attempt",
+      "status": "PASS"
+    },
+    {
+      "name": "all exact-budget boundaries preserve equity",
+      "status": "PASS"
+    },
+    {
+      "name": "all topics reject over-budget confirmation",
+      "status": "PASS"
+    },
+    {
+      "name": "cancel preview does not create receipt",
+      "status": "PASS"
+    },
+    {
+      "name": "direct hash reload resets website exercise honestly",
+      "status": "PASS"
+    },
+    {
+      "name": "all offered anchor destinations exist and Back works",
+      "status": "PASS"
+    },
+    {
+      "name": "selected brand and visible images",
+      "status": "PASS"
+    },
+    {
+      "name": "all nine states at four widths fit and keep actions",
+      "status": "PASS"
+    },
+    {
+      "name": "trusted keyboard topic and advance",
+      "status": "PASS"
+    },
+    {
+      "name": "trusted keyboard confirmation and focus return",
+      "status": "PASS"
+    },
+    {
+      "name": "all FAQ answers and seven asset types",
+      "status": "PASS"
+    },
+    {
+      "name": "truthful unavailable acquisition",
+      "status": "PASS"
+    },
+    {
+      "name": "HTML IDs unique",
+      "status": "PASS"
+    },
+    {
+      "name": "static asset and anchor integrity",
+      "status": "PASS"
+    },
+    {
+      "name": "JavaScript syntax",
+      "status": "PASS"
+    },
+    {
+      "name": "verified install contract guard fixtures",
+      "status": "PASS"
+    }
+  ]
+}

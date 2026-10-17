@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Script ran on page and returned:\n```json\n{\"url\":\"http://127.0.0.1:4182/\",\"title\":\"Apollo — Learn investing by doing.\",\"viewport\":[1512,861],\"dpr\":2,\"height\":4302,\"overflow\":false,\"images\":[{\"src\":\"brand/ascending-blue/logo-light.svg\",\"loaded\":true},{\"src\":\"assets/apollo-discover-blue.png\",\"loaded\":true},{\"src\":\"assets/apollo-comparison-blue.png\",\"loaded\":true},{\"src\":\"brand/ascending-blue/mark-light.svg\",\"loaded\":true},{\"src\":\"brand/ascending-blue/logo-light.svg\",\"loaded\":true}],\"headings\":[{\"text\":\"Learn investing.\\nBy doing.\",\"y\":243},{\"text\":\"Take an idea\\na little further.\",\"y\":1037},{\"text\":\"Explore first.\\nDecide deliberately.\",\"y\":2031},{\"text\":\"There’s more\\nthan one way\\nto invest.\",\"y\":2805},{\"text\":\"Good questions.\\nClear answers.\",\"y\":3367},{\"text\":\"Your instinct.\\nBuilt through practice.\",\"y\":3838}],\"panel\":\"DISCOVER / STOCK EXAMPLE\\n\\nStart with curiosity, not certainty.\\n\\nRecognizing a business is different from understanding an investment. Before deciding, ask what the price assumes about its future.\\n\\nUnderstand the idea\\n→\"}\n```"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "manifest": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-prism-lane/outputs/prism-release-v2/backend/providers/prism/manifest.json",
+  "hashes": {
+    "backend/providers/prism/__init__.py": "cc4de503c9c0983c7f80130b481dfd566bcf044387ae88cbd33ca0bac0ac30c5",
+    "backend/providers/prism/api.py": "405b9541834a7ae0b54e531606e30066c96040c47c06687b85ead44921dfabb9",
+    "backend/providers/prism/classifications.json": "9cbdc64edfe5b42ab3135428bf8ef68cfb4acbf08423949654ddd36b35cae2fc",
+    "backend/providers/prism/compat.py": "61216d0d05150927ce20028c8bbd2e649742950cb7deaa45132a959264af74ed",
+    "backend/providers/prism/corpus.json": "789b2208f321bace960d2fc95eb3157abe5d724784bc30689bf4939ba5bd97c9",
+    "backend/providers/prism/evidence.json": "0c54874214b877189f3c53d1df9586711a5745c60ef9e41e781b926493dc4b3b",
+    "backend/providers/prism/service.py": "83892d936f7d3dce025fab8ca24fb058e83ec79832b89d0cd3bf3c5e92bf24f5",
+    "backend/providers/prism/test_compat.py": "77a9f06435dd5c524676d4531895454c3f71b686bcdbf9a66345c75644864229",
+    "backend/providers/prism/test_service.py": "9446e440d0c05c873f6c436606130502de65b0753d4b46101c44a712f61f73b8",
+    "docs/lanes/prism.md": "ad818809e24ac246ce291e196319266b3d4d14f9cd09de460b01da18058fa79a"
+  },
+  "network_calls": 0
+}

@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-17T17:45:06.656964+00:00",
+  "manifest_sha256": "6549e693776729784b580ece8944fac16e8ad105d48f2fa72bbda3485c45e241",
+  "changes": [
+    {
+      "path": "web/marketing/index.html",
+      "oldSHA256": "bca8d5df609a13a47e7455e809aed86e940b79192b095016cf7d9a1cd6fbd3d5",
+      "newSHA256": "96b55876552c908f3eb1e52176aed3c6b5f0d5ffd74a67414ece15678ff34e85",
+      "bytes": 12114
+    },
+    {
+      "path": "web/marketing/styles.css",
+      "oldSHA256": "ef39f27c541daa2faa55bb74e31b6b7f23810cbe7d0ec2d54e0aa67639ad0ded",
+      "newSHA256": "7b75ef7e19b3c752ba26641fc2fd58b3cc6d2789f6b5084aae0f1900a1e00934",
+      "bytes": 24788
+    },
+    {
+      "path": "web/marketing/app.js",
+      "oldSHA256": "aa3fd43a60841b742f26ba533b6c69fb2768302e0cd38dd6e7b741fbe46de139",
+      "newSHA256": "c3fc290767d353ff779ee5f54bbbf2218be2494cdb22db7ef6de0689cbc36222",
+      "bytes": 9338
+    },
+    {
+      "path": "web/marketing/demo-data.js",
+      "oldSHA256": "75c99b2b5920ca84e6ff927582b74654441d4bf3e68422081d68988b4d924936",
+      "newSHA256": "3db92b33d445decfd90516de4daf60ba1553776fe04f23eda619cb89f833d5c8",
+      "bytes": 3315
+    }
+  ],
+  "scope": "exact4web-only bytes; no waitlist/native/build/server change",
+  "actual4177": "pending producer verify"
+}

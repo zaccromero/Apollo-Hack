@@ -1,0 +1,87 @@
+{
+  "imported_at": "2026-10-17T16:57:31.895133+00:00",
+  "manifest_sha256": "d94b32cc460a3f5ea447c76d4543c84380aba3aef1a69ae4f27aadaa6c9fc25d",
+  "files": [
+    {
+      "destination": "config/environments/README.md",
+      "source": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-environments-lane/outputs/apollo-environments-v1/config/environments/README.md",
+      "expected_old_sha256": null,
+      "expected_destination_state": "ABSENT",
+      "new_sha256": "52e412fbaeabb9e0814308b3648887d67b34d476d6601e0f6206d7b8dd576aed",
+      "bytes": 3359
+    },
+    {
+      "destination": "config/environments/artifact.template.json",
+      "source": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-environments-lane/outputs/apollo-environments-v1/config/environments/artifact.template.json",
+      "expected_old_sha256": null,
+      "expected_destination_state": "ABSENT",
+      "new_sha256": "398e326b115f5ae64b97397a5df24a08d1fc8c0b43f5c155f52f77a2bb844560",
+      "bytes": 1317
+    },
+    {
+      "destination": "config/environments/dev.json",
+      "source": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-environments-lane/outputs/apollo-environments-v1/config/environments/dev.json",
+      "expected_old_sha256": null,
+      "expected_destination_state": "ABSENT",
+      "new_sha256": "9de9fa529eb335c30d70f7945b0f44370ea1b439c01a5f01683e55737ebb6755",
+      "bytes": 964
+    },
+    {
+      "destination": "config/environments/integration-request.md",
+      "source": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-environments-lane/outputs/apollo-environments-v1/config/environments/integration-request.md",
+      "expected_old_sha256": null,
+      "expected_destination_state": "ABSENT",
+      "new_sha256": "dc8b3817e7e3dc86078180c639003ac6d6fb804b8e2e01b3b4bbb826cafab905",
+      "bytes": 4627
+    },
+    {
+      "destination": "config/environments/observed-metadata.json",
+      "source": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-environments-lane/outputs/apollo-environments-v1/config/environments/observed-metadata.json",
+      "expected_old_sha256": null,
+      "expected_destination_state": "ABSENT",
+      "new_sha256": "a53aa3cea72e7f906bf8cacfd41080644520552ea3cccec6d39dd2a93c78bf18",
+      "bytes": 6065
+    },
+    {
+      "destination": "config/environments/prod.json",
+      "source": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-environments-lane/outputs/apollo-environments-v1/config/environments/prod.json",
+      "expected_old_sha256": null,
+      "expected_destination_state": "ABSENT",
+      "new_sha256": "e73fc6c41cfaedee6ada9b418d09e9873219e7776842f9f2728d61d19ace9b0b",
+      "bytes": 886
+    },
+    {
+      "destination": "config/environments/staging.json",
+      "source": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-environments-lane/outputs/apollo-environments-v1/config/environments/staging.json",
+      "expected_old_sha256": null,
+      "expected_destination_state": "ABSENT",
+      "new_sha256": "c9730104f66b00b313c234e69f805315af9e056f203ff3490152ca0c7d0875ce",
+      "bytes": 1007
+    },
+    {
+      "destination": "config/environments/validate.py",
+      "source": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-environments-lane/outputs/apollo-environments-v1/config/environments/validate.py",
+      "expected_old_sha256": null,
+      "expected_destination_state": "ABSENT",
+      "new_sha256": "617c6df4c46b762bc93d52a29bd619243ccf7c83789f29b3478cb4412cbcacc9",
+      "bytes": 5432
+    },
+    {
+      "destination": "config/environments/validation-receipt.json",
+      "source": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-environments-lane/outputs/apollo-environments-v1/config/environments/validation-receipt.json",
+      "expected_old_sha256": null,
+      "expected_destination_state": "ABSENT",
+      "new_sha256": "070142298bed95f950ded7d90205b872fda84d2cc373345dc80ae4b667bab424",
+      "bytes": 2449
+    },
+    {
+      "destination": "docs/lanes/environments.md",
+      "source": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-environments-lane/outputs/apollo-environments-v1/docs/lanes/environments.md",
+      "expected_old_sha256": null,
+      "expected_destination_state": "ABSENT",
+      "new_sha256": "8db24ad262d0cced72696d6392180997f102035da7343d316a342faa0d7593cf",
+      "bytes": 12460
+    }
+  ],
+  "scope": "new preparation metadata only; native environment wiring NOT_RUN; existing certificates reused"
+}

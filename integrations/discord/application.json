@@ -1,0 +1,46 @@
+{
+  "name": "Apollo",
+  "application_id": "1561042929265418392",
+  "guild_id": "1561044080698331337",
+  "general_channel_id": "1561044081335992362",
+  "portal_url": "https://discord.com/developers/applications/1561042929265418392/information",
+  "installation_url": "https://discord.com/oauth2/authorize?client_id=1561042929265418392&scope=bot%20applications.commands&permissions=0&integration_type=0&guild_id=1561044080698331337&disable_guild_select=true",
+  "requested_permissions": "0",
+  "privileged_intents_observed": {
+    "presence": false,
+    "members": false,
+    "message_content": false
+  },
+  "runtime": "RUNNING_GATEWAY_READY: fresh-content dedicated service PID79216",
+  "credential": "Dedicated replacement securely saved in approved Doppler hackathon/dev key; no values in source",
+  "installation": "PASS: Discord OAuth success page confirms Apollo added to Apollo on 2026-10-17.",
+  "operation_proof": {
+    "status": "DELIVERED_READBACK_PASS",
+    "message_id": "1561048502845317247",
+    "message_url": "https://discord.com/channels/1561044080698331337/1561044081335992362/1561048502845317247",
+    "transport": "One authenticated REST bot post; Gateway NOT_RUN"
+  },
+  "live_slash_response": "PASS_ONE_LIVE_SLASH_QUESTION: actual private WINA reply1561050200456560691; three tracks and clickable sources verified",
+  "forum_id": "1561052340360978523",
+  "commands": [
+    "help",
+    "status",
+    "links",
+    "research",
+    "job",
+    "jobs"
+  ],
+  "forum_jobs_proof": "PASS_FOUR_LIVE_MARKET_JOBS; stock/ETF/crypto/options, real progress/source coverage and final3tracks read back",
+  "forum_mode": "Fresh official-source content reads for AAPL/SPY/BTC-USD; reviewed snapshots optional fresh:false; unknown sentiment explicit; no paid/model calls",
+  "fresh_content_proof": {
+    "status": "PASS_THREE_LIVE_FRESH_CONTENT_MARKET_JOBS",
+    "at": "2026-10-17T17:08:32.992266+00:00",
+    "thread_ids": [
+      "1561063120619831437",
+      "1561063188454187152",
+      "1561063232360284361"
+    ],
+    "gate": "34 own actual-base tests PASS; game gate separate",
+    "producer_sha256": "ad5978cbc201063e74309aac49f8ca4307ca62c83c6cfabdbaf75962a9bc0a17"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "old_sha256": "5c9b82296626ef4b8d696b4a120089f60b7889353ffd344fc339e2fb237adfe5",
+  "sha256": "5c9b82296626ef4b8d696b4a120089f60b7889353ffd344fc339e2fb237adfe5",
+  "source": "backend.paper.get_instrument_specs()",
+  "schema": 2,
+  "assets": 9,
+  "strategies": 1,
+  "mode": "explicit canonical demo catalog injection; existing storage key and holdings retained"
+}

@@ -1,0 +1,182 @@
+{
+  "project_root": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-marketing-lane/outputs/apollo-marketing-rebuild",
+  "experience_kind": "landing",
+  "routes": [
+    {
+      "path": "/",
+      "entry": "index.html",
+      "purpose": "Understand Apollo and try a clearly separate website learning exercise.",
+      "surface": "marketing"
+    }
+  ],
+  "architecture": {
+    "styles": [
+      "styles.css"
+    ],
+    "state": [
+      "demo-data.js"
+    ],
+    "components": [
+      "app.js"
+    ],
+    "views": [
+      "index.html"
+    ]
+  },
+  "principles": {
+    "visual_hierarchy": {
+      "decision": "Direct educational promise, actual blue Discover capture, connected example, native comparison, breadth, FAQ and availability.",
+      "check": "Actual desktop/tablet/mobile renders, every section inspected.",
+      "status": "PASS",
+      "evidence": [
+        "tools/evidence/rebuild/native.tool.json",
+        "tools/evidence/rebuild/mobile-content.tool.json",
+        "tools/evidence/rebuild/responsive.tool.json"
+      ],
+      "reason": "Render inspection is not owner aesthetic acceptance."
+    },
+    "usability": {
+      "decision": "Three example topics, distinct reasoning, explicit preview/confirm, valid and invalid quantity recovery.",
+      "check": "29 focused assertions over actual browser receipts plus guard fixtures; negative control rejects wrong cash.",
+      "status": "PASS",
+      "evidence": [
+        "tools/evidence/rebuild/gate.json",
+        "tools/evidence/rebuild/journey.tool.json",
+        "tools/evidence/rebuild/invalid.tool.json",
+        "tools/evidence/rebuild/boundaries.tool.json"
+      ],
+      "reason": ""
+    },
+    "design_consistency": {
+      "decision": "Preserve selected Ascending A and exact blue/light palette; raw approved current app captures.",
+      "check": "Computed palette, SVG path, loaded image checks and provenance.",
+      "status": "PASS",
+      "evidence": [
+        "tools/evidence/rebuild/anchors.tool.json",
+        "tools/evidence/rebuild/native.tool.json"
+      ],
+      "reason": ""
+    },
+    "motion": {
+      "decision": "Immediate user-controlled stage changes, no timed/ambient animation or autoplay.",
+      "check": "Playback not relevant; static equivalent.",
+      "status": "NOT_APPLICABLE",
+      "evidence": [],
+      "reason": "No motion requirement or animated narrative; OS preference not independently exercised."
+    },
+    "accessibility": {
+      "decision": "Semantic buttons/number label/details, visible focus, mobile grouping, error feedback.",
+      "check": "Keyboard selection, advance/confirm/focus return and four-width reflow checked.",
+      "status": "PASS",
+      "evidence": [
+        "tools/evidence/rebuild/keyboard-topic.tool.json",
+        "tools/evidence/rebuild/keyboard-stage.tool.json",
+        "tools/evidence/rebuild/keyboard-confirm.tool.json",
+        "tools/evidence/rebuild/responsive.tool.json",
+        "tools/evidence/rebuild/footer-focused.tool.json"
+      ],
+      "reason": "Focused checks only. Full screen-reader, 200% zoom and physical-device browser certification NOT_RUN."
+    },
+    "return_value": {
+      "decision": "No website save/account promise; exercise explicitly resets on reload.",
+      "check": "Direct hash reload clears website practice.",
+      "status": "NOT_APPLICABLE",
+      "evidence": [
+        "tools/evidence/rebuild/reload.tool.json"
+      ],
+      "reason": "Native app persistence is outside marketing scope."
+    },
+    "validation": {
+      "decision": "Product story should be comprehensible and feel stronger on mobile.",
+      "check": "Owner reviews the full rendered candidate; no comprehension study yet.",
+      "status": "NOT_RUN",
+      "evidence": [
+        "tools/evidence/rebuild/gate.json"
+      ],
+      "reason": "Owner aesthetic acceptance and user comprehension remain open."
+    }
+  },
+  "tools": [
+    {
+      "tool": "Shared Chrome browser tools",
+      "need": "Inspect actual renders and execute complete local example.",
+      "status": "PASS",
+      "evidence": [
+        "tools/evidence/rebuild/journey.tool.json",
+        "tools/evidence/rebuild/responsive.tool.json"
+      ],
+      "reason": "Native desktop1512x861/DPR2; responsive320/390/768/1440; keyboard trusted keys."
+    },
+    {
+      "tool": "Inspected competitor reference handoff",
+      "need": "Ground composition in specific patterns.",
+      "status": "PASS",
+      "evidence": [
+        "brief.json"
+      ],
+      "reason": "Reused same-session official Bloom/Invstr/Finimize captures from prior review. No repeated crawl or paid service."
+    },
+    {
+      "tool": "Raster generation / framework installation",
+      "need": "None",
+      "status": "NOT_APPLICABLE",
+      "evidence": [],
+      "reason": "Native vector identity and actual approved raw app captures already available."
+    }
+  ],
+  "journeys": [
+    {
+      "goal": "Understand and try the educational paper example",
+      "steps": [
+        "Read promise",
+        "Select company/basket/contract",
+        "Discover",
+        "Understand",
+        "Review quantity and risk",
+        "Explicit website confirmation",
+        "Inspect cash/position and reset"
+      ],
+      "status": "PASS",
+      "evidence": [
+        "tools/evidence/rebuild/journey.tool.json",
+        "tools/evidence/rebuild/invalid.tool.json",
+        "tools/evidence/rebuild/boundaries.tool.json",
+        "tools/evidence/rebuild/gate.json"
+      ],
+      "reason": "Website-only simulation; no app-account data or network orders."
+    },
+    {
+      "goal": "Reach current-game installation",
+      "steps": [
+        "iPhone beta anchor",
+        "Verified game destination and QR",
+        "Real iPhone access"
+      ],
+      "status": "BLOCKED",
+      "evidence": [
+        "tools/evidence/rebuild/mobile-content.tool.json"
+      ],
+      "reason": "No verified public current-game install URL supplied. Honest unavailable state remains visible."
+    }
+  ],
+  "owners": {
+    "planner": "Codex using Leo and prior Apollo guidance inline",
+    "implementer": "Same marketing owner",
+    "browser_operator": "Same marketing owner",
+    "integration": "Existing Integration chat controls canonical import/shared release; no native mutation by marketing"
+  },
+  "proof_boundary": "One focused marketing build gate, not native app acceptance or public deployment.",
+  "review_budget": {
+    "initial": 1,
+    "final": 1,
+    "escalation": 0,
+    "scope": "New authorized full marketing rebuild only; final bounded self adversarial review found no observed P0/P1. No independent reviewer claimed."
+  },
+  "remaining": [
+    "Owner visual acceptance",
+    "Verified public current GAME install URL/build and real iPhone access receipt",
+    "Public hosting/distribution under Integration",
+    "Full native/gate/release/demo outside this lane"
+  ],
+  "cutoffs": "16:00EDT workready;16:00\u201316:30recording;16:30judging."
+}

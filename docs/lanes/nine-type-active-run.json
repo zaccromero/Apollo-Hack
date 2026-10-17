@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-10-17T17:40:54.106753+00:00",
+  "human_messages": [
+    "01a14ae4-805b-7252-9c46-e3511852242a",
+    "01a14ae6-3d8f-7442-9f5d-35b6c1c5a01a"
+  ],
+  "budget": "ONE15min total including finalization, UI max720sec, no automatic retry",
+  "test_sha256": "77e8643e73fd09c7567b842e881e93cdbe00d031bf73286f34ccbc39aa722cb8",
+  "result": "/private/tmp/apollo-nine-type-acceptance-20261017-1338.xcresult",
+  "isolation": "unique --apollo-test-storage UUID drives paper/onboarding/discovery prefixes; no normal owner keys, no backend/provider URL",
+  "state": "ACTIVE; not a runtime PASS"
+}

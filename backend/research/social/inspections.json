@@ -1,0 +1,63 @@
+{
+  "observed_at": "2026-10-17T16:17:16.037493+00:00",
+  "method": "Public Instagram page via in-app browser accessibility, no login or restriction bypass",
+  "paid_calls": 0,
+  "items": [
+    {
+      "url": "https://www.instagram.com/p/DcFVpMTjY1H/?img_index=1",
+      "author": "techskills",
+      "displayed_date": "2026-08-15",
+      "access_scope": "caption_and_carousel_accessibility_descriptions",
+      "video_or_audio_transcript": null,
+      "limits": "Image accessibility descriptions can be imperfect; slide9 exposed no substantive text. No underlying software price or performance was verified from social content.",
+      "summary": "Carousel presents ten software alternatives as challenges to paid products. Readable slides mention yt-dlp, Ollama, Fooocus, Whisper, Plausible, AppFlowy, Penpot, n8n and Bitwarden.",
+      "claims": [
+        {
+          "claim": "Open/free software can replace paid alternatives",
+          "verification": "partially_supported_with_qualification",
+          "official_sources": [
+            "https://plausible.io/self-hosted-web-analytics",
+            "https://support.n8n.io/article/can-i-use-your-license-for-my-use-case"
+          ],
+          "finding": "Official pages distinguish self-hosted community editions from paid managed/enterprise offerings and applicable license terms. This does not establish zero hosting/operations costs or equivalent features."
+        },
+        {
+          "claim": "These alternatives are replacing billion-dollar businesses",
+          "verification": "insufficient",
+          "finding": "No measured adoption, issuer revenue impact, margins, valuation or causal market-performance evidence supplied."
+        }
+      ],
+      "asset_resolution": {
+        "catalog_matches": [],
+        "admitted_candidates": [],
+        "decision": "research_topic_only",
+        "reason": "Named products are not exact supported catalog asset identities; competitive exposure cannot justify automatic ticker substitution."
+      }
+    },
+    {
+      "url": "https://www.instagram.com/p/DHdl1EquB0-/",
+      "author": "the.ramseyshow",
+      "displayed_date": "2025-03-21",
+      "access_scope": "caption_metadata_and_visible_comments_only",
+      "video_or_audio_transcript": null,
+      "summary": "Caption describes a discussion with an18-year-old caller about money reportedly earned through day trading.",
+      "claims": [
+        {
+          "claim": "Caller earned money day trading",
+          "verification": "unverified_self_report",
+          "finding": "No brokerage record, return series, drawdown, capital base or independently verified performance accessible."
+        }
+      ],
+      "sentiment": "Visible comment selection includes support for caller and criticism of hosts; no systematic sample, representative sentiment or population percentage established.",
+      "asset_resolution": {
+        "catalog_matches": [],
+        "admitted_candidates": [],
+        "decision": "education_topic_only",
+        "reason": "No specific investment asset named in accessible caption; no claim made about advice spoken in inaccessible audio."
+      }
+    }
+  ],
+  "portfolio_changes": false,
+  "automatic_orders": false,
+  "status": "ACCESSIBLE_CONTENT_REVIEWED_NO_ASSET_ADMITTED"
+}

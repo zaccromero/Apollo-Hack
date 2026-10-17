@@ -1,0 +1,8 @@
+{
+  "destination": "/Users/zaccromero/code/hackathon/Apollo-Hack/ios/ApolloHack/Integration/ApolloResearchMapper.swift",
+  "expected_old_sha256": "93560363b951f5680913b3b6ebb8fb83465690a28a6654bd76c4e38df5821399",
+  "prepared_source": "/Users/zaccromero/Documents/Codex/2026-10-16/whieil/outputs/ApolloResearchMapper-ready.swift",
+  "sha256": "0295502ca33512b8d457b4c882d716649f25f6d81627c35e16fd082cf489c526",
+  "status": "PREPARED_ONLY; Integration must inspect/import/typecheck/render",
+  "scope": "Existing track summary and source-label mapping; no Game/model/theme edits"
+}

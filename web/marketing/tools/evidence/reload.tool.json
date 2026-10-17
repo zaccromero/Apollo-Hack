@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Script ran on page and returned:\n```json\n{\"url\":\"http://127.0.0.1:4177/#preview\",\"heading\":\"A great company.\\nAt what price?\",\"kind\":\"STOCKS\",\"answerHidden\":true,\"status\":\"TestFlight access coming soon\",\"installHidden\":true,\"qrHidden\":true}\n```"
+    }
+  ]
+}

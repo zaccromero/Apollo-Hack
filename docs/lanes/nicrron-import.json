@@ -1,0 +1,32 @@
+{
+  "manifest": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-nicrron-lane/outputs/nicrron-release-v1/manifest.json",
+  "verified_files": [
+    {
+      "path": "backend/providers/nicrron/__init__.py",
+      "sha256": "aeb76a22c43571cf3c95ca1ddcc3a7c11aa819a203454bc2cb7e4fcae67b00ee",
+      "expected_target_before_sha256": null
+    },
+    {
+      "path": "backend/providers/nicrron/adapter.py",
+      "sha256": "5c72ded01383c79de752eb1b0b32314001c56c789a1003bf5fb7bf0e79c74f81",
+      "expected_target_before_sha256": null
+    },
+    {
+      "path": "backend/providers/nicrron/bridge.py",
+      "sha256": "e770d9dd1857968e1b82e5ea2217a0425640bf795273b61c566f390a1ac8a328",
+      "expected_target_before_sha256": null
+    },
+    {
+      "path": "backend/providers/nicrron/test_adapter.py",
+      "sha256": "30920d2e7300e5a25d3dec0a75885ebf3f6d0bf98266950af1f6becadff6c86b",
+      "expected_target_before_sha256": null
+    },
+    {
+      "path": "docs/lanes/nicrron.md",
+      "sha256": "15de0cf8abeeac39eb9668b6e09d1acef28348180292c2446a66f40eee2d4726",
+      "expected_target_before_sha256": null
+    }
+  ],
+  "live_model": "NOT_RUN",
+  "credit_pause": true
+}

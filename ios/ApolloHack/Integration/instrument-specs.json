@@ -1,0 +1,268 @@
+{
+  "assets": [
+    {
+      "asset_id": "AAPL",
+      "bond": null,
+      "bond_accrued_interest_per_bond": "0",
+      "bond_clean_price_per_100": null,
+      "currency": "USD",
+      "kind": "stock",
+      "multiplier": 1,
+      "name": "Apple",
+      "option": null,
+      "price": "250",
+      "provenance": {
+        "as_of": "2026-10-17T15:00:00+00:00",
+        "is_demo": true,
+        "label": "DEMO illustrative price; linked page identifies exposure only",
+        "source_url": "https://www.apple.com/investor/"
+      },
+      "quantity_step": "0.00000001",
+      "quantity_unit": "shares",
+      "stablecoin": null,
+      "symbol": "AAPL",
+      "tradable": true,
+      "venue": "NASDAQ"
+    },
+    {
+      "asset_id": "WINA",
+      "bond": null,
+      "bond_accrued_interest_per_bond": "0",
+      "bond_clean_price_per_100": null,
+      "currency": "USD",
+      "kind": "stock",
+      "multiplier": 1,
+      "name": "Winmark",
+      "option": null,
+      "price": "400",
+      "provenance": {
+        "as_of": "2026-10-17T15:00:00+00:00",
+        "is_demo": true,
+        "label": "DEMO illustrative price; linked page identifies exposure only",
+        "source_url": "https://www.winmarkcorporation.com/"
+      },
+      "quantity_step": "0.00000001",
+      "quantity_unit": "shares",
+      "stablecoin": null,
+      "symbol": "WINA",
+      "tradable": true,
+      "venue": "NASDAQ"
+    },
+    {
+      "asset_id": "SPY",
+      "bond": null,
+      "bond_accrued_interest_per_bond": "0",
+      "bond_clean_price_per_100": null,
+      "currency": "USD",
+      "kind": "etf",
+      "multiplier": 1,
+      "name": "SPDR S&P 500 ETF Trust",
+      "option": null,
+      "price": "600",
+      "provenance": {
+        "as_of": "2026-10-17T15:00:00+00:00",
+        "is_demo": true,
+        "label": "DEMO illustrative price; linked page identifies exposure only",
+        "source_url": "https://www.ssga.com/us/en/individual/etfs/spdr-sp-500-etf-trust-spy"
+      },
+      "quantity_step": "0.00000001",
+      "quantity_unit": "shares",
+      "stablecoin": null,
+      "symbol": "SPY",
+      "tradable": true,
+      "venue": "NYSE_ARCA"
+    },
+    {
+      "asset_id": "GLD",
+      "bond": null,
+      "bond_accrued_interest_per_bond": "0",
+      "bond_clean_price_per_100": null,
+      "currency": "USD",
+      "kind": "commodity_exposure",
+      "multiplier": 1,
+      "name": "SPDR Gold Shares \u2014 gold trust exposure",
+      "option": null,
+      "price": "300",
+      "provenance": {
+        "as_of": "2026-10-17T15:00:00+00:00",
+        "is_demo": true,
+        "label": "DEMO illustrative price; linked page identifies exposure only",
+        "source_url": "https://www.spdrgoldshares.com/"
+      },
+      "quantity_step": "0.00000001",
+      "quantity_unit": "shares",
+      "stablecoin": null,
+      "symbol": "GLD",
+      "tradable": true,
+      "venue": "NYSE_ARCA"
+    },
+    {
+      "asset_id": "BTC-USD",
+      "bond": null,
+      "bond_accrued_interest_per_bond": "0",
+      "bond_clean_price_per_100": null,
+      "currency": "USD",
+      "kind": "crypto",
+      "multiplier": 1,
+      "name": "Bitcoin \u2014 simulated USD spot exposure",
+      "option": null,
+      "price": "100000",
+      "provenance": {
+        "as_of": "2026-10-17T15:00:00+00:00",
+        "is_demo": true,
+        "label": "DEMO illustrative price; linked page identifies exposure only",
+        "source_url": "https://bitcoin.org/"
+      },
+      "quantity_step": "0.00000001",
+      "quantity_unit": "units",
+      "stablecoin": null,
+      "symbol": "BTC-USD",
+      "tradable": true,
+      "venue": "DEMO_SPOT"
+    },
+    {
+      "asset_id": "VNQ",
+      "bond": null,
+      "bond_accrued_interest_per_bond": "0",
+      "bond_clean_price_per_100": null,
+      "currency": "USD",
+      "kind": "real_estate_exposure",
+      "multiplier": 1,
+      "name": "Vanguard Real Estate ETF \u2014 fund exposure",
+      "option": null,
+      "price": "90",
+      "provenance": {
+        "as_of": "2026-10-17T15:00:00+00:00",
+        "is_demo": true,
+        "label": "DEMO illustrative price; linked page identifies exposure only",
+        "source_url": "https://investor.vanguard.com/investment-products/etfs/profile/vnq"
+      },
+      "quantity_step": "0.00000001",
+      "quantity_unit": "shares",
+      "stablecoin": null,
+      "symbol": "VNQ",
+      "tradable": true,
+      "venue": "NYSE_ARCA"
+    },
+    {
+      "asset_id": "AAPL_20261120_C350_DEMO",
+      "bond": null,
+      "bond_accrued_interest_per_bond": "0",
+      "bond_clean_price_per_100": null,
+      "currency": "USD",
+      "kind": "option",
+      "multiplier": 100,
+      "name": "DEMO long Apple call option",
+      "option": {
+        "expires_at": "2026-11-20T21:00:00+00:00",
+        "multiplier": 100,
+        "right": "call",
+        "strike": "350",
+        "underlying_asset_id": "AAPL"
+      },
+      "price": "5",
+      "provenance": {
+        "as_of": "2026-10-17T15:00:00+00:00",
+        "is_demo": true,
+        "label": "DEMO illustrative price; linked page identifies exposure only",
+        "source_url": "https://www.optionseducation.org/optionsoverview/options-basics"
+      },
+      "quantity_step": "1",
+      "quantity_unit": "contracts",
+      "stablecoin": null,
+      "symbol": "AAPL 20 Nov 2026 350 Call",
+      "tradable": true,
+      "venue": "DEMO_OPTIONS"
+    },
+    {
+      "asset_id": "USDC-USD_DEMO",
+      "bond": null,
+      "bond_accrued_interest_per_bond": "0",
+      "bond_clean_price_per_100": null,
+      "currency": "USD",
+      "kind": "stablecoin",
+      "multiplier": 1,
+      "name": "USD Coin \u2014 DEMO stablecoin exposure",
+      "option": null,
+      "price": "1.00",
+      "provenance": {
+        "as_of": "2026-10-17T15:00:00+00:00",
+        "is_demo": true,
+        "label": "DEMO illustrative price; linked page identifies exposure only",
+        "source_url": "https://www.circle.com/usdc"
+      },
+      "quantity_step": "0.00000001",
+      "quantity_unit": "tokens",
+      "stablecoin": {
+        "peg_currency": "USD",
+        "redemption_guaranteed": false,
+        "target_peg": "1.00"
+      },
+      "symbol": "USDC-USD",
+      "tradable": true,
+      "venue": "DEMO_STABLECOIN"
+    },
+    {
+      "asset_id": "DEMO_USD_BOND_20281115",
+      "bond": {
+        "annual_coupon_rate": "0.04",
+        "coupon_frequency": 2,
+        "face_value": "1000",
+        "matures_at": "2028-11-15T21:00:00+00:00",
+        "price_convention": "clean_per_100_face"
+      },
+      "bond_accrued_interest_per_bond": "0",
+      "bond_clean_price_per_100": "98.00",
+      "currency": "USD",
+      "kind": "bond",
+      "multiplier": 1,
+      "name": "Fictional USD direct bond \u2014 DEMO",
+      "option": null,
+      "price": "980.00",
+      "provenance": {
+        "as_of": "2026-10-17T15:00:00+00:00",
+        "is_demo": true,
+        "label": "DEMO illustrative price; linked page identifies exposure only",
+        "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds"
+      },
+      "quantity_step": "1",
+      "quantity_unit": "bonds",
+      "stablecoin": null,
+      "symbol": "DEMO USD 4% 2028",
+      "tradable": true,
+      "venue": "DEMO_BONDS"
+    }
+  ],
+  "mode": "demo_instrument_specs",
+  "price_notice": "Illustrative DEMO execution prices; source URLs identify exposure/concepts only, never validate the fixture price.",
+  "schema_version": 2,
+  "strategies": [
+    {
+      "allocations": [
+        {
+          "asset_id": "SPY",
+          "weight": "0.60"
+        },
+        {
+          "asset_id": "GLD",
+          "weight": "0.20"
+        },
+        {
+          "asset_id": "BTC-USD",
+          "weight": "0.20"
+        }
+      ],
+      "kind": "strategy",
+      "name": "Patient Builder \u2014 fictional allocation",
+      "person_name": "Fictional educational investor",
+      "provenance": {
+        "as_of": "2026-10-17T15:00:00+00:00",
+        "is_demo": true,
+        "label": "DEMO illustrative price; linked page identifies exposure only",
+        "source_url": "https://www.investor.gov/introduction-investing/investing-basics/asset-allocation"
+      },
+      "strategy_id": "DEMO_PATIENT_BUILDER",
+      "tradable": false
+    }
+  ]
+}

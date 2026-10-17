@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Script ran on page and returned:\n```json\n{\"mode\":\"browser\",\"tool\":\"mcp__chrome_devtools__evaluate_script\",\"url\":\"http://127.0.0.1:4177/\",\"tests\":{\"unavailable\":false,\"urlOnly\":false,\"wrongProduct\":false,\"oldViewer\":false,\"mismatchQR\":false,\"javascriptURL\":false,\"httpURL\":false,\"lookalikeHost\":false,\"future\":false,\"missingBuild\":false,\"validAttestedFixture\":true},\"note\":\"Validation fixture only. No install URL activated or opened.\"}\n```"
+    }
+  ]
+}

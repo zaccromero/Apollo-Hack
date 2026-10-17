@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "environment": "dev",
+  "contract_only": true,
+  "runtime_wired": false,
+  "bundle_id": "com.zaccromero.ApolloHack",
+  "team_id": "6GB3JDVN8D",
+  "runtime": {
+    "enabled": true,
+    "mode": "fixture",
+    "backend_url": null,
+    "endpoint_allowlist": []
+  },
+  "data": {
+    "storage_namespace": "apollo.game.demo.v1",
+    "backend_database": "data/dev/apollo-paper.sqlite",
+    "test_identity": "local-demo-fixture",
+    "identity_is_authenticated": false,
+    "private_profile_import": false
+  },
+  "safety": {
+    "real_money_trades": false,
+    "paid_provider_calls": false,
+    "provider_network": false,
+    "telemetry": false,
+    "automatic_upload": false,
+    "external_testers": false,
+    "public_release": false,
+    "new_signing_assets": false
+  },
+  "delivery": {
+    "channel": "local_only",
+    "signing": "existing_development",
+    "testflight_internal_only": false,
+    "upload_authorized_by_template": false
+  }
+}

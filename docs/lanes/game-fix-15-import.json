@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-17T17:31:25.715208+00:00",
+  "manifest_sha256": "a4f67fafe0babb175d2d9d57891368883ff7a509db8b5fd3b339e39380dc9ead",
+  "files": [
+    {
+      "name": "ApolloCollectionViews.swift",
+      "expected_destination_sha256": "9c38484f85c90bfe67335afca94e9025bccfb4a7e85ba3d3b3972eca45dcf216",
+      "sha256": "22000898ccc31c5858d5727c2cee1b25dbd98662eee62030f548dc9a15945224"
+    }
+  ],
+  "scope": "exact source boundary; no financial/state/provider change"
+}

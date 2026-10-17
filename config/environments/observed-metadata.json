@@ -1,0 +1,134 @@
+{
+  "observed_at": "2026-10-17T16:43:56.285939+00:00",
+  "repository": "/Users/zaccromero/code/hackathon/Apollo-Hack",
+  "source_commit": "b42cb5846e37da9424086876150ee26a9a61f936",
+  "dirty_source": true,
+  "scope": "Read-only Apollo signing metadata; no private keys, credentials or profile payload exported",
+  "identities": [
+    {
+      "name": "Apple Development: Julio Ramos (932U4SJ492)",
+      "status": "valid_local_codesigning_identity",
+      "inspection": "security find-identity -v -p codesigning"
+    },
+    {
+      "name": "Apple Distribution: GYM NYC LEXINGTON LLC (6GB3JDVN8D)",
+      "status": "valid_local_codesigning_identity",
+      "inspection": "security find-identity -v -p codesigning"
+    }
+  ],
+  "profiles": [
+    {
+      "path": "/Users/zaccromero/code/hackathon/Apollo-Hack/results/testflight/ApolloHack.xcarchive/Products/Applications/ApolloHack.app/embedded.mobileprovision",
+      "name": "Apollo Hack TestFlight 20261017",
+      "uuid": "25041e1e-fd65-4c76-8c8c-e31c51aa292c",
+      "team_name": "GYM NYC LEXINGTON LLC",
+      "team_ids": [
+        "6GB3JDVN8D"
+      ],
+      "application_identifier": "6GB3JDVN8D.com.zaccromero.ApolloHack",
+      "created_at": "2026-10-17T14:51:03Z",
+      "expires_at": "2027-10-17T14:41:02Z",
+      "get_task_allow": false,
+      "provisioned_device_count": 0,
+      "all_devices": false,
+      "certificate_metadata": [
+        "subject=UID=6GB3JDVN8D, CN=Apple Distribution: GYM NYC LEXINGTON LLC (6GB3JDVN8D), OU=6GB3JDVN8D, O=GYM NYC LEXINGTON LLC, C=US\nissuer=CN=Apple Worldwide Developer Relations Certification Authority, OU=G3, O=Apple Inc., C=US\nnotBefore=Oct 17 14:41:03 2026 GMT\nnotAfter=Oct 17 14:41:02 2027 GMT"
+      ]
+    },
+    {
+      "path": "/private/tmp/apollo-blue-phone-derived/Build/Products/Debug-iphoneos/ApolloHack.app/embedded.mobileprovision",
+      "name": "iOS Team Provisioning Profile: *",
+      "uuid": "32632e8b-6ae3-49dd-9865-a057786ab42a",
+      "team_ids": [
+        "6GB3JDVN8D"
+      ],
+      "application_identifier": "6GB3JDVN8D.*",
+      "expires_at": "2027-09-01T00:20:39Z",
+      "get_task_allow": true,
+      "provisioned_device_count": 1,
+      "certificate_metadata": [
+        "subject=UID=KK444DKBKQ, CN=Apple Development: Julio Ramos (932U4SJ492), OU=6GB3JDVN8D, O=GYM NYC LEXINGTON LLC, C=US\nnotBefore=Sep  1 00:04:15 2026 GMT\nnotAfter=Sep  1 00:04:14 2027 GMT"
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "/Users/zaccromero/code/hackathon/Apollo-Hack/results/testflight/ApolloHack.xcarchive/Info.plist",
+      "bundle_id": "com.zaccromero.ApolloHack",
+      "version": "1.0",
+      "build": "1",
+      "team": "6GB3JDVN8D",
+      "signing_identity": "Apple Distribution: GYM NYC LEXINGTON LLC (6GB3JDVN8D)",
+      "created_at": "2026-10-17 15:02:25",
+      "plist_sha256": "dbc00a3ef4fd8a9430ae76d687a629a3f07e5159ace03c479f64d24177d101f6"
+    },
+    {
+      "path": "/Users/zaccromero/code/hackathon/Apollo-Hack/results/testflight/ApolloHack.xcarchive/Products/Applications/ApolloHack.app/Info.plist",
+      "bundle_id": "com.zaccromero.ApolloHack",
+      "version": "1.0",
+      "build": "1",
+      "team": null,
+      "signing_identity": null,
+      "created_at": "",
+      "plist_sha256": "6a362832b2f6dfe5849128c167fc8e077cb22cb131258ffe69c08d7fb5fb88ac"
+    },
+    {
+      "path": "/private/tmp/apollo-hack-derived/Build/Products/Debug-iphonesimulator/ApolloHack.app/Info.plist",
+      "bundle_id": "com.zaccromero.ApolloHack",
+      "version": "1.0",
+      "build": "1",
+      "team": null,
+      "signing_identity": null,
+      "created_at": "",
+      "plist_sha256": "5e13bb15bd04e3356264823cd13ea8d2be330731e4cb695386fb33001df5a437"
+    },
+    {
+      "path": "/private/tmp/apollo-blue-phone-derived/Build/Products/Debug-iphoneos/ApolloHack.app",
+      "bundle_id": "com.zaccromero.ApolloHack",
+      "version": "1.0",
+      "build": "1",
+      "binary_sha256": "9acbd1d694b1574381317c40d245d42ae2693cc0f61f649e0887a5abbc85d3a2",
+      "scope": "local artifact only; exact installed binary equivalence not verified by this lane"
+    },
+    {
+      "path": "/private/tmp/apollo-hack-phone-derived/Build/Products/Debug-iphoneos/ApolloHack.app",
+      "bundle_id": "com.zaccromero.ApolloHack",
+      "version": "1.0",
+      "build": "1",
+      "binary_sha256": "e8b9223231a4cb47a2a8e1363a70110439d6214bef6796f84a28e7dd8c8453f0",
+      "scope": "local artifact only; exact installed binary equivalence not verified by this lane"
+    },
+    {
+      "path": "/private/tmp/apollo-hack-device-derived/Build/Products/Debug-iphoneos/ApolloHack.app",
+      "bundle_id": "com.zaccromero.ApolloHack",
+      "version": "1.0",
+      "build": "1",
+      "binary_sha256": "57a5a4a5453a421377923662b44a1d90b87ae1e43f32704ba6b53a64a267b086",
+      "scope": "local artifact only; exact installed binary equivalence not verified by this lane"
+    }
+  ],
+  "identity_inspection_exit": 0,
+  "old_archive_source_commit": "b42cb5846e37da9424086876150ee26a9a61f936",
+  "old_ipa_sha256": "984529bbf1b76ea68448db7ef2f179c9bb275c7fe814df87d54d2cec36883c1f",
+  "testflight_state": "App record reported by Integration; current-game upload NOT_RUN, no Apple query performed by this lane",
+  "signature_checks": [
+    {
+      "path": "/private/tmp/apollo-blue-phone-derived/Build/Products/Debug-iphoneos/ApolloHack.app",
+      "verify_exit": 0,
+      "result": "PASS",
+      "application_identifier": "6GB3JDVN8D.com.zaccromero.ApolloHack",
+      "team_identifier": "6GB3JDVN8D",
+      "get_task_allow": true,
+      "scope": "local artifact signature, not installed/current-source/release acceptance"
+    },
+    {
+      "path": "/Users/zaccromero/code/hackathon/Apollo-Hack/results/testflight/ApolloHack.xcarchive/Products/Applications/ApolloHack.app",
+      "verify_exit": 0,
+      "result": "PASS",
+      "application_identifier": "6GB3JDVN8D.com.zaccromero.ApolloHack",
+      "team_identifier": "6GB3JDVN8D",
+      "get_task_allow": false,
+      "scope": "local artifact signature, not installed/current-source/release acceptance"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+# Native charts lane
+
+Receiving chat `01a14a9c-82a6-7350-8fe7-5d592d0d760a`; ownership Charts/** + this record only. Staged in its own workspace, no Game/Integration/root/research edits. Integration owns target membership, device lease and release. Work-ready October17 16:00 America/New_York; rehearsal16:00–16:30; judging16:30. No paid API, installs or new feeds.
+
+## Public contract (first artifact)
+
+`ApolloChartView(series: ApolloChartSeries, option: ApolloOptionContract? = nil, theme: ApolloChartTheme = .init())`: self-contained SwiftUI + Apple Charts, iOS17+. Parent retains its existing panel/padding. No Game-model dependencies, order/account/storage/network side effects.
+
+`ApolloChartSeries(symbol:currency:observations:basis:source:sourceURL:asOf:fetchedAt:isStale:)`. Basis `.cachedMarket` or `.demoScenario`. `ApolloChartObservation(date:close:open:high:low:volume:startsNewSegment:)` uses display doubles, optional OHLC/volume, true dated market observations. Dates sort/deduplicate final input; market bars with missing dates are excluded. Invalid closes/known gaps restart indicators. Ordinary market weekends/holidays do not create fake points. Source, as-of, retrieved date and stale status remain visible; no data inferred current.
+
+Research details.chart date/open/high/low/close/volume map directly. Preserve quote provenance/as_of/fetched_at/source_url/stale. Demo points must be `.demoScenario`; no invented dates, candles/volume/historical indicators. Strategy empty chart stays empty. Historical display data never seeds executable quotes. Game can inject chartContent:(ApolloAsset)->AnyView; Integration caches/maps raw research detail rather than changing shared Game model.
+
+`ApolloOptionContract(underlying:right:strike:premiumPerShare:multiplier:contracts:expiry:isDemo:)` uses Decimal and supplied positive whole contracts/multiplier. No inferred strikes. Current Research synthetic AAPL call strike350/premium5/multiplier100/expiry2026-11-20 may be mapped explicitly. Missing contract metadata means no invented payoff. Max premium loss, strike, expiry, multiplier/count and break-even remain visible. Fully paid long call/put only: `(intrinsic - premiumPerShare) × multiplier × contracts`. No fees/taxes/early sale/exercise/assignment/shorts/IV/Greeks model; expiry sensitivity never future forecast.
+
+Historical indicators: SMA20/50 arithmetic mean of consecutive observed closes. EMA20 seeded by SMA20, then alpha2/21. Full series calculation precedes range clip. Warm-up resets after invalid close/explicit segment; unavailable lines absent, never zero. A 60-bar feed cannot supply200day averages. Demo scenario indices never become historical sessions.
+
+## Focused design/acceptance record
+
+Audience: a novice investor opening asset detail before a paper decision. Journey source/date→range/style→inspect bar→toggle explained indicator→option expiry scenario. Preserve unrelated layout. Domain: close/session/warm-up/contract/premium/break-even/expiry. Color world from actual Apollo native screenshot: ink, moss surface, cream figures, lime selection, amber caution. Signature: freshness and observed-bar warm-up alongside premium-at-risk. Avoid unlabeled sparkline, decorative gauge and forecast cone.
+
+| Principle | Decision and acceptance check | Current evidence |
+| --- | --- | --- |
+| Hierarchy | Selection/price leads, plot second, source and methods below; fit existing detail panel | Existing sibling native capture inspected; actual chart render NOT_RUN |
+| Usability | Latest-observation ranges; supplied OHLC/volume; crosshair; honest empty/gaps | Math checks pending; native interaction NOT_RUN |
+| Consistency | Own injectable theme matches actual ApolloStyle; parent controls panel | Source reviewed; actual mount NOT_RUN |
+| Motion | No chart morph; immediate selection; methods opacity150ms disabled for reduced motion | Native normal/reduced motion NOT_RUN |
+| Accessibility | Dynamic native type/buttons,44pt controls, text selection, VoiceOver adjustable action | Runtime VoiceOver/reflow NOT_RUN |
+| Return value | Compare ranges/indicators across assets, no account persistence side effects | Persistence N/A display-only; parent owns settings |
+| Validation | Data truth/warm-up/Decimal payoff before native owner proof | Math/typecheck pending; owner acceptance OPEN |
+
+Reference inspected October17: native phone screenshot `/Users/zaccromero/Desktop/Visual Reviews/General/2026-10-17/Apollo Risk Preview - 11-48-21 - Codex/01-before-confirmation.png`, original1170×2532 rendered946×2048. Sibling screen only, not new-chart proof. Existing ApolloAssetDetailView/ApolloStyle/ApolloPanel inspected. Helper doctor no automatic candidates; explicit Game catalog found SwiftUI sources. Apple primary ChartProxy docs consulted: https://developer.apple.com/documentation/charts/chartproxy . No browser/device lease used. New actual renders must be requested from Integration; final export canonical Visual Reviews packet owner. One initial focused source audit, producer math/typecheck then integrator combined gate/final review; no recursive reviewer/full review reset.
+
+Cross-chat first status rejected by automatic approval review for missing verified human destination/payload authority. Local implementation continued. Coordinator can read staged files; no workaround dispatch used.
+
+## Producer verification — 12:14 EDT
+
+PASS: isolated iOS17 simulator-target Swift typecheck (all four module files, Apple system frameworks), exit0/no diagnostics. PASS:21 focused executable math assertions, zero failures, receipt math-result.json in release Evidence. Checks cover SMA20/50/EMA seed and alpha, warm-up/invalid gap/explicit gap, range anchored to actual final observation, prior-history warm-up before clipping, date sort/final duplicate, undated-market rejection, indexed undated demo, valid/invalid candle semantics, call/put Decimal P/L, premium×multiplier×contract count, break-even and negative/NaN contract inputs. This is a component check, not the integrated gate or actual pixels.
+
+Cross-chat gate resolved after reading direct human coordinator turn01a14a9e-4a03-78f1-8f33-c2b090995157 authorizing coordination/charts onto phone. Narrow contract handoff accepted. No permission change or indirect bypass. Integration render requested through coordinator; actual mount/gesture/VoiceOver/reflow/reduced-motion acceptance remains NOT_RUN. Full combined game gate/final review reserved to Integration.
+
+## Owner-selected brand delta — 12:21 EDT
+
+Owner selected Ascending A A3 and BLUE ON LIGHT lead; coordinator independently verified direct Marketing human turns01a14aa5-952c-7580-911c-d885ca9e50c6 and approval01a14aa7-d59b-7fa2-86d7-011b0d58c227. Earlier ink/lime/cream is historical visual-reference evidence, not current direction. Charts v1 remains immutable. Focused brand release changes default ApolloChartTheme to blue#3268DF, midnight text#0B1428, muted#52607A, caution#914900, control surface white; parent supplies cool white#F4F7FF. Explicit `.blueOnLight` and `.midnightReverse` presets added; reverse accent#6495FF, text#F4F7FF, muted#A6B4CD, caution#F0BC70, surface#15233D, parent background#0B1428. Selected range has a blue outline without changing bounds.
+
+Integration must coordinate this delta with Game's shared light-theme switch; never place new midnight text onto the old ink panel. Game retains sole shared-theme ownership, Integration owns root/assets and chart injection. Charts changes only its own module and this record, no trade/data/math behavior. All five chart files iOS17 typecheck PASS exit0; sixteen opaque foreground/background token combinations PASS4.5 normal-text contrast using WCAG relative-luminance calculation. First control surface measured4.285 for blue text; corrected to white and now5.015. This source calculation is not actual runtime color/selected/disabled/warning-state acceptance. Actual integrated light/reverse screenshots/reflow/VoiceOver/reduced-motion remain NOT_RUN. Reuse v1's21PASS math evidence because no model/math change; no additional full review/gate. Integration's current combined gate remains separate.

@@ -1,0 +1,27 @@
+{
+  "kind": "focused_injection_delta",
+  "depends_on": "game-fix-04 imported first",
+  "source_directory": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-game-lane/work/releases/game-fix-05",
+  "destination_directory": "/Users/zaccromero/code/hackathon/Apollo-Hack/ios/ApolloHack/Game",
+  "reason": "Optional Settings view injection using existing Game environment and authoritative profile service",
+  "import_release": {
+    "receiver_thread": "01a14a33-e4a0-7ae1-a942-353fd5883fd3",
+    "scope": "one-time replacement of two listed files ONLY after fix04 oldhash match, no device operation"
+  },
+  "verification": {
+    "iOS_module_typecheck": "PASS",
+    "native_settings_navigation": "NOT_RUN; integration-owned"
+  },
+  "files": [
+    {
+      "name": "ApolloGameRootView.swift",
+      "expected_destination_sha256": "52ede366e5d67ba689adaab3fa287a07a6f26a73c85a0a58bbe16d6047f497ff",
+      "sha256": "5721802d6e50918ec9ac196665b1805a06d10cb19360bd1790ba29d8c1cc695a"
+    },
+    {
+      "name": "ApolloGameStore.swift",
+      "expected_destination_sha256": "c38d64a936107be7bf49b20a2cb289a3bb0bec20ae6c613ea52fa1dcdb935788",
+      "sha256": "bb8b57b7e62fee548f9b898adfc570fe4acb46c51669a4dec15cdfe1e306859b"
+    }
+  ]
+}

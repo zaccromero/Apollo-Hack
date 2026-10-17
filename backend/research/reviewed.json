@@ -1,0 +1,256 @@
+{
+  "captured_at": "2026-10-17T15:28:22.710850+00:00",
+  "records": {
+    "WINA": {
+      "source_module": "/Users/zaccromero/code/hackathon/plutus/api/corpus.py",
+      "source_sha256": "35c32b1e2f6aee0196b359e2b7bf1ed1cc8cb1f4b5002f5b98ced74fa2dbc191",
+      "record": {
+        "ticker": "WINA",
+        "name": "Winmark",
+        "cutoff": "2026-10-17",
+        "corpus_hash": "f4ac7c6b2702cf94b1176750ed262cc213a22418936d1060e01667885a1fc020",
+        "curation": "Human-curated research snapshot. AI checks below are generated on demand.",
+        "tracks": [
+          {
+            "key": "leadership",
+            "title": "Leadership",
+            "eyebrow": "Who changed",
+            "headline": "A new marketing role. Not a new CEO.",
+            "body": "Lisa Hake joined as CMO on October 1, 2025. Brett Heffes remained CEO in the reviewed releases.",
+            "status": "Appointment verified",
+            "caveat": "No isolated evidence that this hire caused the earnings improvement.",
+            "sources": [
+              "S1",
+              "S3"
+            ]
+          },
+          {
+            "key": "promises_results",
+            "title": "Promises vs results",
+            "eyebrow": "What changed",
+            "headline": "Marketing work shipped. Its payoff is still a question.",
+            "body": "Plato\u2019s Closet ad fund launched; one point-of-sale pilot delivered. Two other brands\u2019 campaigns are planned for 2027.",
+            "status": "Actions delivered \u00b7 future results pending",
+            "caveat": "23.2% headline revenue growth includes ad fund receipts with matching expense. Excluding those receipts: about 6.3% growth, our calculation.",
+            "sources": [
+              "S3",
+              "S4"
+            ]
+          },
+          {
+            "key": "public_sentiment",
+            "title": "Public sentiment",
+            "eyebrow": "What people say",
+            "headline": "A valuation story is still an opinion.",
+            "body": "Simply Wall St\u2019s October 14 commentary weighs cash generation against a weakened stock price and questions valuation.",
+            "status": "Sample: 1 article \u00b7 not representative",
+            "caveat": "One article cannot establish investor consensus or future performance. No author trading record has been verified.",
+            "sources": [
+              "S6"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "date": "2025-09-22",
+            "kind": "company_release",
+            "title": "Lisa Hake joins as CMO",
+            "url": "https://winmarkcorporation.com/wp-content/uploads/2025/09/Winmark-Corporation-Announces-Leadership-Addition.pdf",
+            "text": "Lisa Hake joins Winmark as Chief Marketing Officer effective October 1, 2025, a newly created role. Brett D. Heffes is Chair and CEO. The release describes investment in franchise marketing and improving per-unit performance but supplies no numerical target or deadline. It does not establish the causal effect of this hire on later earnings."
+          },
+          {
+            "id": "S2",
+            "date": "2026-07-15",
+            "kind": "sec_filing",
+            "title": "First-half 2026 share repurchases",
+            "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000028/wina-20260627x10q.htm",
+            "text": "For the six months ended June 27, 2026, Winmark did not repurchase any common stock. This historical period is not evidence that repurchases were still zero in the next quarter."
+          },
+          {
+            "id": "S3",
+            "date": "2026-10-14",
+            "kind": "sec_exhibit",
+            "title": "Q3 results and marketing execution",
+            "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000038/wina-ex99d1.htm",
+            "text": "Quarter ended September 26, 2026: net income $11,818,100 versus $11,136,500; diluted EPS $3.21 versus $3.02. Nine-month net income $31,467,700 versus $31,694,200. Prior-year nine-month results included $2.2 million of leasing litigation settlement income. Plato\u2019s Closet North American Advertising Fund launched during the quarter. A point-of-sale pilot was delivered at one franchised location. Once Upon A Child and Play It Again Sports advertising campaigns are planned for 2027; their result is not yet due at the corpus cutoff. A pilot is not a systemwide rollout. These actions do not isolate the new CMO\u2019s contribution to profits. The same quarterly statement reports basic EPS $3.29 versus $3.13; diluted EPS $3.21 versus $3.02. These are different share bases for the same quarter, not conflicting reports. The $0.08 difference between current basic and diluted EPS is an arithmetic calculation, not earnings growth."
+          },
+          {
+            "id": "S4",
+            "date": "2026-10-14",
+            "kind": "sec_exhibit",
+            "title": "Revenue quality and executed repurchases",
+            "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000038/wina-ex99d1.htm",
+            "text": "Q3 total revenue $27,890,500 versus $22,632,900. Advertising fund revenue $3,825,300 has matching advertising fund expense $3,825,300. Royalties $21,707,800 versus $20,911,300. Analyst calculation: total revenue growth 23.2%; excluding advertising fund revenue, growth about 6.3%, not a company-defined non-GAAP measure. Nine-month program stock repurchases executed $9.85 million, with $1.75 million accrued at September 26; cash flow repurchases $8,091,600 and quarter cash payments rounded $8.10 million. Execution, settlement cash, and authorization are different. Repurchases do not establish fair value or an insider\u2019s personal purchase."
+          },
+          {
+            "id": "S5",
+            "date": "2026-10-14",
+            "kind": "sec_exhibit",
+            "title": "Dividend and competing cash demands",
+            "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000038/wina-ex99d2.htm",
+            "text": "Quarterly dividend $1.02 and special dividend $4.00 per share announced payable December 1, 2026; record date November 11, 2026. Special dividend total approximately $14.2 million, expected to use cash on hand. Future dividends require board approval. CEO Brett Heffes explains higher cash supports repurchase flexibility and $60 million of debt maturity over the next thirty months. This is not a dated commitment to spend all cash on buybacks and not proof the stock is cheap."
+          },
+          {
+            "id": "S6",
+            "date": "2026-10-14",
+            "kind": "sampled_public_opinion",
+            "title": "One published valuation commentary, not a sentiment survey",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/winmark-wina-justify-valuation-dividends-031923857.html",
+            "text": "Human-curated paraphrase of one Simply Wall St article, published October 14, 2026 at 11:19 PM EDT via Yahoo Finance. The article portrays Winmark as a solid cash generator with a stock that has stumbled and raises whether dividends and Q3 results justify its valuation. This is published editorial commentary, not a representative investor survey, a verified trade, author profitability, or independent proof of fair value. No current Reddit comment was reproduced in this corpus verification. There is no measured market-wide sentiment score."
+          }
+        ]
+      }
+    },
+    "AAPL": {
+      "source_module": "/Users/zaccromero/code/hackathon/plutus/api/apple_corpus.py",
+      "source_sha256": "ab3da21d8b3e6d560c038422ffb5b18bef96707f08811109845988368fe0c64c",
+      "record": {
+        "ticker": "AAPL",
+        "name": "Apple Inc.",
+        "cutoff": "2026-10-17",
+        "corpus_hash": "4dfb1b37d85cf937352a5fad8802e760bba3540cfb811b4ddd0d9de5c31c2e44",
+        "curation": "Codex source-reviewed snapshot, October 17, 2026. Financials are company-reported and unaudited; sampled opinions remain unverified. Not live market data.",
+        "tracks": [
+          {
+            "key": "leadership",
+            "title": "Leadership",
+            "eyebrow": "Who changed",
+            "headline": "Ternus is CEO. The June quarter predates his tenure.",
+            "body": "The April succession announcement named September 1 as the transition date; Apple\u2019s current profile lists Ternus as CEO.",
+            "status": "Role verified \u00b7 financial attribution unproven",
+            "caveat": "Do not credit a new CEO with results for the quarter ended June 27. No causal leadership effect established.",
+            "sources": [
+              "AAPL-L1",
+              "AAPL-L2"
+            ]
+          },
+          {
+            "key": "promises_results",
+            "title": "Promises vs results",
+            "eyebrow": "Plans and reported delivery",
+            "headline": "Products and profit grew too; refunds lifted the headline margin.",
+            "body": "Q3 Services sales were $30.739bn vs $27.423bn; Products $78.678bn vs $66.613bn. Operating income rose to $35.695bn from $28.202bn. Apple disclosed tariff-refund benefits to margin and EPS.",
+            "status": "Reported results \u00b7 recurring quality needs scrutiny",
+            "caveat": "Quarterly statements are unaudited. Separate refund benefits from recurring performance, nine-month cash flows from Q3, and the $100bn buyback authorization from completed purchases. This does not establish fair value.",
+            "sources": [
+              "AAPL-R1",
+              "AAPL-R2",
+              "AAPL-R3",
+              "AAPL-P1"
+            ]
+          },
+          {
+            "key": "public_sentiment",
+            "title": "Public sentiment",
+            "eyebrow": "What people say",
+            "headline": "A small discussion sample raises questions, not consensus.",
+            "body": "Three selected comments in one r/AAPL earnings thread question Services expectations, tariff-credit EPS and seasonal comparisons.",
+            "status": "Sample: 3 comments \u00b7 1 thread \u00b7 not representative",
+            "caveat": "Claims and estimates in the thread are unverified; financial facts come from Apple\u2019s statements. No measured investor consensus, sentiment score or profitable-author record.",
+            "sources": [
+              "AAPL-S1"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "id": "AAPL-L1",
+            "date": "2026-04-20",
+            "kind": "company_release",
+            "title": "CEO succession announced; effective September 1",
+            "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+            "text": "Apple announced John Ternus would become CEO on September 1, 2026, with Tim Cook becoming executive chairman. This announcement concerns succession, not a quantified financial target. June-quarter results predate the announced CEO transition; they cannot establish Ternus\u2019s performance as CEO."
+          },
+          {
+            "id": "AAPL-L2",
+            "date": "2026-10-17",
+            "date_kind": "reviewed_at",
+            "kind": "company_profile",
+            "title": "Current Apple leadership profile \u2014 observed October 17",
+            "url": "https://www.apple.com/leadership/john-ternus/",
+            "text": "Apple\u2019s leadership profile, inspected October 17, 2026, identifies John Ternus as CEO and a board member. This is current role evidence, not proof that a change of leader improved business results. The observation date is not the page\u2019s publication date."
+          },
+          {
+            "id": "AAPL-R1",
+            "date": "2026-07-30",
+            "kind": "company_release",
+            "title": "Q3 headline results include tariff-refund benefits",
+            "url": "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/",
+            "text": "Fiscal Q3 ended June 27, 2026: Apple reported revenue $109.4bn (+16% YoY), diluted EPS $2.02 (+29%) and gross margin 50.1%. Apple says tariff refunds added approximately 2 percentage points to gross margin and $0.11 to EPS. Analyst arithmetic: $2.02 minus $0.11 = $1.91; this is not Apple\u2019s reported GAAP EPS or a complete adjusted-earnings measure. Do not extrapolate the refund benefit as recurring growth."
+          },
+          {
+            "id": "AAPL-R2",
+            "date": "2026-07-30",
+            "kind": "company_financial_statement",
+            "title": "Q3 business mix and profitability \u2014 unaudited statement, page 1",
+            "url": "https://www.apple.com/newsroom/pdfs/fy2026q3/FY26_Q3_Consolidated_Financial_Statements.pdf",
+            "text": "Unaudited Q3 statement, USD millions, current/prior-year quarter: Services sales 30,739/27,423; Products 78,678/66,613; total sales 109,417/94,036; operating income 35,695/28,202; net income 29,789/23,434. Both product sales and profit rose: Services growth alone does not prove the overall business worsened. These are reported results, not proof of valuation or leadership causality."
+          },
+          {
+            "id": "AAPL-R3",
+            "date": "2026-07-30",
+            "kind": "company_financial_statement",
+            "title": "Cash flow and repurchases \u2014 nine months, statement page 3",
+            "url": "https://www.apple.com/newsroom/pdfs/fy2026q3/FY26_Q3_Consolidated_Financial_Statements.pdf",
+            "text": "Unaudited NINE-MONTH cash flow, USD millions, current/prior year: operating cash 116,996/81,754; property/plant/equipment payments 6,799/9,473; stock repurchases 62,094/70,579. These are nine-month totals, not Q3-only amounts. Repurchase cash does not identify which authorization funded it or establish fair value."
+          },
+          {
+            "id": "AAPL-P1",
+            "date": "2026-04-30",
+            "kind": "company_release",
+            "title": "Capital-return authorization is a plan, not completed buying",
+            "url": "https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/",
+            "text": "Apple\u2019s board authorized an additional stock-repurchase program of up to $100bn on April 30, 2026. Authorization is a ceiling, not executed purchases, a dated promise to spend the full amount, or evidence that shares are cheap. The later nine-month cash-flow amount includes time before this authorization, so it cannot measure completion of this specific program."
+          },
+          {
+            "id": "AAPL-S1",
+            "date": "2026-10-17",
+            "date_kind": "reviewed_at",
+            "kind": "sampled_public_opinion",
+            "title": "One r/AAPL earnings discussion \u2014 sampled opinions, not consensus",
+            "url": "https://www.reddit.com/r/AAPL/comments/1vb5kkf/3q_results/",
+            "text": "Observed October 17: one r/AAPL Q3-results thread. Three selected comments: No_Boysenberry4825 asks why Services missed; ByteCurious69 asks whether EPS excludes the tariff credit; Fascist2020 argues quarterly comparisons are cyclical. These are user opinions/questions, not verified estimates or trading records. Thread headline numbers are not admitted financial evidence. Purposive sample: 3 comments/1 thread, not representative; no sentiment score, consensus or author profitability verified."
+          }
+        ],
+        "evidence_review": {
+          "lens": "Services growth alone does not establish overall business health.",
+          "timeline": {
+            "period_label": "Fiscal Q3 2026",
+            "period_end": "2026-06-27",
+            "role_label": "John Ternus\u2019s CEO tenure",
+            "role_start": "2026-09-01",
+            "governed_terms": [
+              "John Ternus",
+              "Ternus",
+              "Tim Cook",
+              "Cook",
+              "CEO",
+              "tenure",
+              "leadership",
+              "succession",
+              "management"
+            ],
+            "sources": [
+              "AAPL-L1",
+              "AAPL-L2"
+            ]
+          },
+          "supports_caution": {
+            "text": "The reported 50.1% gross margin includes about 2 percentage points from tariff refunds; EPS includes a $0.11 refund benefit. These benefits qualify recurring performance.",
+            "sources": [
+              "AAPL-R1"
+            ]
+          },
+          "counterevidence": {
+            "text": "Products revenue rose to $78.678bn from $66.613bn, operating income to $35.695bn from $28.202bn, and net income to $29.789bn from $23.434bn. Services was not the only area of reported improvement. This challenges current-deterioration claims, not the conditional research rule.",
+            "sources": [
+              "AAPL-R2"
+            ]
+          },
+          "limits": "Company-reported quarterly statements are unaudited; neither the refund caution nor broad growth establishes valuation or future returns. Nine-month cash flows are a different period. The saved DEMO notes remain opinions."
+        }
+      }
+    }
+  }
+}

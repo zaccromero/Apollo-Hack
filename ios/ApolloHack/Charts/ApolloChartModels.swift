@@ -3,15 +3,16 @@ import Foundation
 /// Display values only; never executable paper prices. Known bad/missing observations restart indicators.
 public struct ApolloChartObservation: Equatable, Sendable {
     public let date: Date?
+    public let endDate: Date?
     public let close: Double
     public let open: Double?
     public let high: Double?
     public let low: Double?
     public let volume: Double?
     public let startsNewSegment: Bool
-    public init(date: Date? = nil, close: Double, open: Double? = nil, high: Double? = nil,
+    public init(date: Date? = nil, endDate: Date? = nil, close: Double, open: Double? = nil, high: Double? = nil,
                 low: Double? = nil, volume: Double? = nil, startsNewSegment: Bool = false) {
-        self.date = date; self.close = close; self.open = open; self.high = high
+        self.date = date; self.endDate = endDate; self.close = close; self.open = open; self.high = high
         self.low = low; self.volume = volume; self.startsNewSegment = startsNewSegment
     }
     public var hasCandle: Bool {
@@ -47,10 +48,11 @@ public enum ApolloChartRange: String, CaseIterable, Sendable {
     }
 }
 public enum ApolloChartIndicator: String, CaseIterable, Sendable {
-    case sma20 = "SMA 20", sma50 = "SMA 50", ema20 = "EMA 20"
-    public var period: Int { self == .sma50 ? 50 : 20 }
+    case sma20 = "SMA 20", sma50 = "SMA 50", ema20 = "EMA 20", rsi14 = "RSI 14"
+    public var period: Int { self == .sma50 ? 50 : self == .rsi14 ? 14 : 20 }
     public var explanation: String {
         switch self {
+        case .rsi14: return "RSI 14 uses Wilder smoothing of observed price changes; 30/70 are reference levels, not buy or sell signals."
         case .sma20: return "SMA 20 averages the last 20 observed closes equally."
         case .sma50: return "SMA 50 averages the last 50 observed closes equally."
         case .ema20: return "EMA 20 starts with a 20-close average, then gives each new close a 2/21 weight."

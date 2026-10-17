@@ -44,6 +44,7 @@ struct ApolloChallengeAction: View {
     @State private var submittedThesis: String?
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
+            ApolloPanel { ApolloNicrronRolePanel() }
             ApolloPanel { VStack(alignment: .leading, spacing: 12) {
                 ApolloEyebrow(text: "Before you request analysis")
                 Text(ApolloChallengeContext.assignedHistorical.label).font(.subheadline)
@@ -152,5 +153,38 @@ struct ApolloChallengeResultView: View {
                 }
             }
         } }.accessibilityIdentifier("challenge-track-\(group.id)")
+    }
+}
+
+/// Presentation only. No request, configuration, credential, order or pause mutation.
+private struct ApolloNicrronRolePanel: View {
+    var body: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Label("Nicrron · Challenge my thesis", systemImage: "sparkles").font(.headline)
+            Text("Test your investment idea against the source evidence.").font(.subheadline)
+            ViewThatFits(in: .horizontal) {
+                HStack(alignment: .top, spacing: 8) {
+                    stage("1 · PRISM", "Source context")
+                    Image(systemName: "arrow.right").font(.caption).padding(.top, 4)
+                    stage("2 · NICRRON", "Arguments for & against")
+                    Image(systemName: "arrow.right").font(.caption).padding(.top, 4)
+                    stage("3 · APOLLO", "Quote & citation checks")
+                }.fixedSize(horizontal: true, vertical: false)
+                VStack(alignment: .leading, spacing: 10) {
+                    stage("1 · PRISM", "Supplies the source context")
+                    stage("2 · NICRRON", "Generates arguments for and against your thesis")
+                    stage("3 · APOLLO", "Checks quoted passages and citations")
+                }
+            }
+            Text("Leadership · Promises vs results · Public sentiment").font(.caption)
+            Text("Missing evidence stays Unknown. Generated interpretations still need your review.").font(.caption).foregroundStyle(.secondary)
+            Label("Live calls require separate authorization", systemImage: "pause.circle").font(.caption.weight(.semibold))
+        }.accessibilityElement(children: .contain).accessibilityIdentifier("nicrron-role-summary")
+    }
+    private func stage(_ title: String, _ detail: String) -> some View {
+        VStack(alignment: .leading, spacing: 4) {
+            Text(title).font(.caption.weight(.bold))
+            Text(detail).font(.caption).foregroundStyle(.secondary)
+        }
     }
 }

@@ -1,0 +1,101 @@
+{
+  "symbol": "WINA",
+  "financials": [
+    {
+      "id": "revenue",
+      "symbol": "WINA",
+      "metric": "Revenue",
+      "unit": "USD",
+      "values": [
+        {
+          "period": "Q3 2025",
+          "value": 22632900
+        },
+        {
+          "period": "Q3 2026",
+          "value": 27890500
+        }
+      ],
+      "sourceLabel": "S4 \u00b7 Revenue quality and executed repurchases \u00b7 2026-10-14",
+      "sourceURL": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000038/wina-ex99d1.htm",
+      "note": "2026 includes $3,825,300 advertising-fund revenue with matching expense. This is not organic growth or an independently attributed leadership effect."
+    },
+    {
+      "id": "royalties",
+      "symbol": "WINA",
+      "metric": "Royalties",
+      "unit": "USD",
+      "values": [
+        {
+          "period": "Q3 2025",
+          "value": 20911300
+        },
+        {
+          "period": "Q3 2026",
+          "value": 21707800
+        }
+      ],
+      "sourceLabel": "S4 \u00b7 Revenue quality and executed repurchases \u00b7 2026-10-14",
+      "sourceURL": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000038/wina-ex99d1.htm",
+      "note": "Same reported quarter. This comparison does not isolate marketing or leadership effects."
+    },
+    {
+      "id": "net-income",
+      "symbol": "WINA",
+      "metric": "Net income",
+      "unit": "USD",
+      "values": [
+        {
+          "period": "Q3 2025",
+          "value": 11136500
+        },
+        {
+          "period": "Q3 2026",
+          "value": 11818100
+        }
+      ],
+      "sourceLabel": "S3 \u00b7 Q3 results and marketing execution \u00b7 2026-10-14",
+      "sourceURL": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000038/wina-ex99d1.htm",
+      "note": "Quarterly improvement is not nine-month growth. Nine-month income declined; the prior period included litigation income."
+    },
+    {
+      "id": "diluted-eps",
+      "symbol": "WINA",
+      "metric": "Diluted EPS",
+      "unit": "USD/share",
+      "values": [
+        {
+          "period": "Q3 2025",
+          "value": 3.02
+        },
+        {
+          "period": "Q3 2026",
+          "value": 3.21
+        }
+      ],
+      "sourceLabel": "S3 \u00b7 Q3 results and marketing execution \u00b7 2026-10-14",
+      "sourceURL": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000038/wina-ex99d1.htm",
+      "note": "Uses the diluted share base. Basic EPS is a different measure; no leadership causation is inferred."
+    },
+    {
+      "id": "basic-eps",
+      "symbol": "WINA",
+      "metric": "Basic EPS",
+      "unit": "USD/share",
+      "values": [
+        {
+          "period": "Q3 2025",
+          "value": 3.13
+        },
+        {
+          "period": "Q3 2026",
+          "value": 3.29
+        }
+      ],
+      "sourceLabel": "S3 \u00b7 Q3 results and marketing execution \u00b7 2026-10-14",
+      "sourceURL": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000038/wina-ex99d1.htm",
+      "note": "Uses the basic share base. Diluted EPS is a different measure for the same quarter; their difference is not earnings growth."
+    }
+  ],
+  "source": "ExistingPlutusMissionLayout.tsx financialrecords and public reviewed S3/S4corpus; not freshly fetched"
+}

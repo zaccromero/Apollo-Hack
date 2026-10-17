@@ -1,0 +1,64 @@
+{
+  "at": "2026-10-17T18:48:03.943035+00:00",
+  "scope": "V4 Charts and read-only public research context",
+  "files": [
+    {
+      "path": "ios/ApolloHack/Charts/ApolloAdvancedChartMath.swift",
+      "old_sha256": null,
+      "sha256": "c3989c1f4000ca03b047ce016e2de0bc05f17e83e9b6e7559f66bb418f2932b4"
+    },
+    {
+      "path": "ios/ApolloHack/Charts/ApolloCategoryChartsView.swift",
+      "old_sha256": null,
+      "sha256": "84fd2d35bb0673bce392d4a0fec23e9e2abc490a56d06aa85c667448e2719fc1"
+    },
+    {
+      "path": "ios/ApolloHack/Charts/ApolloChartContext.swift",
+      "old_sha256": null,
+      "sha256": "816fcba838a57193d2282c95e067a66398660f70d50698a264b1168e021eef40"
+    },
+    {
+      "path": "ios/ApolloHack/Charts/ApolloChartMath.swift",
+      "old_sha256": "866576d3a7b2e00f91944989f9e94f2b0ec140554df4804d8061bf4e5a5087f3",
+      "sha256": "1b622312ba1183cf9d1b03ef424d94c89744e410cd2f20a8715fff98a97e53fa"
+    },
+    {
+      "path": "ios/ApolloHack/Charts/ApolloChartModels.swift",
+      "old_sha256": "42717910a8d80b20b1db726132d13511c6c888e69f7d7422eaef93c5fb79f5b0",
+      "sha256": "bfede6c494179cd395059caa70d890109735ba69b4d96558315ec874d0a2eca5"
+    },
+    {
+      "path": "ios/ApolloHack/Charts/ApolloChartView.swift",
+      "old_sha256": "5a68d91a103a3a6a39ca1e03491d13ba1e1578748e9b265f48ca3fae02e238f9",
+      "sha256": "7b22784e4d28094b029b105d36d7fce18e07451d071aa763f56053bce2914052"
+    },
+    {
+      "path": "docs/lanes/charts.md",
+      "old_sha256": "de8a3ed0d230e9d141967329a92ca3b7ae393d7a1173ef61b8b19c729c5889aa",
+      "sha256": "72c24319d4b9dff002a6f145ff68dc263603d0298ad7597f2a914de47a6d88fe"
+    },
+    {
+      "path": "ios/ApolloHack/Integration/ApolloChartBridge.swift",
+      "old_sha256": "e38ab2ad155564180a8709ec07e77a8fd065f67c708a89c2d255f2ce4108f324",
+      "sha256": "c0df67bac4467952dfa87fcd07337a5d2fd3e5cce422468779ab307dccbaaa44"
+    },
+    {
+      "path": "ios/ApolloHack/Integration/chart-snapshots.json",
+      "old_sha256": "da7587a38705531ee7f8ce67ec176d4fd375d5715e4c359003aeb2f001332289",
+      "sha256": "24bd17b3ab09cf3fd7c1ee7f7ebac9de3fca88316ec9fc8d801c91201f14b76e"
+    },
+    {
+      "path": "ios/ApolloHack/Integration/chart-financials.json",
+      "old_sha256": null,
+      "sha256": "a91ef1bde6481f5042d9b780812c9c23ce9bfa0cf836c862dbe21317234e01e4"
+    },
+    {
+      "path": "ios/ApolloHack/Integration/chart-source-events.json",
+      "old_sha256": null,
+      "sha256": "55f0a3bc24555dc0a4a46e967af273d05bb0af06dad347c53d7b2b07e775766a"
+    }
+  ],
+  "native": "NOT_RUN",
+  "paper_account_mutation": false,
+  "paid_calls": 0
+}

@@ -7,6 +7,7 @@ struct ApolloAssetDetailView: View {
     @State private var order = false
     @State private var section = 0
     @State private var challenge = false
+    @State private var companyProfile = false
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -14,6 +15,9 @@ struct ApolloAssetDetailView: View {
                     HStack { ApolloEyebrow(text: asset.kind.label); Spacer(); Text(asset.isDemo ? "DEMO FIXTURE" : "SOURCED · CHECK AS OF").font(.caption2.bold()).foregroundStyle(ApolloStyle.lime) }
                     Text(asset.name).font(.system(.largeTitle, design: .serif)).accessibilityIdentifier("asset-detail-title")
                     Text(asset.summary).foregroundStyle(ApolloStyle.muted)
+                    if asset.kind == .stock {
+                        Button { companyProfile = true } label: { Label("Browse six company sections", systemImage: "rectangle.stack").frame(minHeight: 44) }.accessibilityIdentifier("detail-company-profile")
+                    }
                     ApolloPanel {
                         VStack(alignment: .leading, spacing: 14) {
                             HStack { Text(asset.kind == .strategy ? "Sample allocation" : asset.price.apolloMoney).font(.largeTitle.weight(.medium)).monospacedDigit(); Spacer(); Image(systemName: asset.kind.symbol).font(.title).foregroundStyle(ApolloStyle.lime) }
@@ -43,6 +47,7 @@ struct ApolloAssetDetailView: View {
             }.background(ApolloStyle.ink).foregroundStyle(ApolloStyle.cream)
                 .navigationTitle(asset.ticker).navigationBarTitleDisplayMode(.inline)
                 .toolbar { ToolbarItem(placement: .topBarTrailing) { Button("Done") { dismiss() }.accessibilityIdentifier("detail-done") } }
+                .sheet(isPresented: $companyProfile) { ApolloCompanyProfileView(asset: asset, store: store) }
                 .sheet(isPresented: $challenge) { ApolloThesisChallengeView(asset: asset, store: store) }
                 .sheet(isPresented: $order) { ApolloOrderView(asset: asset, store: store) }
         }.tint(ApolloStyle.lime)

@@ -1,0 +1,71 @@
+{
+  "kind": "ONE_COHERENT_COMPANY_17_18_IMPORT",
+  "created_at": "2026-10-17T18:20:11.198038+00:00",
+  "source_directory": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-game-lane/work/releases/game-company-17-18",
+  "destination_directory": "/Users/zaccromero/code/hackathon/Apollo-Hack/ios/ApolloHack/Game",
+  "receiver_thread": "01a14a33-e4a0-7ae1-a942-353fd5883fd3",
+  "import": "Exactly7 Swift files once against current07-15 frozen source hashes; new files require absence. Do NOT also sequentially import17/18 on top. Core uploaded artifact stays immutable. Integration sole shared/root/native/release owner.",
+  "chain": [
+    {
+      "manifest": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-game-lane/work/releases/game-fix-17/manifest.json",
+      "sha256": "b3eb1e6e7cd231951dfe6f94b625d9da1bdc0e35dc5f2a0f7c8c79e6b2b07d17"
+    },
+    {
+      "manifest": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-game-lane/work/releases/game-fix-18/manifest.json",
+      "sha256": "9069fd18b6b22e011606dbae508d931b0726a21bab8bf794f46b3328c3b1c951"
+    }
+  ],
+  "files": [
+    {
+      "name": "ApolloCompanyProfile.swift",
+      "expected_destination_sha256": null,
+      "sha256": "e542736494a5c0517af1ad2f825e0619e680882443238046ac7d13222b55b02e"
+    },
+    {
+      "name": "ApolloCompanyCardView.swift",
+      "expected_destination_sha256": null,
+      "sha256": "eb5934e922f14da9d3970fbe959d82623cb8487e8cf233a2c691ad4eb00f71c0"
+    },
+    {
+      "name": "ApolloCardInteraction.swift",
+      "expected_destination_sha256": null,
+      "sha256": "5536fd47cc6ceafb3f3d30be0cba94c2e097c05944ead7dd62f9dd4d68b1bbfc"
+    },
+    {
+      "name": "ApolloGameModels.swift",
+      "expected_destination_sha256": "26637c3427f75af586d4f21909fddff667d836fedcec8cbb152bfc5cb34e99c6",
+      "sha256": "c9826387830ec35788a3bc9482056db57494067f7d72f4cb93a844e3bbb28ff4"
+    },
+    {
+      "name": "ApolloGameRootView.swift",
+      "expected_destination_sha256": "1b1a1845e8520e705543d5507e44405e5fc1888c00c8d82df3f23bb815b54b6c",
+      "sha256": "da03d73265aad4347647ed116612a7c45ec13d9e43050367c88c5a946b1ef092"
+    },
+    {
+      "name": "ApolloAssetDetailView.swift",
+      "expected_destination_sha256": "efb7f238bfde08dc8a2f8b26881f3e3163ad96b82351c7982c7aebc1f16d6e64",
+      "sha256": "808a2ad8101e5650ae9ca8db6cad6add0bec4c4b207c9a86768edac31ef0c649"
+    },
+    {
+      "name": "ApolloCollectionViews.swift",
+      "expected_destination_sha256": "22000898ccc31c5858d5727c2cee1b25dbd98662eee62030f548dc9a15945224",
+      "sha256": "69026e6ccb4cec69418ae37944aac7c665084415975603cc00721af1f9851a95"
+    }
+  ],
+  "resource": {
+    "name": "company-profiles-v1.json",
+    "sha256": "a26fe4f243a41c8593d40e9150a181311baf7415ac02da98c6f209cc4673952a",
+    "scope": "Actual reviewed AAPL/WINA17 snapshot; optional exact asset/currentcorpus attach; no network/model/images"
+  },
+  "verification": {
+    "coherent_actual_base_snapshot_swift": "30 PASS",
+    "focused_actual_store_and_interaction": "39 PASS",
+    "prepared_native_drivers_source": "PASS; NOT EXECUTED",
+    "native_hit_testing_physical_all6": "NOT_RUN"
+  },
+  "native_drivers": "Prepared source only. Isolated Simulator test separate from Beta physical runner-only/no app dependency driver. Execute only Integration scoped plan <=3 profile-specific rounds, no9 rerun.",
+  "deadline": "16:00EDTworkready;16-16:30buffer;phoneall6required,noSimsubstitute;paidpaused;preserveactualBetaaccount.",
+  "imported_at": "2026-10-17T18:25:22.902222+00:00",
+  "resource_destination": "/Users/zaccromero/code/hackathon/Apollo-Hack/ios/ApolloHack/Integration/company-profiles-v1.json",
+  "native": "NOT_RUN"
+}

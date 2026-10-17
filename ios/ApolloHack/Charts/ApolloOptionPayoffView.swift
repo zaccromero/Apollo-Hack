@@ -30,7 +30,7 @@ public struct ApolloOptionPayoffView: View {
         }
     }
     public var body: some View {
-        VStack(alignment: .leading, spacing: 14) {
+        VStack(alignment: .leading, spacing: 10) {
             Divider().overlay(theme.muted.opacity(0.3))
             Text("AT EXPIRY · LONG \(contract.right.rawValue.uppercased())").font(.caption.weight(.semibold)).tracking(1).foregroundStyle(theme.muted)
             if valid {
@@ -42,9 +42,8 @@ public struct ApolloOptionPayoffView: View {
                 VStack(alignment: .leading, spacing: 6) {
                     LabeledContent("Maximum premium loss", value: money(contract.maximumLoss)).foregroundStyle(theme.caution)
                     LabeledContent("Break-even at expiry", value: contract.breakEven >= 0 ? money(contract.breakEven) : "Unreachable at a non-negative price")
-                    Text(contract.right == .call ? "Upside is theoretically unbounded; the diagram shows a limited price range." : "Maximum profit at an underlying price of zero: \(money(contract.profit(atExpiryUnderlying: 0) ?? 0)).")
-                        .font(.caption).foregroundStyle(theme.muted)
                 }.font(.caption.weight(.medium)).monospacedDigit()
+                scenarioControls
                 Chart {
                     RuleMark(y: .value("Zero profit", 0)).foregroundStyle(theme.muted.opacity(0.5)).lineStyle(StrokeStyle(lineWidth: 1, dash: [3, 3]))
                     RuleMark(x: .value("Strike", strike)).foregroundStyle(theme.muted.opacity(0.3)).lineStyle(StrokeStyle(lineWidth: 1, dash: [2, 3]))
@@ -64,22 +63,18 @@ public struct ApolloOptionPayoffView: View {
                     .chartYAxis { AxisMarks(position: .trailing, values: .automatic(desiredCount: 3)) { item in
                         AxisGridLine().foregroundStyle(theme.muted.opacity(0.14))
                         AxisValueLabel { if let value = item.as(Double.self) { Text(value.formatted(.number.notation(.compactName))).font(.caption2).foregroundStyle(theme.muted) } }
-                    } }.frame(height: 180)
+                    } }.frame(height: 150)
                     .accessibilityLabel("Long \(contract.right.rawValue) expiry profit and loss diagram, US dollars")
                     .accessibilityIdentifier("option-payoff-plot")
                 Text("X: underlying price at expiry · Y: total contract P/L (USD)").font(.caption2).foregroundStyle(theme.muted)
-                VStack(alignment: .leading, spacing: 6) {
-                    Text("Assume \(contract.underlying) at \(money(scenarioPrice)) at expiry").font(.subheadline.weight(.medium)).monospacedDigit()
-                    Slider(value: $underlying, in: 0...upperBound, step: 0.01)
-                        .tint(theme.accent).accessibilityLabel("Assumed underlying price at expiry")
-                        .accessibilityValue(money(scenarioPrice)).accessibilityIdentifier("option-underlying-scenario")
-                    if let profit = contract.profit(atExpiryUnderlying: scenarioPrice) {
-                        Text("Scenario P/L: \(money(profit))").font(.title3.weight(.semibold)).monospacedDigit()
-                            .foregroundStyle(profit >= 0 ? theme.accent : theme.caution).accessibilityIdentifier("option-scenario-pnl")
-                    }
-                }
-                Text("Expiry sensitivity, not a price forecast. Entire premium can be lost. Excludes fees, taxes, exercise, assignment and early-sale pricing; no IV, Greeks or probability model.")
+                Text("Expiry sensitivity, not a price forecast. Entire premium can be lost.")
                     .font(.caption).foregroundStyle(theme.caution).fixedSize(horizontal: false, vertical: true)
+                DisclosureGroup("Payoff assumptions and limits") {
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text(contract.right == .call ? "Upside is theoretically unbounded; the diagram shows a limited price range." : "Maximum profit at an underlying price of zero: \(money(contract.profit(atExpiryUnderlying: 0) ?? 0)).")
+                        Text("Excludes fees, taxes, exercise, assignment and early-sale pricing; no IV, Greeks or probability model.")
+                    }.font(.caption).foregroundStyle(theme.muted).padding(.top, 6)
+                }.font(.caption).tint(theme.accent).accessibilityIdentifier("option-payoff-methods")
             } else {
                 Label("Payoff unavailable: supply a valid strike, premium, expiry, multiplier and whole contract count.", systemImage: "exclamationmark.triangle")
                     .font(.caption).foregroundStyle(theme.caution)
@@ -87,6 +82,21 @@ public struct ApolloOptionPayoffView: View {
         }.foregroundStyle(theme.text)
             .onChange(of: contract) { _, _ in underlying = strike }
             .accessibilityIdentifier("option-expiry-scenario")
+    }
+    private var scenarioControls: some View {
+        VStack(alignment: .leading, spacing: 4) {
+            Text("Assume \(contract.underlying) at \(money(scenarioPrice)) at expiry")
+                .font(.subheadline.weight(.medium)).monospacedDigit()
+                .fixedSize(horizontal: false, vertical: true)
+            Slider(value: $underlying, in: 0...upperBound, step: 0.01)
+                .tint(theme.accent).accessibilityLabel("Assumed underlying price at expiry")
+                .accessibilityValue(money(scenarioPrice)).accessibilityIdentifier("option-underlying-scenario")
+            if let profit = contract.profit(atExpiryUnderlying: scenarioPrice) {
+                Text("Scenario P/L: \(money(profit))").font(.title3.weight(.semibold)).monospacedDigit()
+                    .foregroundStyle(profit >= 0 ? theme.accent : theme.caution)
+                    .fixedSize(horizontal: false, vertical: true).accessibilityIdentifier("option-scenario-pnl")
+            }
+        }.padding(.vertical, 4).accessibilityIdentifier("option-scenario-controls")
     }
     private func money(_ amount: Decimal) -> String {
         let formatter = NumberFormatter(); formatter.numberStyle = .currency; formatter.currencyCode = "USD"

@@ -48,7 +48,13 @@ private struct ApolloDiscoverView: View {
     @State private var initialPresentationApplied = false
     @State private var detail: ApolloAsset?
     @State private var order: ApolloAsset?
+    @State private var swipeBudget: Decimal?
+    @State private var editSwipePitch = false
     @State private var drag: CGSize = .zero
+    @GestureState private var companyTouchActive = false
+    @State private var companyBrowsePresented = false
+    @State private var companyDecisionPending = false
+    @State private var companyTapBlockedUntil: TimeInterval = 0
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     var body: some View {
         ScrollView {
@@ -66,6 +72,16 @@ private struct ApolloDiscoverView: View {
                 if store.loading && store.assets.isEmpty { ProgressView("Preparing your deck…").frame(maxWidth: .infinity).padding(50) }
                 else if let asset = store.deck.first {
                     VStack(spacing: 18) {
+                        if asset.kind == .stock {
+                            ApolloCompanyCardView(asset: asset, store: store, openResearch: { detail = asset }, canBrowse: {
+                                store.deck.first?.id == asset.id && ApolloCardInteraction.canBrowse(now: ProcessInfo.processInfo.systemUptime, blockedUntil: companyTapBlockedUntil, busy: store.busy, modal: detail != nil || order != nil || companyBrowsePresented, pending: companyDecisionPending)
+                            }, onBrowsePresentation: { companyBrowsePresented = $0 })
+                                .id(asset.id)
+                                .overlay(alignment: .top) { swipeFeedback.padding(.top, 12) }
+                                .offset(x: reduceMotion ? 0 : drag.width * 0.35, y: reduceMotion ? 0 : drag.height * 0.25)
+                                .rotationEffect(.degrees(reduceMotion ? 0 : Double(drag.width / 40)))
+                                .simultaneousGesture(companyCardDrag(asset))
+                        } else {
                         ApolloAssetCard(asset: asset)
                             .accessibilityElement(children: .ignore)
                             .accessibilityAddTraits(.isButton)
@@ -75,10 +91,13 @@ private struct ApolloDiscoverView: View {
                             .accessibilityAction(named: "Pass") { Task { await store.decide(asset, .pass) } }
                             .accessibilityAction(named: "Watch") { Task { await store.decide(asset, .watchlist) } }
                             .accessibilityAction(named: "Review paper order") { beginOrder(asset) }
-                            .offset(x: reduceMotion ? 0 : drag.width * 0.35, y: reduceMotion ? 0 : min(drag.height, 0) * 0.25)
+                            .overlay(alignment: .top) { swipeFeedback.padding(.top, 12) }
+                                .offset(x: reduceMotion ? 0 : drag.width * 0.35, y: reduceMotion ? 0 : drag.height * 0.25)
                             .rotationEffect(.degrees(reduceMotion ? 0 : Double(drag.width / 40)))
                             .contentShape(RoundedRectangle(cornerRadius: 30))
-                            .highPriorityGesture(cardGesture(asset))
+                            .onTapGesture { if ApolloCardInteraction.canBrowse(now: ProcessInfo.processInfo.systemUptime, blockedUntil: companyTapBlockedUntil, busy: store.busy, modal: detail != nil || order != nil, pending: companyDecisionPending) { detail = asset } }
+                            .simultaneousGesture(companyCardDrag(asset))
+                        }
                     }
                 } else {
                     ApolloEmptyState(title: store.assets.isEmpty ? "Your deck is unavailable" : "A little wiser already.", message: store.assets.isEmpty ? "Refresh to try loading research again." : store.discovery.selectedTypes.isEmpty ? "Choose at least one asset type in your library to receive cards." : "You’ve explored the available cards in these types. You can review your library or start another practice round.", symbol: "sparkles")
@@ -92,15 +111,17 @@ private struct ApolloDiscoverView: View {
             }.padding(20).frame(maxWidth: 620)
                 .frame(maxWidth: .infinity)
         }.background(ApolloStyle.ink).foregroundStyle(ApolloStyle.cream)
+            .scrollDisabled(companyTouchActive)
             .safeAreaInset(edge: .bottom, spacing: 0) {
                 if let asset = store.deck.first {
                     VStack(spacing: 6) {
                         HStack(spacing: 12) {
-                            actionButton("Pass", symbol: "xmark", id: "pass-button") { Task { await store.decide(asset, .pass) } }
-                            actionButton("Watch", symbol: "bookmark", id: "watch-button") { Task { await store.decide(asset, .watchlist) } }
-                            actionButton("Invest", symbol: "arrow.up.right", id: "invest-button", primary: true) { beginOrder(asset) }
+                            actionButton("Pass", symbol: "xmark", id: "pass-button") { perform(.pass, asset) }
+                            actionButton("Watch", symbol: "bookmark", id: "watch-button") { perform(.watch, asset) }
+                            actionButton("$10", symbol: "dollarsign.circle", id: "invest-button", primary: true) { beginOrder(asset) }
+                            actionButton("Edit", symbol: "square.and.pencil", id: "edit-pitch-button") { perform(.edit, asset) }
                         }
-                        Text("← Pass   ·   ↑ Watch   ·   → Review paper order").font(.caption2).foregroundStyle(ApolloStyle.muted)
+                        Text("← Pass   ↑ Watch   → Review $10   ↓ Edit amount & pitch").font(.caption2).foregroundStyle(ApolloStyle.muted)
                     }.padding(.horizontal, 20).padding(.top, 10).padding(.bottom, 6).background(ApolloStyle.ink)
                 }
             }
@@ -116,7 +137,7 @@ private struct ApolloDiscoverView: View {
                 order = asset
             }
             .sheet(item: $detail) { asset in ApolloAssetDetailView(asset: asset, store: store) }
-            .sheet(item: $order) { asset in ApolloOrderView(asset: asset, store: store) }
+            .sheet(item: $order) { asset in ApolloOrderView(asset: asset, store: store, swipeBudget: swipeBudget, editSwipePitch: editSwipePitch) }
     }
     private var header: some View {
         HStack {
@@ -145,19 +166,47 @@ private struct ApolloDiscoverView: View {
     private func actionButton(_ title: String, symbol: String, id: String, primary: Bool = false, action: @escaping () -> Void) -> some View {
         Button(action: action) { VStack(spacing: 8) { Image(systemName: symbol).font(.title3.weight(.semibold)); Text(title).font(.caption.weight(.semibold)) }.frame(maxWidth: .infinity).frame(minHeight: 72).background(primary ? ApolloStyle.lime : ApolloStyle.surface, in: RoundedRectangle(cornerRadius: 22)).foregroundStyle(primary ? ApolloStyle.ink : ApolloStyle.cream) }.buttonStyle(.plain).disabled(store.busy).accessibilityIdentifier(id)
     }
-    private func cardGesture(_ asset: ApolloAsset) -> some Gesture {
-        DragGesture(minimumDistance: 24)
-            .onChanged { if !store.busy { drag = $0.translation } }
+    private func companyCardDrag(_ asset: ApolloAsset) -> some Gesture {
+        DragGesture(minimumDistance: 0)
+            .updating($companyTouchActive) { _, touching, _ in touching = true }
+            .onChanged { value in
+                guard ApolloCardInteraction.canDecide(gestureAssetID: asset.id, currentAssetID: store.deck.first?.id, busy: store.busy, modal: detail != nil || order != nil || companyBrowsePresented, pending: companyDecisionPending) else { return }
+                guard hypot(value.translation.width, value.translation.height) >= 24 else { return }
+                drag = value.translation
+                companyTapBlockedUntil = ProcessInfo.processInfo.systemUptime + 0.35
+            }
             .onEnded { value in
                 defer { withAnimation(reduceMotion ? nil : .easeOut(duration: 0.18)) { drag = .zero } }
-                guard !store.busy else { return }
-                if value.translation.height < -65 && abs(value.translation.height) > abs(value.translation.width) { Task { await store.decide(asset, .watchlist) } }
-                else if value.translation.width > 65 { beginOrder(asset) }
-                else if value.translation.width < -65 { Task { await store.decide(asset, .pass) } }
+                guard hypot(value.translation.width, value.translation.height) >= 24 else { return }
+                companyTapBlockedUntil = ProcessInfo.processInfo.systemUptime + 0.35
+                guard ApolloCardInteraction.canDecide(gestureAssetID: asset.id, currentAssetID: store.deck.first?.id, busy: store.busy, modal: detail != nil || order != nil || companyBrowsePresented, pending: companyDecisionPending), let action = ApolloCardInteraction.swipeAction(horizontal: value.translation.width, vertical: value.translation.height) else { return }
+                perform(action, asset)
             }
-            .exclusively(before: TapGesture().onEnded { if !store.busy { detail = asset } })
     }
-    private func beginOrder(_ asset: ApolloAsset) { Task { if await store.decide(asset, .interest) { order = asset } } }
+    @ViewBuilder private var swipeFeedback: some View {
+        if let action = ApolloCardInteraction.swipeAction(horizontal: drag.width, vertical: drag.height, threshold: 24) {
+            Label(action.title, systemImage: action.symbol)
+                .font(.headline.weight(.bold)).padding(.horizontal, 18).padding(.vertical, 12)
+                .foregroundStyle(.white).background(ApolloStyle.lime, in: Capsule())
+                .shadow(color: .black.opacity(0.15), radius: 8, y: 4)
+                .accessibilityIdentifier("swipe-cue-" + action.rawValue)
+                .allowsHitTesting(false).transition(.opacity)
+                .animation(reduceMotion ? nil : .easeOut(duration: 0.15), value: action)
+        }
+    }
+    private func perform(_ action: ApolloSwipeAction, _ asset: ApolloAsset) {
+        guard ApolloCardInteraction.canDecide(gestureAssetID: asset.id, currentAssetID: store.deck.first?.id, busy: store.busy, modal: detail != nil || order != nil || companyBrowsePresented, pending: companyDecisionPending) else { return }
+        if action == .edit { swipeBudget = 10; editSwipePitch = true; order = asset; return }
+        companyDecisionPending = true
+        Task {
+            defer { companyDecisionPending = false }
+            guard store.deck.first?.id == asset.id else { return }
+            let decision: ApolloDecision = action == .pass ? .pass : action == .watch ? .watchlist : .interest
+            if await store.decide(asset, decision), action == .review { swipeBudget = 10; editSwipePitch = false; order = asset }
+        }
+    }
+    private func beginOrder(_ asset: ApolloAsset) { perform(.review, asset) }
+
 }
 
 struct ApolloAssetCard: View {

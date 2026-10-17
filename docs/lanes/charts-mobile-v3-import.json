@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-17T18:25:47.258070+00:00",
+  "imported": [
+    {
+      "path": "ios/ApolloHack/Charts/ApolloChartView.swift",
+      "expected_old_sha256": "d57296bd9e90e12ee5122a049bf1783392418c53b9d2daf22bb97d27728707bc",
+      "sha256": "5a68d91a103a3a6a39ca1e03491d13ba1e1578748e9b265f48ca3fae02e238f9",
+      "bytes": 19423
+    },
+    {
+      "path": "ios/ApolloHack/Charts/ApolloOptionPayoffView.swift",
+      "expected_old_sha256": "5a61131ee94102d76c4627ac03cb4d0e20aca2abdad9ef79b77678202380b19d",
+      "sha256": "88e33fe4bb5942f61cef2c5593fba98d13e7a2f7c0f67188f1ec751161cba3fd",
+      "bytes": 8032
+    },
+    {
+      "path": "docs/lanes/charts.md",
+      "expected_old_sha256": "297ece1cbbb9ce097779848bf23c79e6842ab17613d27a4cb80842a43bd7073c",
+      "sha256": "de8a3ed0d230e9d141967329a92ca3b7ae393d7a1173ef61b8b19c729c5889aa",
+      "bytes": 10457
+    }
+  ],
+  "preserved_newer_owned_documents": [],
+  "native": "NOT_RUN",
+  "next_charts_v4": "New advanced scope remains separately staged, supersedes this layout baseline when released"
+}

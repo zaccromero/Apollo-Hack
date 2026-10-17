@@ -27,13 +27,14 @@ public enum ApolloChartMath {
     public static func visible(_ points: [ApolloChartPoint], range: ApolloChartRange,
                                basis: ApolloChartBasis) -> [ApolloChartPoint] {
         guard basis == .cachedMarket, let days = range.days,
-              let latest = points.last?.observation.date else { return points }
+              let latest = points.last?.observation.endDate ?? points.last?.observation.date else { return points }
         let cutoff = latest.addingTimeInterval(-Double(days) * 86_400)
         return points.filter { ($0.observation.date ?? .distantPast) > cutoff }
     }
     /// Full observed-bar warm-up after first point or a known gap. No zero padding.
     public static func indicator(_ indicator: ApolloChartIndicator,
                                  points: [ApolloChartPoint]) -> [Int: Double] {
+        if indicator == .rsi14 { return ApolloAdvancedChartMath.rsi(points) }
         let period = indicator.period
         var window: [Double] = []; var ema: Double?; var previousSegment: Int?
         var result: [Int: Double] = [:]

@@ -1,0 +1,7036 @@
+{
+  "routes": [
+    {
+      "width": 320,
+      "page": "index.html",
+      "result": {
+        "route": "/index.html",
+        "title": "Learn investing. By doing. \u2014 Apollo",
+        "width": 320,
+        "client": 320,
+        "scroll": 320,
+        "h1": 1,
+        "nav": [
+          {
+            "href": "how-it-works.html",
+            "current": null,
+            "height": 48
+          },
+          {
+            "href": "practice.html",
+            "current": null,
+            "height": 48
+          },
+          {
+            "href": "demo.html",
+            "current": null,
+            "height": 48
+          }
+        ],
+        "localLinks": [
+          {
+            "path": "/index.html",
+            "status": 200
+          },
+          {
+            "path": "/how-it-works.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html",
+            "status": 200
+          },
+          {
+            "path": "/demo.html",
+            "status": 200
+          },
+          {
+            "path": "/access.html",
+            "status": 200
+          },
+          {
+            "path": "/how-it-works.html?topic=etf",
+            "status": 200
+          }
+        ],
+        "brokenAnchors": [],
+        "duplicateIDs": [],
+        "img": [
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 128,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "assets/apollo-discover-blue.png",
+            "alt": "Detail from the actual blue Apollo Discover screen: Apple demo card with separate Pass, Watch and Invest actions.",
+            "width": 252,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "assets/apollo-discover-blue.png",
+            "alt": "Full unmodified Apollo Discover simulator capture, including category filters, demo card, Pass, Watch and Invest controls and bottom navigation.",
+            "width": 252,
+            "loaded": true,
+            "lazy": true
+          },
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 130,
+            "loaded": true,
+            "lazy": false
+          }
+        ],
+        "installHidden": null,
+        "qrHidden": null,
+        "allTopics": 0,
+        "allStorySteps": 0,
+        "videoChoices": 0,
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY"
+      }
+    },
+    {
+      "width": 320,
+      "page": "how-it-works.html",
+      "result": {
+        "route": "/how-it-works.html",
+        "title": "How it works \u2014 Apollo",
+        "width": 320,
+        "client": 320,
+        "scroll": 320,
+        "h1": 1,
+        "nav": [
+          {
+            "href": "how-it-works.html",
+            "current": "page",
+            "height": 48
+          },
+          {
+            "href": "practice.html",
+            "current": null,
+            "height": 48
+          },
+          {
+            "href": "demo.html",
+            "current": null,
+            "height": 48
+          }
+        ],
+        "localLinks": [
+          {
+            "path": "/how-it-works.html",
+            "status": 200
+          },
+          {
+            "path": "/index.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html",
+            "status": 200
+          },
+          {
+            "path": "/demo.html",
+            "status": 200
+          },
+          {
+            "path": "/access.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html?topic=stock&stage=0",
+            "status": 200
+          },
+          {
+            "path": "/practice.html?topic=etf&stage=1",
+            "status": 200
+          },
+          {
+            "path": "/practice.html?topic=etf&stage=2",
+            "status": 200
+          }
+        ],
+        "brokenAnchors": [],
+        "duplicateIDs": [],
+        "img": [
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 128,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "assets/apollo-comparison-blue.png",
+            "alt": "Actual Apollo iPhone comparison screen: read-only demo, three hypothetical profiles, an AAPL input and current paper equity.",
+            "width": 238,
+            "loaded": true,
+            "lazy": true
+          },
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 130,
+            "loaded": true,
+            "lazy": false
+          }
+        ],
+        "installHidden": null,
+        "qrHidden": null,
+        "allTopics": 0,
+        "allStorySteps": 4,
+        "videoChoices": 0,
+        "concept": null
+      }
+    },
+    {
+      "width": 320,
+      "page": "practice.html",
+      "result": {
+        "route": "/practice.html",
+        "title": "Practice \u2014 Apollo",
+        "width": 320,
+        "client": 320,
+        "scroll": 320,
+        "h1": 1,
+        "nav": [
+          {
+            "href": "how-it-works.html",
+            "current": null,
+            "height": 48
+          },
+          {
+            "href": "practice.html",
+            "current": "page",
+            "height": 48
+          },
+          {
+            "href": "demo.html",
+            "current": null,
+            "height": 48
+          }
+        ],
+        "localLinks": [
+          {
+            "path": "/practice.html?topic=stock&stage=2",
+            "status": 200
+          },
+          {
+            "path": "/index.html",
+            "status": 200
+          },
+          {
+            "path": "/how-it-works.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html",
+            "status": 200
+          },
+          {
+            "path": "/demo.html",
+            "status": 200
+          },
+          {
+            "path": "/access.html",
+            "status": 200
+          }
+        ],
+        "brokenAnchors": [],
+        "duplicateIDs": [],
+        "img": [
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 128,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 130,
+            "loaded": true,
+            "lazy": false
+          }
+        ],
+        "installHidden": null,
+        "qrHidden": null,
+        "allTopics": 3,
+        "allStorySteps": 0,
+        "videoChoices": 0,
+        "concept": null
+      }
+    },
+    {
+      "width": 320,
+      "page": "demo.html",
+      "result": {
+        "route": "/demo.html",
+        "title": "Watch the demo \u2014 Apollo",
+        "width": 320,
+        "client": 320,
+        "scroll": 320,
+        "h1": 1,
+        "nav": [
+          {
+            "href": "how-it-works.html",
+            "current": null,
+            "height": 48
+          },
+          {
+            "href": "practice.html",
+            "current": null,
+            "height": 48
+          },
+          {
+            "href": "demo.html",
+            "current": "page",
+            "height": 48
+          }
+        ],
+        "localLinks": [
+          {
+            "path": "/demo.html",
+            "status": 200
+          },
+          {
+            "path": "/index.html",
+            "status": 200
+          },
+          {
+            "path": "/how-it-works.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html",
+            "status": 200
+          },
+          {
+            "path": "/access.html",
+            "status": 200
+          }
+        ],
+        "brokenAnchors": [],
+        "duplicateIDs": [],
+        "img": [
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 128,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 130,
+            "loaded": true,
+            "lazy": false
+          }
+        ],
+        "installHidden": null,
+        "qrHidden": null,
+        "allTopics": 0,
+        "allStorySteps": 0,
+        "videoChoices": 2,
+        "concept": null
+      }
+    },
+    {
+      "width": 320,
+      "page": "access.html",
+      "result": {
+        "route": "/access.html",
+        "title": "Beta access \u2014 Apollo",
+        "width": 320,
+        "client": 320,
+        "scroll": 320,
+        "h1": 1,
+        "nav": [
+          {
+            "href": "how-it-works.html",
+            "current": null,
+            "height": 48
+          },
+          {
+            "href": "practice.html",
+            "current": null,
+            "height": 48
+          },
+          {
+            "href": "demo.html",
+            "current": null,
+            "height": 48
+          }
+        ],
+        "localLinks": [
+          {
+            "path": "/access.html",
+            "status": 200
+          },
+          {
+            "path": "/index.html",
+            "status": 200
+          },
+          {
+            "path": "/how-it-works.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html",
+            "status": 200
+          },
+          {
+            "path": "/demo.html",
+            "status": 200
+          }
+        ],
+        "brokenAnchors": [],
+        "duplicateIDs": [],
+        "img": [
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 128,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "brand/ascending-blue/mark-light.svg",
+            "alt": "",
+            "width": 34,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": null,
+            "alt": "QR code for the same verified Apollo install link",
+            "width": 192,
+            "loaded": false,
+            "lazy": false
+          },
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 130,
+            "loaded": true,
+            "lazy": false
+          }
+        ],
+        "installHidden": true,
+        "qrHidden": true,
+        "allTopics": 0,
+        "allStorySteps": 0,
+        "videoChoices": 0,
+        "concept": null
+      }
+    },
+    {
+      "width": 390,
+      "page": "index.html",
+      "result": {
+        "route": "/index.html",
+        "title": "Learn investing. By doing. \u2014 Apollo",
+        "width": 390,
+        "client": 390,
+        "scroll": 390,
+        "h1": 1,
+        "nav": [
+          {
+            "href": "how-it-works.html",
+            "current": null,
+            "height": 48
+          },
+          {
+            "href": "practice.html",
+            "current": null,
+            "height": 48
+          },
+          {
+            "href": "demo.html",
+            "current": null,
+            "height": 48
+          }
+        ],
+        "localLinks": [
+          {
+            "path": "/index.html",
+            "status": 200
+          },
+          {
+            "path": "/how-it-works.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html",
+            "status": 200
+          },
+          {
+            "path": "/demo.html",
+            "status": 200
+          },
+          {
+            "path": "/access.html",
+            "status": 200
+          },
+          {
+            "path": "/how-it-works.html?topic=etf",
+            "status": 200
+          }
+        ],
+        "brokenAnchors": [],
+        "duplicateIDs": [],
+        "img": [
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 128,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "assets/apollo-discover-blue.png",
+            "alt": "Detail from the actual blue Apollo Discover screen: Apple demo card with separate Pass, Watch and Invest actions.",
+            "width": 278,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "assets/apollo-discover-blue.png",
+            "alt": "Full unmodified Apollo Discover simulator capture, including category filters, demo card, Pass, Watch and Invest controls and bottom navigation.",
+            "width": 298,
+            "loaded": true,
+            "lazy": true
+          },
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 130,
+            "loaded": true,
+            "lazy": false
+          }
+        ],
+        "installHidden": null,
+        "qrHidden": null,
+        "allTopics": 0,
+        "allStorySteps": 0,
+        "videoChoices": 0,
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY"
+      }
+    },
+    {
+      "width": 390,
+      "page": "how-it-works.html",
+      "result": {
+        "route": "/how-it-works.html",
+        "title": "How it works \u2014 Apollo",
+        "width": 390,
+        "client": 390,
+        "scroll": 390,
+        "h1": 1,
+        "nav": [
+          {
+            "href": "how-it-works.html",
+            "current": "page",
+            "height": 48
+          },
+          {
+            "href": "practice.html",
+            "current": null,
+            "height": 48
+          },
+          {
+            "href": "demo.html",
+            "current": null,
+            "height": 48
+          }
+        ],
+        "localLinks": [
+          {
+            "path": "/how-it-works.html",
+            "status": 200
+          },
+          {
+            "path": "/index.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html",
+            "status": 200
+          },
+          {
+            "path": "/demo.html",
+            "status": 200
+          },
+          {
+            "path": "/access.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html?topic=stock&stage=0",
+            "status": 200
+          },
+          {
+            "path": "/practice.html?topic=etf&stage=1",
+            "status": 200
+          },
+          {
+            "path": "/practice.html?topic=etf&stage=2",
+            "status": 200
+          }
+        ],
+        "brokenAnchors": [],
+        "duplicateIDs": [],
+        "img": [
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 128,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "assets/apollo-comparison-blue.png",
+            "alt": "Actual Apollo iPhone comparison screen: read-only demo, three hypothetical profiles, an AAPL input and current paper equity.",
+            "width": 238,
+            "loaded": true,
+            "lazy": true
+          },
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 130,
+            "loaded": true,
+            "lazy": false
+          }
+        ],
+        "installHidden": null,
+        "qrHidden": null,
+        "allTopics": 0,
+        "allStorySteps": 4,
+        "videoChoices": 0,
+        "concept": null
+      }
+    },
+    {
+      "width": 390,
+      "page": "practice.html",
+      "result": {
+        "route": "/practice.html",
+        "title": "Practice \u2014 Apollo",
+        "width": 390,
+        "client": 390,
+        "scroll": 390,
+        "h1": 1,
+        "nav": [
+          {
+            "href": "how-it-works.html",
+            "current": null,
+            "height": 48
+          },
+          {
+            "href": "practice.html",
+            "current": "page",
+            "height": 48
+          },
+          {
+            "href": "demo.html",
+            "current": null,
+            "height": 48
+          }
+        ],
+        "localLinks": [
+          {
+            "path": "/practice.html?topic=stock&stage=2",
+            "status": 200
+          },
+          {
+            "path": "/index.html",
+            "status": 200
+          },
+          {
+            "path": "/how-it-works.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html",
+            "status": 200
+          },
+          {
+            "path": "/demo.html",
+            "status": 200
+          },
+          {
+            "path": "/access.html",
+            "status": 200
+          }
+        ],
+        "brokenAnchors": [],
+        "duplicateIDs": [],
+        "img": [
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 128,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 130,
+            "loaded": true,
+            "lazy": false
+          }
+        ],
+        "installHidden": null,
+        "qrHidden": null,
+        "allTopics": 3,
+        "allStorySteps": 0,
+        "videoChoices": 0,
+        "concept": null
+      }
+    },
+    {
+      "width": 390,
+      "page": "demo.html",
+      "result": {
+        "route": "/demo.html",
+        "title": "Watch the demo \u2014 Apollo",
+        "width": 390,
+        "client": 390,
+        "scroll": 390,
+        "h1": 1,
+        "nav": [
+          {
+            "href": "how-it-works.html",
+            "current": null,
+            "height": 48
+          },
+          {
+            "href": "practice.html",
+            "current": null,
+            "height": 48
+          },
+          {
+            "href": "demo.html",
+            "current": "page",
+            "height": 48
+          }
+        ],
+        "localLinks": [
+          {
+            "path": "/demo.html",
+            "status": 200
+          },
+          {
+            "path": "/index.html",
+            "status": 200
+          },
+          {
+            "path": "/how-it-works.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html",
+            "status": 200
+          },
+          {
+            "path": "/access.html",
+            "status": 200
+          }
+        ],
+        "brokenAnchors": [],
+        "duplicateIDs": [],
+        "img": [
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 128,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 130,
+            "loaded": true,
+            "lazy": false
+          }
+        ],
+        "installHidden": null,
+        "qrHidden": null,
+        "allTopics": 0,
+        "allStorySteps": 0,
+        "videoChoices": 2,
+        "concept": null
+      }
+    },
+    {
+      "width": 390,
+      "page": "access.html",
+      "result": {
+        "route": "/access.html",
+        "title": "Beta access \u2014 Apollo",
+        "width": 390,
+        "client": 390,
+        "scroll": 390,
+        "h1": 1,
+        "nav": [
+          {
+            "href": "how-it-works.html",
+            "current": null,
+            "height": 48
+          },
+          {
+            "href": "practice.html",
+            "current": null,
+            "height": 48
+          },
+          {
+            "href": "demo.html",
+            "current": null,
+            "height": 48
+          }
+        ],
+        "localLinks": [
+          {
+            "path": "/access.html",
+            "status": 200
+          },
+          {
+            "path": "/index.html",
+            "status": 200
+          },
+          {
+            "path": "/how-it-works.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html",
+            "status": 200
+          },
+          {
+            "path": "/demo.html",
+            "status": 200
+          }
+        ],
+        "brokenAnchors": [],
+        "duplicateIDs": [],
+        "img": [
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 128,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "brand/ascending-blue/mark-light.svg",
+            "alt": "",
+            "width": 34,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": null,
+            "alt": "QR code for the same verified Apollo install link",
+            "width": 192,
+            "loaded": false,
+            "lazy": false
+          },
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 130,
+            "loaded": true,
+            "lazy": false
+          }
+        ],
+        "installHidden": true,
+        "qrHidden": true,
+        "allTopics": 0,
+        "allStorySteps": 0,
+        "videoChoices": 0,
+        "concept": null
+      }
+    },
+    {
+      "width": 768,
+      "page": "index.html",
+      "result": {
+        "route": "/index.html",
+        "title": "Learn investing. By doing. \u2014 Apollo",
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "h1": 1,
+        "nav": [
+          {
+            "href": "how-it-works.html",
+            "current": null,
+            "height": 44
+          },
+          {
+            "href": "practice.html",
+            "current": null,
+            "height": 44
+          },
+          {
+            "href": "demo.html",
+            "current": null,
+            "height": 44
+          }
+        ],
+        "localLinks": [
+          {
+            "path": "/index.html",
+            "status": 200
+          },
+          {
+            "path": "/how-it-works.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html",
+            "status": 200
+          },
+          {
+            "path": "/demo.html",
+            "status": 200
+          },
+          {
+            "path": "/access.html",
+            "status": 200
+          },
+          {
+            "path": "/how-it-works.html?topic=etf",
+            "status": 200
+          }
+        ],
+        "brokenAnchors": [],
+        "duplicateIDs": [],
+        "img": [
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 180,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "assets/apollo-discover-blue.png",
+            "alt": "Detail from the actual blue Apollo Discover screen: Apple demo card with separate Pass, Watch and Invest actions.",
+            "width": 268,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "assets/apollo-discover-blue.png",
+            "alt": "Full unmodified Apollo Discover simulator capture, including category filters, demo card, Pass, Watch and Invest controls and bottom navigation.",
+            "width": 296,
+            "loaded": true,
+            "lazy": true
+          },
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 150,
+            "loaded": true,
+            "lazy": false
+          }
+        ],
+        "installHidden": null,
+        "qrHidden": null,
+        "allTopics": 0,
+        "allStorySteps": 0,
+        "videoChoices": 0,
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY"
+      }
+    },
+    {
+      "width": 768,
+      "page": "how-it-works.html",
+      "result": {
+        "route": "/how-it-works.html",
+        "title": "How it works \u2014 Apollo",
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "h1": 1,
+        "nav": [
+          {
+            "href": "how-it-works.html",
+            "current": "page",
+            "height": 44
+          },
+          {
+            "href": "practice.html",
+            "current": null,
+            "height": 44
+          },
+          {
+            "href": "demo.html",
+            "current": null,
+            "height": 44
+          }
+        ],
+        "localLinks": [
+          {
+            "path": "/how-it-works.html",
+            "status": 200
+          },
+          {
+            "path": "/index.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html",
+            "status": 200
+          },
+          {
+            "path": "/demo.html",
+            "status": 200
+          },
+          {
+            "path": "/access.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html?topic=stock&stage=0",
+            "status": 200
+          },
+          {
+            "path": "/practice.html?topic=etf&stage=1",
+            "status": 200
+          },
+          {
+            "path": "/practice.html?topic=etf&stage=2",
+            "status": 200
+          }
+        ],
+        "brokenAnchors": [],
+        "duplicateIDs": [],
+        "img": [
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 180,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "assets/apollo-comparison-blue.png",
+            "alt": "Actual Apollo iPhone comparison screen: read-only demo, three hypothetical profiles, an AAPL input and current paper equity.",
+            "width": 258,
+            "loaded": true,
+            "lazy": true
+          },
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 150,
+            "loaded": true,
+            "lazy": false
+          }
+        ],
+        "installHidden": null,
+        "qrHidden": null,
+        "allTopics": 0,
+        "allStorySteps": 4,
+        "videoChoices": 0,
+        "concept": null
+      }
+    },
+    {
+      "width": 768,
+      "page": "practice.html",
+      "result": {
+        "route": "/practice.html",
+        "title": "Practice \u2014 Apollo",
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "h1": 1,
+        "nav": [
+          {
+            "href": "how-it-works.html",
+            "current": null,
+            "height": 44
+          },
+          {
+            "href": "practice.html",
+            "current": "page",
+            "height": 44
+          },
+          {
+            "href": "demo.html",
+            "current": null,
+            "height": 44
+          }
+        ],
+        "localLinks": [
+          {
+            "path": "/practice.html?topic=stock&stage=2",
+            "status": 200
+          },
+          {
+            "path": "/index.html",
+            "status": 200
+          },
+          {
+            "path": "/how-it-works.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html",
+            "status": 200
+          },
+          {
+            "path": "/demo.html",
+            "status": 200
+          },
+          {
+            "path": "/access.html",
+            "status": 200
+          }
+        ],
+        "brokenAnchors": [],
+        "duplicateIDs": [],
+        "img": [
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 180,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 150,
+            "loaded": true,
+            "lazy": false
+          }
+        ],
+        "installHidden": null,
+        "qrHidden": null,
+        "allTopics": 3,
+        "allStorySteps": 0,
+        "videoChoices": 0,
+        "concept": null
+      }
+    },
+    {
+      "width": 768,
+      "page": "demo.html",
+      "result": {
+        "route": "/demo.html",
+        "title": "Watch the demo \u2014 Apollo",
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "h1": 1,
+        "nav": [
+          {
+            "href": "how-it-works.html",
+            "current": null,
+            "height": 44
+          },
+          {
+            "href": "practice.html",
+            "current": null,
+            "height": 44
+          },
+          {
+            "href": "demo.html",
+            "current": "page",
+            "height": 44
+          }
+        ],
+        "localLinks": [
+          {
+            "path": "/demo.html",
+            "status": 200
+          },
+          {
+            "path": "/index.html",
+            "status": 200
+          },
+          {
+            "path": "/how-it-works.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html",
+            "status": 200
+          },
+          {
+            "path": "/access.html",
+            "status": 200
+          }
+        ],
+        "brokenAnchors": [],
+        "duplicateIDs": [],
+        "img": [
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 180,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 150,
+            "loaded": true,
+            "lazy": false
+          }
+        ],
+        "installHidden": null,
+        "qrHidden": null,
+        "allTopics": 0,
+        "allStorySteps": 0,
+        "videoChoices": 2,
+        "concept": null
+      }
+    },
+    {
+      "width": 768,
+      "page": "access.html",
+      "result": {
+        "route": "/access.html",
+        "title": "Beta access \u2014 Apollo",
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "h1": 1,
+        "nav": [
+          {
+            "href": "how-it-works.html",
+            "current": null,
+            "height": 44
+          },
+          {
+            "href": "practice.html",
+            "current": null,
+            "height": 44
+          },
+          {
+            "href": "demo.html",
+            "current": null,
+            "height": 44
+          }
+        ],
+        "localLinks": [
+          {
+            "path": "/access.html",
+            "status": 200
+          },
+          {
+            "path": "/index.html",
+            "status": 200
+          },
+          {
+            "path": "/how-it-works.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html",
+            "status": 200
+          },
+          {
+            "path": "/demo.html",
+            "status": 200
+          }
+        ],
+        "brokenAnchors": [],
+        "duplicateIDs": [],
+        "img": [
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 180,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "brand/ascending-blue/mark-light.svg",
+            "alt": "",
+            "width": 38,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": null,
+            "alt": "QR code for the same verified Apollo install link",
+            "width": 192,
+            "loaded": false,
+            "lazy": false
+          },
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 150,
+            "loaded": true,
+            "lazy": false
+          }
+        ],
+        "installHidden": true,
+        "qrHidden": true,
+        "allTopics": 0,
+        "allStorySteps": 0,
+        "videoChoices": 0,
+        "concept": null
+      }
+    },
+    {
+      "width": 1440,
+      "page": "index.html",
+      "result": {
+        "route": "/index.html",
+        "title": "Learn investing. By doing. \u2014 Apollo",
+        "width": 1440,
+        "client": 1440,
+        "scroll": 1440,
+        "h1": 1,
+        "nav": [
+          {
+            "href": "how-it-works.html",
+            "current": null,
+            "height": 44
+          },
+          {
+            "href": "practice.html",
+            "current": null,
+            "height": 44
+          },
+          {
+            "href": "demo.html",
+            "current": null,
+            "height": 44
+          }
+        ],
+        "localLinks": [
+          {
+            "path": "/index.html",
+            "status": 200
+          },
+          {
+            "path": "/how-it-works.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html",
+            "status": 200
+          },
+          {
+            "path": "/demo.html",
+            "status": 200
+          },
+          {
+            "path": "/access.html",
+            "status": 200
+          },
+          {
+            "path": "/how-it-works.html?topic=etf",
+            "status": 200
+          }
+        ],
+        "brokenAnchors": [],
+        "duplicateIDs": [],
+        "img": [
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 200,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "assets/apollo-discover-blue.png",
+            "alt": "Detail from the actual blue Apollo Discover screen: Apple demo card with separate Pass, Watch and Invest actions.",
+            "width": 298,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "assets/apollo-discover-blue.png",
+            "alt": "Full unmodified Apollo Discover simulator capture, including category filters, demo card, Pass, Watch and Invest controls and bottom navigation.",
+            "width": 298,
+            "loaded": true,
+            "lazy": true
+          },
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 150,
+            "loaded": true,
+            "lazy": false
+          }
+        ],
+        "installHidden": null,
+        "qrHidden": null,
+        "allTopics": 0,
+        "allStorySteps": 0,
+        "videoChoices": 0,
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY"
+      }
+    },
+    {
+      "width": 1440,
+      "page": "how-it-works.html",
+      "result": {
+        "route": "/how-it-works.html",
+        "title": "How it works \u2014 Apollo",
+        "width": 1440,
+        "client": 1440,
+        "scroll": 1440,
+        "h1": 1,
+        "nav": [
+          {
+            "href": "how-it-works.html",
+            "current": "page",
+            "height": 44
+          },
+          {
+            "href": "practice.html",
+            "current": null,
+            "height": 44
+          },
+          {
+            "href": "demo.html",
+            "current": null,
+            "height": 44
+          }
+        ],
+        "localLinks": [
+          {
+            "path": "/how-it-works.html",
+            "status": 200
+          },
+          {
+            "path": "/index.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html",
+            "status": 200
+          },
+          {
+            "path": "/demo.html",
+            "status": 200
+          },
+          {
+            "path": "/access.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html?topic=stock&stage=0",
+            "status": 200
+          },
+          {
+            "path": "/practice.html?topic=etf&stage=1",
+            "status": 200
+          },
+          {
+            "path": "/practice.html?topic=etf&stage=2",
+            "status": 200
+          }
+        ],
+        "brokenAnchors": [],
+        "duplicateIDs": [],
+        "img": [
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 200,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "assets/apollo-comparison-blue.png",
+            "alt": "Actual Apollo iPhone comparison screen: read-only demo, three hypothetical profiles, an AAPL input and current paper equity.",
+            "width": 258,
+            "loaded": true,
+            "lazy": true
+          },
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 150,
+            "loaded": true,
+            "lazy": false
+          }
+        ],
+        "installHidden": null,
+        "qrHidden": null,
+        "allTopics": 0,
+        "allStorySteps": 4,
+        "videoChoices": 0,
+        "concept": null
+      }
+    },
+    {
+      "width": 1440,
+      "page": "practice.html",
+      "result": {
+        "route": "/practice.html",
+        "title": "Practice \u2014 Apollo",
+        "width": 1440,
+        "client": 1440,
+        "scroll": 1440,
+        "h1": 1,
+        "nav": [
+          {
+            "href": "how-it-works.html",
+            "current": null,
+            "height": 44
+          },
+          {
+            "href": "practice.html",
+            "current": "page",
+            "height": 44
+          },
+          {
+            "href": "demo.html",
+            "current": null,
+            "height": 44
+          }
+        ],
+        "localLinks": [
+          {
+            "path": "/practice.html?topic=stock&stage=2",
+            "status": 200
+          },
+          {
+            "path": "/index.html",
+            "status": 200
+          },
+          {
+            "path": "/how-it-works.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html",
+            "status": 200
+          },
+          {
+            "path": "/demo.html",
+            "status": 200
+          },
+          {
+            "path": "/access.html",
+            "status": 200
+          }
+        ],
+        "brokenAnchors": [],
+        "duplicateIDs": [],
+        "img": [
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 200,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 150,
+            "loaded": true,
+            "lazy": false
+          }
+        ],
+        "installHidden": null,
+        "qrHidden": null,
+        "allTopics": 3,
+        "allStorySteps": 0,
+        "videoChoices": 0,
+        "concept": null
+      }
+    },
+    {
+      "width": 1440,
+      "page": "demo.html",
+      "result": {
+        "route": "/demo.html",
+        "title": "Watch the demo \u2014 Apollo",
+        "width": 1440,
+        "client": 1440,
+        "scroll": 1440,
+        "h1": 1,
+        "nav": [
+          {
+            "href": "how-it-works.html",
+            "current": null,
+            "height": 44
+          },
+          {
+            "href": "practice.html",
+            "current": null,
+            "height": 44
+          },
+          {
+            "href": "demo.html",
+            "current": "page",
+            "height": 44
+          }
+        ],
+        "localLinks": [
+          {
+            "path": "/demo.html",
+            "status": 200
+          },
+          {
+            "path": "/index.html",
+            "status": 200
+          },
+          {
+            "path": "/how-it-works.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html",
+            "status": 200
+          },
+          {
+            "path": "/access.html",
+            "status": 200
+          }
+        ],
+        "brokenAnchors": [],
+        "duplicateIDs": [],
+        "img": [
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 200,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 150,
+            "loaded": true,
+            "lazy": false
+          }
+        ],
+        "installHidden": null,
+        "qrHidden": null,
+        "allTopics": 0,
+        "allStorySteps": 0,
+        "videoChoices": 2,
+        "concept": null
+      }
+    },
+    {
+      "width": 1440,
+      "page": "access.html",
+      "result": {
+        "route": "/access.html",
+        "title": "Beta access \u2014 Apollo",
+        "width": 1440,
+        "client": 1440,
+        "scroll": 1440,
+        "h1": 1,
+        "nav": [
+          {
+            "href": "how-it-works.html",
+            "current": null,
+            "height": 44
+          },
+          {
+            "href": "practice.html",
+            "current": null,
+            "height": 44
+          },
+          {
+            "href": "demo.html",
+            "current": null,
+            "height": 44
+          }
+        ],
+        "localLinks": [
+          {
+            "path": "/access.html",
+            "status": 200
+          },
+          {
+            "path": "/index.html",
+            "status": 200
+          },
+          {
+            "path": "/how-it-works.html",
+            "status": 200
+          },
+          {
+            "path": "/practice.html",
+            "status": 200
+          },
+          {
+            "path": "/demo.html",
+            "status": 200
+          }
+        ],
+        "brokenAnchors": [],
+        "duplicateIDs": [],
+        "img": [
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 200,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": "brand/ascending-blue/mark-light.svg",
+            "alt": "",
+            "width": 38,
+            "loaded": true,
+            "lazy": false
+          },
+          {
+            "src": null,
+            "alt": "QR code for the same verified Apollo install link",
+            "width": 192,
+            "loaded": false,
+            "lazy": false
+          },
+          {
+            "src": "brand/ascending-blue/logo-light.svg",
+            "alt": "Apollo",
+            "width": 150,
+            "loaded": true,
+            "lazy": false
+          }
+        ],
+        "installHidden": true,
+        "qrHidden": true,
+        "allTopics": 0,
+        "allStorySteps": 0,
+        "videoChoices": 0,
+        "concept": null
+      }
+    }
+  ],
+  "practice320": {
+    "url": "http://127.0.0.1:4186/practice.html?topic=option&stage=0",
+    "width": 320,
+    "client": 320,
+    "scroll": 320,
+    "rows": [
+      {
+        "topic": "stock",
+        "action": "pass",
+        "stage": "0",
+        "quantity": null,
+        "name": null,
+        "detail": null,
+        "cost": null,
+        "cash": null,
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": null,
+        "errorVisible": false,
+        "confirm": false,
+        "decision": "Passed for now. This choice doesn\u2019t create a paper position. You can still investigate the idea.",
+        "points": []
+      },
+      {
+        "topic": "stock",
+        "action": "watch",
+        "stage": "0",
+        "quantity": null,
+        "name": null,
+        "detail": null,
+        "cost": null,
+        "cash": null,
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": null,
+        "errorVisible": false,
+        "confirm": false,
+        "decision": "Marked to revisit in this website session. Watching doesn\u2019t buy anything.",
+        "points": []
+      },
+      {
+        "topic": "stock",
+        "action": "investigate",
+        "stage": "1",
+        "quantity": null,
+        "name": null,
+        "detail": null,
+        "cost": null,
+        "cash": null,
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": null,
+        "errorVisible": false,
+        "confirm": false,
+        "decision": null,
+        "points": [
+          "The case: imagine revenue grew 8% in a fictional year.",
+          "The countercase: costs grew 12%; sales growth alone would not establish stronger profit.",
+          "The unanswered question: what price fairly reflects the business, its costs and future uncertainty?"
+        ]
+      },
+      {
+        "topic": "stock",
+        "action": "default",
+        "stage": "2",
+        "quantity": "10",
+        "name": "Example company",
+        "detail": "10 shares \u00d7 $100.00 per share",
+        "cost": "$1,000.00",
+        "cash": "$9,000.00",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "",
+        "errorVisible": false,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "stock",
+        "action": "edit3",
+        "stage": "2",
+        "quantity": "3",
+        "name": "Example company",
+        "detail": "3 shares \u00d7 $100.00 per share",
+        "cost": "$300.00",
+        "cash": "$9,700.00",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "",
+        "errorVisible": false,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "stock",
+        "action": "roundtrip3",
+        "stage": "2",
+        "quantity": "3",
+        "name": "Example company",
+        "detail": "3 shares \u00d7 $100.00 per share",
+        "cost": "$300.00",
+        "cash": "$9,700.00",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "",
+        "errorVisible": false,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "stock",
+        "action": "topicreturn3",
+        "stage": "2",
+        "quantity": "3",
+        "name": "Example company",
+        "detail": "3 shares \u00d7 $100.00 per share",
+        "cost": "$300.00",
+        "cash": "$9,700.00",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "",
+        "errorVisible": false,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "stock",
+        "action": "invalid:",
+        "stage": "2",
+        "quantity": "",
+        "name": "Example company",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "stock",
+        "action": "invalidreturn:",
+        "stage": "2",
+        "quantity": "",
+        "name": "Example company",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "stock",
+        "action": "invalid:0",
+        "stage": "2",
+        "quantity": "0",
+        "name": "Example company",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "stock",
+        "action": "invalidreturn:0",
+        "stage": "2",
+        "quantity": "0",
+        "name": "Example company",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "stock",
+        "action": "invalid:-1",
+        "stage": "2",
+        "quantity": "-1",
+        "name": "Example company",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "stock",
+        "action": "invalidreturn:-1",
+        "stage": "2",
+        "quantity": "-1",
+        "name": "Example company",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "stock",
+        "action": "invalid:1.5",
+        "stage": "2",
+        "quantity": "1.5",
+        "name": "Example company",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "stock",
+        "action": "invalidreturn:1.5",
+        "stage": "2",
+        "quantity": "1.5",
+        "name": "Example company",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "stock",
+        "action": "invalid:999999",
+        "stage": "2",
+        "quantity": "999999",
+        "name": "Example company",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "That costs more than the $10,000 paper balance. Try a smaller quantity.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "stock",
+        "action": "invalidreturn:999999",
+        "stage": "2",
+        "quantity": "999999",
+        "name": "Example company",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "That costs more than the $10,000 paper balance. Try a smaller quantity.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "stock",
+        "action": "invalid:9007199254740992",
+        "stage": "2",
+        "quantity": "9007199254740992",
+        "name": "Example company",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "stock",
+        "action": "invalidreturn:9007199254740992",
+        "stage": "2",
+        "quantity": "9007199254740992",
+        "name": "Example company",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "stock",
+        "action": "confirm3",
+        "stage": "2",
+        "quantity": null,
+        "name": null,
+        "detail": null,
+        "cost": null,
+        "cash": null,
+        "receipt": true,
+        "receiptCash": "$9,700.00",
+        "holdings": "$300.00",
+        "equity": "$10,000.00",
+        "error": null,
+        "errorVisible": false,
+        "confirm": false,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "stock",
+        "action": "revisit",
+        "stage": "2",
+        "quantity": null,
+        "name": null,
+        "detail": null,
+        "cost": null,
+        "cash": null,
+        "receipt": true,
+        "receiptCash": "$9,700.00",
+        "holdings": "$300.00",
+        "equity": "$10,000.00",
+        "error": null,
+        "errorVisible": false,
+        "confirm": false,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "stock",
+        "action": "reset",
+        "stage": "2",
+        "quantity": "10",
+        "name": "Example company",
+        "detail": "10 shares \u00d7 $100.00 per share",
+        "cost": "$1,000.00",
+        "cash": "$9,000.00",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "",
+        "errorVisible": false,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "stock",
+        "action": "exactbalance",
+        "stage": "2",
+        "quantity": null,
+        "name": null,
+        "detail": null,
+        "cost": null,
+        "cash": null,
+        "receipt": true,
+        "receiptCash": "$0.00",
+        "holdings": "$10,000.00",
+        "equity": "$10,000.00",
+        "error": null,
+        "errorVisible": false,
+        "confirm": false,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "pass",
+        "stage": "0",
+        "quantity": null,
+        "name": null,
+        "detail": null,
+        "cost": null,
+        "cash": null,
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": null,
+        "errorVisible": false,
+        "confirm": false,
+        "decision": "Passed for now. This choice doesn\u2019t create a paper position. You can still investigate the idea.",
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "watch",
+        "stage": "0",
+        "quantity": null,
+        "name": null,
+        "detail": null,
+        "cost": null,
+        "cash": null,
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": null,
+        "errorVisible": false,
+        "confirm": false,
+        "decision": "Marked to revisit in this website session. Watching doesn\u2019t buy anything.",
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "investigate",
+        "stage": "1",
+        "quantity": null,
+        "name": null,
+        "detail": null,
+        "cost": null,
+        "cash": null,
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": null,
+        "errorVisible": false,
+        "confirm": false,
+        "decision": null,
+        "points": [
+          "The holdings: this fictional basket contains 20 companies.",
+          "The concentration: its three largest holdings account for 45% of the basket.",
+          "The risk: a fall in those three can meaningfully affect the whole basket, despite its 20 names."
+        ]
+      },
+      {
+        "topic": "etf",
+        "action": "default",
+        "stage": "2",
+        "quantity": "10",
+        "name": "Sample market basket",
+        "detail": "10 shares \u00d7 $50.00 per share",
+        "cost": "$500.00",
+        "cash": "$9,500.00",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "",
+        "errorVisible": false,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "edit3",
+        "stage": "2",
+        "quantity": "3",
+        "name": "Sample market basket",
+        "detail": "3 shares \u00d7 $50.00 per share",
+        "cost": "$150.00",
+        "cash": "$9,850.00",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "",
+        "errorVisible": false,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "roundtrip3",
+        "stage": "2",
+        "quantity": "3",
+        "name": "Sample market basket",
+        "detail": "3 shares \u00d7 $50.00 per share",
+        "cost": "$150.00",
+        "cash": "$9,850.00",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "",
+        "errorVisible": false,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "topicreturn3",
+        "stage": "2",
+        "quantity": "3",
+        "name": "Sample market basket",
+        "detail": "3 shares \u00d7 $50.00 per share",
+        "cost": "$150.00",
+        "cash": "$9,850.00",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "",
+        "errorVisible": false,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "invalid:",
+        "stage": "2",
+        "quantity": "",
+        "name": "Sample market basket",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "invalidreturn:",
+        "stage": "2",
+        "quantity": "",
+        "name": "Sample market basket",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "invalid:0",
+        "stage": "2",
+        "quantity": "0",
+        "name": "Sample market basket",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "invalidreturn:0",
+        "stage": "2",
+        "quantity": "0",
+        "name": "Sample market basket",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "invalid:-1",
+        "stage": "2",
+        "quantity": "-1",
+        "name": "Sample market basket",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "invalidreturn:-1",
+        "stage": "2",
+        "quantity": "-1",
+        "name": "Sample market basket",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "invalid:1.5",
+        "stage": "2",
+        "quantity": "1.5",
+        "name": "Sample market basket",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "invalidreturn:1.5",
+        "stage": "2",
+        "quantity": "1.5",
+        "name": "Sample market basket",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "invalid:999999",
+        "stage": "2",
+        "quantity": "999999",
+        "name": "Sample market basket",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "That costs more than the $10,000 paper balance. Try a smaller quantity.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "invalidreturn:999999",
+        "stage": "2",
+        "quantity": "999999",
+        "name": "Sample market basket",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "That costs more than the $10,000 paper balance. Try a smaller quantity.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "invalid:9007199254740992",
+        "stage": "2",
+        "quantity": "9007199254740992",
+        "name": "Sample market basket",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "invalidreturn:9007199254740992",
+        "stage": "2",
+        "quantity": "9007199254740992",
+        "name": "Sample market basket",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "confirm3",
+        "stage": "2",
+        "quantity": null,
+        "name": null,
+        "detail": null,
+        "cost": null,
+        "cash": null,
+        "receipt": true,
+        "receiptCash": "$9,850.00",
+        "holdings": "$150.00",
+        "equity": "$10,000.00",
+        "error": null,
+        "errorVisible": false,
+        "confirm": false,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "revisit",
+        "stage": "2",
+        "quantity": null,
+        "name": null,
+        "detail": null,
+        "cost": null,
+        "cash": null,
+        "receipt": true,
+        "receiptCash": "$9,850.00",
+        "holdings": "$150.00",
+        "equity": "$10,000.00",
+        "error": null,
+        "errorVisible": false,
+        "confirm": false,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "reset",
+        "stage": "2",
+        "quantity": "10",
+        "name": "Sample market basket",
+        "detail": "10 shares \u00d7 $50.00 per share",
+        "cost": "$500.00",
+        "cash": "$9,500.00",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "",
+        "errorVisible": false,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "etf",
+        "action": "exactbalance",
+        "stage": "2",
+        "quantity": null,
+        "name": null,
+        "detail": null,
+        "cost": null,
+        "cash": null,
+        "receipt": true,
+        "receiptCash": "$0.00",
+        "holdings": "$10,000.00",
+        "equity": "$10,000.00",
+        "error": null,
+        "errorVisible": false,
+        "confirm": false,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "pass",
+        "stage": "0",
+        "quantity": null,
+        "name": null,
+        "detail": null,
+        "cost": null,
+        "cash": null,
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": null,
+        "errorVisible": false,
+        "confirm": false,
+        "decision": "Passed for now. This choice doesn\u2019t create a paper position. You can still investigate the idea.",
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "watch",
+        "stage": "0",
+        "quantity": null,
+        "name": null,
+        "detail": null,
+        "cost": null,
+        "cash": null,
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": null,
+        "errorVisible": false,
+        "confirm": false,
+        "decision": "Marked to revisit in this website session. Watching doesn\u2019t buy anything.",
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "investigate",
+        "stage": "1",
+        "quantity": null,
+        "name": null,
+        "detail": null,
+        "cost": null,
+        "cash": null,
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": null,
+        "errorVisible": false,
+        "confirm": false,
+        "decision": null,
+        "points": [
+          "The multiplier: one contract in this example represents 100 units.",
+          "The terms: strike price and expiration affect what the contract means.",
+          "The downside: a long option can lose the entire premium paid."
+        ]
+      },
+      {
+        "topic": "option",
+        "action": "default",
+        "stage": "2",
+        "quantity": "1",
+        "name": "Sample call contract",
+        "detail": "1 contract \u00d7 $5.00 \u00d7 100 units",
+        "cost": "$500.00",
+        "cash": "$9,500.00",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "",
+        "errorVisible": false,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "edit3",
+        "stage": "2",
+        "quantity": "3",
+        "name": "Sample call contract",
+        "detail": "3 contracts \u00d7 $5.00 \u00d7 100 units",
+        "cost": "$1,500.00",
+        "cash": "$8,500.00",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "",
+        "errorVisible": false,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "roundtrip3",
+        "stage": "2",
+        "quantity": "3",
+        "name": "Sample call contract",
+        "detail": "3 contracts \u00d7 $5.00 \u00d7 100 units",
+        "cost": "$1,500.00",
+        "cash": "$8,500.00",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "",
+        "errorVisible": false,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "topicreturn3",
+        "stage": "2",
+        "quantity": "3",
+        "name": "Sample call contract",
+        "detail": "3 contracts \u00d7 $5.00 \u00d7 100 units",
+        "cost": "$1,500.00",
+        "cash": "$8,500.00",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "",
+        "errorVisible": false,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "invalid:",
+        "stage": "2",
+        "quantity": "",
+        "name": "Sample call contract",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "invalidreturn:",
+        "stage": "2",
+        "quantity": "",
+        "name": "Sample call contract",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "invalid:0",
+        "stage": "2",
+        "quantity": "0",
+        "name": "Sample call contract",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "invalidreturn:0",
+        "stage": "2",
+        "quantity": "0",
+        "name": "Sample call contract",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "invalid:-1",
+        "stage": "2",
+        "quantity": "-1",
+        "name": "Sample call contract",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "invalidreturn:-1",
+        "stage": "2",
+        "quantity": "-1",
+        "name": "Sample call contract",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "invalid:1.5",
+        "stage": "2",
+        "quantity": "1.5",
+        "name": "Sample call contract",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "invalidreturn:1.5",
+        "stage": "2",
+        "quantity": "1.5",
+        "name": "Sample call contract",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "invalid:999999",
+        "stage": "2",
+        "quantity": "999999",
+        "name": "Sample call contract",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "That costs more than the $10,000 paper balance. Try a smaller quantity.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "invalidreturn:999999",
+        "stage": "2",
+        "quantity": "999999",
+        "name": "Sample call contract",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "That costs more than the $10,000 paper balance. Try a smaller quantity.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "invalid:9007199254740992",
+        "stage": "2",
+        "quantity": "9007199254740992",
+        "name": "Sample call contract",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "invalidreturn:9007199254740992",
+        "stage": "2",
+        "quantity": "9007199254740992",
+        "name": "Sample call contract",
+        "detail": "Enter a valid quantity above to review the cost.",
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "Enter a whole number of at least 1.",
+        "errorVisible": true,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "confirm3",
+        "stage": "2",
+        "quantity": null,
+        "name": null,
+        "detail": null,
+        "cost": null,
+        "cash": null,
+        "receipt": true,
+        "receiptCash": "$8,500.00",
+        "holdings": "$1,500.00",
+        "equity": "$10,000.00",
+        "error": null,
+        "errorVisible": false,
+        "confirm": false,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "revisit",
+        "stage": "2",
+        "quantity": null,
+        "name": null,
+        "detail": null,
+        "cost": null,
+        "cash": null,
+        "receipt": true,
+        "receiptCash": "$8,500.00",
+        "holdings": "$1,500.00",
+        "equity": "$10,000.00",
+        "error": null,
+        "errorVisible": false,
+        "confirm": false,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "reset",
+        "stage": "2",
+        "quantity": "1",
+        "name": "Sample call contract",
+        "detail": "1 contract \u00d7 $5.00 \u00d7 100 units",
+        "cost": "$500.00",
+        "cash": "$9,500.00",
+        "receipt": false,
+        "receiptCash": null,
+        "holdings": null,
+        "equity": null,
+        "error": "",
+        "errorVisible": false,
+        "confirm": true,
+        "decision": null,
+        "points": []
+      },
+      {
+        "topic": "option",
+        "action": "exactbalance",
+        "stage": "2",
+        "quantity": null,
+        "name": null,
+        "detail": null,
+        "cost": null,
+        "cash": null,
+        "receipt": true,
+        "receiptCash": "$0.00",
+        "holdings": "$10,000.00",
+        "equity": "$10,000.00",
+        "error": null,
+        "errorVisible": false,
+        "confirm": false,
+        "decision": null,
+        "points": []
+      }
+    ],
+    "links": [
+      {
+        "label": "Skip to content",
+        "target": "#main",
+        "exists": true
+      }
+    ],
+    "logo": "brand/ascending-blue/logo-light.svg",
+    "canvas": "rgb(244, 247, 255)",
+    "accent": "#3268DF"
+  },
+  "hero320": {
+    "rows": [
+      {
+        "action": "pass",
+        "heading": "Passed for now.",
+        "receipt": false,
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "watch",
+        "heading": "Kept on your radar.",
+        "receipt": false,
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "review:preview",
+        "heading": "Review the choice.",
+        "receipt": false,
+        "error": "",
+        "errorHidden": true,
+        "cost": "$248.00",
+        "cash": "$9,752.00",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "review:invalid:#hero-quantity:0",
+        "heading": "Review the choice.",
+        "receipt": false,
+        "error": "Use a whole quantity from 1 to 10,000.",
+        "errorHidden": false,
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "review:invalid:#hero-quantity:1.5",
+        "heading": "Review the choice.",
+        "receipt": false,
+        "error": "Use a whole quantity from 1 to 10,000.",
+        "errorHidden": false,
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "review:invalid:#hero-price:0",
+        "heading": "Review the choice.",
+        "receipt": false,
+        "error": "Enter a positive price with at most two decimal places.",
+        "errorHidden": false,
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "review:invalid:#hero-price:1.001",
+        "heading": "Review the choice.",
+        "receipt": false,
+        "error": "Enter a positive price with at most two decimal places.",
+        "errorHidden": false,
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "review:confirmed",
+        "heading": "Paper choice confirmed.",
+        "receipt": true,
+        "holding": "$248.00",
+        "pnl": "$0.00 (0%)",
+        "summary": "Entry cost\n$248.00\nEntry source\nWebsite paper fill\nFees\nExcluded\nPaper cash remaining\n$9,752.00",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "review:up",
+        "heading": "Paper choice confirmed.",
+        "receipt": true,
+        "holding": "$272.80",
+        "pnl": "$24.80 (+10.0%)",
+        "summary": "Entry cost\n$248.00\nEntry source\nWebsite paper fill\nFees\nExcluded\nPaper cash remaining\n$9,752.00",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "review:down",
+        "heading": "Paper choice confirmed.",
+        "receipt": true,
+        "holding": "$223.20",
+        "pnl": "-$24.80 (-10.0%)",
+        "summary": "Entry cost\n$248.00\nEntry source\nWebsite paper fill\nFees\nExcluded\nPaper cash remaining\n$9,752.00",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "review:flat",
+        "heading": "Paper choice confirmed.",
+        "receipt": true,
+        "holding": "$248.00",
+        "pnl": "$0.00 (0.0%)",
+        "summary": "Entry cost\n$248.00\nEntry source\nWebsite paper fill\nFees\nExcluded\nPaper cash remaining\n$9,752.00",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "agent:preview",
+        "heading": "Review the choice.",
+        "receipt": false,
+        "error": "",
+        "errorHidden": true,
+        "cost": "$248.00",
+        "cash": "$0.00",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "agent:invalid:#hero-quantity:0",
+        "heading": "Review the choice.",
+        "receipt": false,
+        "error": "Use a whole quantity from 1 to 10,000.",
+        "errorHidden": false,
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "agent:invalid:#hero-quantity:1.5",
+        "heading": "Review the choice.",
+        "receipt": false,
+        "error": "Use a whole quantity from 1 to 10,000.",
+        "errorHidden": false,
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "agent:invalid:#hero-price:0",
+        "heading": "Review the choice.",
+        "receipt": false,
+        "error": "Enter a positive price with at most two decimal places.",
+        "errorHidden": false,
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "agent:invalid:#hero-price:1.001",
+        "heading": "Review the choice.",
+        "receipt": false,
+        "error": "Enter a positive price with at most two decimal places.",
+        "errorHidden": false,
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "agent:invalid:funding",
+        "heading": "Review the choice.",
+        "receipt": false,
+        "error": "Enter a USD funding illustration above $2, with at most two decimal places.",
+        "errorHidden": false,
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "agent:confirmed",
+        "heading": "Paper choice confirmed.",
+        "receipt": true,
+        "holding": "$248.00",
+        "pnl": "$0.00 (0%)",
+        "summary": "Entry cost\n$248.00\nEntry source\nSimulated agent\nFees\n$2 conversion\nPaper cash remaining\n$0.00",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "agent:up",
+        "heading": "Paper choice confirmed.",
+        "receipt": true,
+        "holding": "$272.80",
+        "pnl": "$24.80 (+10.0%)",
+        "summary": "Entry cost\n$248.00\nEntry source\nSimulated agent\nFees\n$2 conversion\nPaper cash remaining\n$0.00",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "agent:down",
+        "heading": "Paper choice confirmed.",
+        "receipt": true,
+        "holding": "$223.20",
+        "pnl": "-$24.80 (-10.0%)",
+        "summary": "Entry cost\n$248.00\nEntry source\nSimulated agent\nFees\n$2 conversion\nPaper cash remaining\n$0.00",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "agent:flat",
+        "heading": "Paper choice confirmed.",
+        "receipt": true,
+        "holding": "$248.00",
+        "pnl": "$0.00 (0.0%)",
+        "summary": "Entry cost\n$248.00\nEntry source\nSimulated agent\nFees\n$2 conversion\nPaper cash remaining\n$0.00",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "manual:preview",
+        "heading": "Review the choice.",
+        "receipt": false,
+        "error": "",
+        "errorHidden": true,
+        "cost": "$248.00",
+        "cash": "$9,752.00",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "manual:invalid:#hero-quantity:0",
+        "heading": "Review the choice.",
+        "receipt": false,
+        "error": "Use a whole quantity from 1 to 10,000.",
+        "errorHidden": false,
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "manual:invalid:#hero-quantity:1.5",
+        "heading": "Review the choice.",
+        "receipt": false,
+        "error": "Use a whole quantity from 1 to 10,000.",
+        "errorHidden": false,
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "manual:invalid:#hero-price:0",
+        "heading": "Review the choice.",
+        "receipt": false,
+        "error": "Enter a positive price with at most two decimal places.",
+        "errorHidden": false,
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "manual:invalid:#hero-price:1.001",
+        "heading": "Review the choice.",
+        "receipt": false,
+        "error": "Enter a positive price with at most two decimal places.",
+        "errorHidden": false,
+        "cost": "\u2014",
+        "cash": "\u2014",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "manual:confirmed",
+        "heading": "Paper choice confirmed.",
+        "receipt": true,
+        "holding": "$248.00",
+        "pnl": "$0.00 (0%)",
+        "summary": "Entry cost\n$248.00\nEntry source\nWebsite paper fill\nFees\nExcluded\nPaper cash remaining\n$9,752.00",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "manual:up",
+        "heading": "Paper choice confirmed.",
+        "receipt": true,
+        "holding": "$272.80",
+        "pnl": "$24.80 (+10.0%)",
+        "summary": "Entry cost\n$248.00\nEntry source\nWebsite paper fill\nFees\nExcluded\nPaper cash remaining\n$9,752.00",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "manual:down",
+        "heading": "Paper choice confirmed.",
+        "receipt": true,
+        "holding": "$223.20",
+        "pnl": "-$24.80 (-10.0%)",
+        "summary": "Entry cost\n$248.00\nEntry source\nWebsite paper fill\nFees\nExcluded\nPaper cash remaining\n$9,752.00",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "manual:flat",
+        "heading": "Paper choice confirmed.",
+        "receipt": true,
+        "holding": "$248.00",
+        "pnl": "$0.00 (0.0%)",
+        "summary": "Entry cost\n$248.00\nEntry source\nWebsite paper fill\nFees\nExcluded\nPaper cash remaining\n$9,752.00",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "record:invaliddate",
+        "heading": "Review the choice.",
+        "receipt": false,
+        "error": "Enter a valid example entry date no later than October 17, 2026.",
+        "errorHidden": false,
+        "cost": "\u2014",
+        "cash": "Unknown",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "record:confirmed",
+        "heading": "Example recorded.",
+        "receipt": true,
+        "holding": "$248.00",
+        "pnl": "$0.00 (0%)",
+        "summary": "Entry cost\n$248.00\nEntry source\nManual / unverified\nFees\nUnknown\nExample entry date\n2026-10-17",
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "action": "cancel:no-fill",
+        "heading": "Example Co.",
+        "receipt": false,
+        "concept": "CONCEPT \u00b7 SIMULATED\nNO REAL MONEY",
+        "width": 320,
+        "scroll": 320
+      }
+    ],
+    "url": "http://127.0.0.1:4186/",
+    "buttons": [
+      {
+        "name": "\u00d7\nPass",
+        "height": 61
+      },
+      {
+        "name": "\u25c7\nWatch",
+        "height": 61
+      },
+      {
+        "name": "\u2197\nReview",
+        "height": 61
+      },
+      {
+        "name": "\u2726\nSimulate agent",
+        "height": 61
+      },
+      {
+        "name": "Edit amount / price",
+        "height": 44
+      },
+      {
+        "name": "Enter a trade manually",
+        "height": 44
+      }
+    ],
+    "networkOrders": "NO_APP_ENDPOINTS_IN_SOURCE"
+  },
+  "storyDesktop": {
+    "frames": [
+      {
+        "at": 0,
+        "active": "flow-1",
+        "opacity": "0",
+        "transform": "matrix(0.98, 0, 0, 0.98, 0, 24)",
+        "progress": "matrix(0.25, 0, 0, 1, 0, 0)",
+        "reduce": "false"
+      },
+      {
+        "at": 70,
+        "active": "flow-1",
+        "opacity": "0.441009",
+        "transform": "matrix(0.987009, 0, 0, 0.987009, 0, 15.5891)",
+        "progress": "matrix(0.337613, 0, 0, 1, 0, 0)",
+        "reduce": "false"
+      },
+      {
+        "at": 330,
+        "active": "flow-1",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "progress": "matrix(0.5, 0, 0, 1, 0, 0)",
+        "reduce": "false"
+      }
+    ],
+    "interrupted": {
+      "active": "flow-3",
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "progress": "matrix(1, 0, 0, 1, 0, 0)",
+      "reduce": "false"
+    },
+    "basket": {
+      "name": "Sample market basket",
+      "cost": "$150.00",
+      "cash": "$9,850.00",
+      "href": "practice.html?topic=etf&stage=0"
+    },
+    "reduced": {
+      "active": "flow-2",
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "progress": "matrix(0.75, 0, 0, 1, 0, 0)",
+      "reduce": "true",
+      "transition": "0s"
+    },
+    "bounds": [
+      {
+        "id": "flow-0",
+        "client": 488,
+        "scroll": 488,
+        "clipped": false
+      },
+      {
+        "id": "flow-1",
+        "client": 488,
+        "scroll": 488,
+        "clipped": false
+      },
+      {
+        "id": "flow-2",
+        "client": 488,
+        "scroll": 488,
+        "clipped": false
+      },
+      {
+        "id": "flow-3",
+        "client": 488,
+        "scroll": 488,
+        "clipped": false
+      }
+    ],
+    "inertInactive": true,
+    "layers": [
+      {
+        "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 0)",
+        "z": "-2"
+      },
+      {
+        "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)",
+        "z": "-1"
+      }
+    ],
+    "viewport": {
+      "inner": 1512,
+      "client": 1512,
+      "scroll": 1512
+    }
+  },
+  "stories": {
+    "320": {
+      "frames": [
+        {
+          "at": 0,
+          "active": "flow-1",
+          "opacity": "0",
+          "transform": "matrix(0.98, 0, 0, 0.98, 0, 24)",
+          "progress": "matrix(0.25, 0, 0, 1, 0, 0)",
+          "reduce": "false"
+        },
+        {
+          "at": 70,
+          "active": "flow-1",
+          "opacity": "0.441078",
+          "transform": "matrix(0.98701, 0, 0, 0.98701, 0, 15.5876)",
+          "progress": "matrix(0.337629, 0, 0, 1, 0, 0)",
+          "reduce": "false"
+        },
+        {
+          "at": 330,
+          "active": "flow-1",
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "progress": "matrix(0.5, 0, 0, 1, 0, 0)",
+          "reduce": "false"
+        }
+      ],
+      "interrupted": {
+        "active": "flow-3",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "progress": "matrix(1, 0, 0, 1, 0, 0)",
+        "reduce": "false"
+      },
+      "basket": {
+        "name": "Sample market basket",
+        "cost": "$150.00",
+        "cash": "$9,850.00",
+        "href": "practice.html?topic=etf&stage=0"
+      },
+      "reduced": {
+        "active": "flow-2",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "progress": "matrix(0.75, 0, 0, 1, 0, 0)",
+        "reduce": "true",
+        "transition": "0s"
+      },
+      "bounds": [
+        {
+          "id": "flow-0",
+          "client": 533,
+          "scroll": 533,
+          "clipped": false
+        },
+        {
+          "id": "flow-1",
+          "client": 533,
+          "scroll": 533,
+          "clipped": false
+        },
+        {
+          "id": "flow-2",
+          "client": 533,
+          "scroll": 533,
+          "clipped": false
+        },
+        {
+          "id": "flow-3",
+          "client": 533,
+          "scroll": 533,
+          "clipped": false
+        }
+      ],
+      "inertInactive": true,
+      "layers": [
+        {
+          "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)",
+          "z": "-2"
+        },
+        {
+          "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)",
+          "z": "-1"
+        }
+      ],
+      "viewport": {
+        "inner": 320,
+        "client": 320,
+        "scroll": 320
+      }
+    },
+    "390": {
+      "frames": [
+        {
+          "at": 0,
+          "active": "flow-1",
+          "opacity": "0",
+          "transform": "matrix(0.98, 0, 0, 0.98, 0, 24)",
+          "progress": "matrix(0.25, 0, 0, 1, 0, 0)",
+          "reduce": "false"
+        },
+        {
+          "at": 70,
+          "active": "flow-1",
+          "opacity": "0.448099",
+          "transform": "matrix(0.987137, 0, 0, 0.987137, 0, 15.436)",
+          "progress": "matrix(0.339208, 0, 0, 1, 0, 0)",
+          "reduce": "false"
+        },
+        {
+          "at": 330,
+          "active": "flow-1",
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "progress": "matrix(0.5, 0, 0, 1, 0, 0)",
+          "reduce": "false"
+        }
+      ],
+      "interrupted": {
+        "active": "flow-3",
+        "opacity": "0.999855",
+        "transform": "matrix(0.999665, 0, 0, 0.999665, 0, 0.402043)",
+        "progress": "matrix(1, 0, 0, 1, 0, 0)",
+        "reduce": "false"
+      },
+      "basket": {
+        "name": "Sample market basket",
+        "cost": "$150.00",
+        "cash": "$9,850.00",
+        "href": "practice.html?topic=etf&stage=0"
+      },
+      "reduced": {
+        "active": "flow-2",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "progress": "matrix(0.75, 0, 0, 1, 0, 0)",
+        "reduce": "true",
+        "transition": "0s"
+      },
+      "bounds": [
+        {
+          "id": "flow-0",
+          "client": 483,
+          "scroll": 483,
+          "clipped": false
+        },
+        {
+          "id": "flow-1",
+          "client": 483,
+          "scroll": 483,
+          "clipped": false
+        },
+        {
+          "id": "flow-2",
+          "client": 483,
+          "scroll": 483,
+          "clipped": false
+        },
+        {
+          "id": "flow-3",
+          "client": 483,
+          "scroll": 497,
+          "clipped": true
+        }
+      ],
+      "inertInactive": true,
+      "layers": [
+        {
+          "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)",
+          "z": "-2"
+        },
+        {
+          "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)",
+          "z": "-1"
+        }
+      ],
+      "viewport": {
+        "inner": 390,
+        "client": 390,
+        "scroll": 390
+      }
+    },
+    "768": {
+      "frames": [
+        {
+          "at": 0,
+          "active": "flow-1",
+          "opacity": "0",
+          "transform": "matrix(0.98, 0, 0, 0.98, 0, 24)",
+          "progress": "matrix(0.25, 0, 0, 1, 0, 0)",
+          "reduce": "false"
+        },
+        {
+          "at": 70,
+          "active": "flow-1",
+          "opacity": "0.442004",
+          "transform": "matrix(0.987027, 0, 0, 0.987027, 0, 15.5677)",
+          "progress": "matrix(0.337837, 0, 0, 1, 0, 0)",
+          "reduce": "false"
+        },
+        {
+          "at": 330,
+          "active": "flow-1",
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "progress": "matrix(0.5, 0, 0, 1, 0, 0)",
+          "reduce": "false"
+        }
+      ],
+      "interrupted": {
+        "active": "flow-3",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "progress": "matrix(1, 0, 0, 1, 0, 0)",
+        "reduce": "false"
+      },
+      "basket": {
+        "name": "Sample market basket",
+        "cost": "$150.00",
+        "cash": "$9,850.00",
+        "href": "practice.html?topic=etf&stage=0"
+      },
+      "reduced": {
+        "active": "flow-2",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "progress": "matrix(0.75, 0, 0, 1, 0, 0)",
+        "reduce": "true",
+        "transition": "0s"
+      },
+      "bounds": [
+        {
+          "id": "flow-0",
+          "client": 508,
+          "scroll": 508,
+          "clipped": false
+        },
+        {
+          "id": "flow-1",
+          "client": 508,
+          "scroll": 508,
+          "clipped": false
+        },
+        {
+          "id": "flow-2",
+          "client": 508,
+          "scroll": 508,
+          "clipped": false
+        },
+        {
+          "id": "flow-3",
+          "client": 508,
+          "scroll": 525,
+          "clipped": true
+        }
+      ],
+      "inertInactive": true,
+      "layers": [
+        {
+          "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 0)",
+          "z": "-2"
+        },
+        {
+          "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)",
+          "z": "-1"
+        }
+      ],
+      "viewport": {
+        "inner": 768,
+        "client": 768,
+        "scroll": 768
+      }
+    },
+    "1440": {
+      "frames": [
+        {
+          "at": 0,
+          "active": "flow-1",
+          "opacity": "0",
+          "transform": "matrix(0.98, 0, 0, 0.98, 0, 24)",
+          "progress": "matrix(0.25, 0, 0, 1, 0, 0)",
+          "reduce": "false"
+        },
+        {
+          "at": 70,
+          "active": "flow-1",
+          "opacity": "0.442336",
+          "transform": "matrix(0.987033, 0, 0, 0.987033, 0, 15.5605)",
+          "progress": "matrix(0.337911, 0, 0, 1, 0, 0)",
+          "reduce": "false"
+        },
+        {
+          "at": 330,
+          "active": "flow-1",
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "progress": "matrix(0.5, 0, 0, 1, 0, 0)",
+          "reduce": "false"
+        }
+      ],
+      "interrupted": {
+        "active": "flow-3",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "progress": "matrix(1, 0, 0, 1, 0, 0)",
+        "reduce": "false"
+      },
+      "basket": {
+        "name": "Sample market basket",
+        "cost": "$150.00",
+        "cash": "$9,850.00",
+        "href": "practice.html?topic=etf&stage=0"
+      },
+      "reduced": {
+        "active": "flow-2",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "progress": "matrix(0.75, 0, 0, 1, 0, 0)",
+        "reduce": "true",
+        "transition": "0s"
+      },
+      "bounds": [
+        {
+          "id": "flow-0",
+          "client": 488,
+          "scroll": 488,
+          "clipped": false
+        },
+        {
+          "id": "flow-1",
+          "client": 488,
+          "scroll": 488,
+          "clipped": false
+        },
+        {
+          "id": "flow-2",
+          "client": 488,
+          "scroll": 488,
+          "clipped": false
+        },
+        {
+          "id": "flow-3",
+          "client": 488,
+          "scroll": 488,
+          "clipped": false
+        }
+      ],
+      "inertInactive": true,
+      "layers": [
+        {
+          "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 0)",
+          "z": "-2"
+        },
+        {
+          "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)",
+          "z": "-1"
+        }
+      ],
+      "viewport": {
+        "inner": 1440,
+        "client": 1440,
+        "scroll": 1440
+      }
+    }
+  },
+  "practiceBack": {
+    "url": "http://127.0.0.1:4186/practice.html?topic=stock&stage=2",
+    "stage": "2",
+    "q": "3",
+    "cost": "$300.00",
+    "receipt": false
+  },
+  "practiceReload": {
+    "stageOnReload": "0",
+    "q": "10",
+    "cost": "$1,000.00",
+    "receipt": false
+  },
+  "video390": {
+    "url": "http://127.0.0.1:4186/demo.html?media-check=2",
+    "videos": [
+      {
+        "src": "assets/apollo-laptop.mp4",
+        "duration": 89.021354,
+        "width": 1920,
+        "height": 1080,
+        "played": true,
+        "error": null,
+        "controls": true,
+        "playsInline": true,
+        "samples": [
+          {
+            "target": 17.8042708,
+            "actual": 17.80427,
+            "ready": 4,
+            "error": null
+          },
+          {
+            "target": 53.4128124,
+            "actual": 53.412812,
+            "ready": 4,
+            "error": null
+          },
+          {
+            "target": 88.521354,
+            "actual": 88.521354,
+            "ready": 4,
+            "error": null
+          }
+        ]
+      },
+      {
+        "src": "assets/apollo-phone.mp4",
+        "duration": 60.021354,
+        "width": 886,
+        "height": 1920,
+        "played": true,
+        "error": null,
+        "controls": true,
+        "playsInline": true,
+        "samples": [
+          {
+            "target": 12.0042708,
+            "actual": 12.00427,
+            "ready": 4,
+            "error": null
+          },
+          {
+            "target": 36.0128124,
+            "actual": 36.012812,
+            "ready": 4,
+            "error": null
+          },
+          {
+            "target": 59.521354,
+            "actual": 59.521354,
+            "ready": 4,
+            "error": null
+          }
+        ]
+      }
+    ],
+    "choices": 2,
+    "visibleChoices": true,
+    "publicUnavailable": true,
+    "width": 390,
+    "scroll": 390
+  },
+  "pointer": {
+    "actualPointerDrag": "card to left headline",
+    "passed": true,
+    "receipt": false,
+    "url": "http://127.0.0.1:4186/"
+  },
+  "keyboard": {
+    "keyboard": "ArrowLeft",
+    "pass": true,
+    "receipt": false
+  },
+  "fixedStoryLayouts": [
+    {
+      "width": 320,
+      "result": {
+        "width": 320,
+        "root": 320,
+        "scroll": 320,
+        "rows": [
+          {
+            "id": "flow-0",
+            "height": 553,
+            "scroll": 553,
+            "clipped": false
+          },
+          {
+            "id": "flow-1",
+            "height": 553,
+            "scroll": 553,
+            "clipped": false
+          },
+          {
+            "id": "flow-2",
+            "height": 553,
+            "scroll": 553,
+            "clipped": false
+          },
+          {
+            "id": "flow-3",
+            "height": 553,
+            "scroll": 553,
+            "clipped": false
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "result": {
+        "width": 390,
+        "root": 390,
+        "scroll": 390,
+        "rows": [
+          {
+            "id": "flow-0",
+            "height": 553,
+            "scroll": 553,
+            "clipped": false
+          },
+          {
+            "id": "flow-1",
+            "height": 553,
+            "scroll": 553,
+            "clipped": false
+          },
+          {
+            "id": "flow-2",
+            "height": 553,
+            "scroll": 553,
+            "clipped": false
+          },
+          {
+            "id": "flow-3",
+            "height": 553,
+            "scroll": 553,
+            "clipped": false
+          }
+        ]
+      }
+    },
+    {
+      "width": 768,
+      "result": {
+        "width": 768,
+        "root": 768,
+        "scroll": 768,
+        "rows": [
+          {
+            "id": "flow-0",
+            "height": 553,
+            "scroll": 553,
+            "clipped": false
+          },
+          {
+            "id": "flow-1",
+            "height": 553,
+            "scroll": 553,
+            "clipped": false
+          },
+          {
+            "id": "flow-2",
+            "height": 553,
+            "scroll": 553,
+            "clipped": false
+          },
+          {
+            "id": "flow-3",
+            "height": 553,
+            "scroll": 553,
+            "clipped": false
+          }
+        ]
+      }
+    }
+  ],
+  "guideNormal": {
+    "reduced": "false",
+    "samples": [
+      {
+        "t": 0,
+        "phase": "ready",
+        "index": "1",
+        "transform": "none",
+        "cue": null,
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 94,
+        "phase": "ready",
+        "index": "1",
+        "transform": "none",
+        "cue": null,
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 185,
+        "phase": "ready",
+        "index": "1",
+        "transform": "none",
+        "cue": null,
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 276,
+        "phase": "ready",
+        "index": "1",
+        "transform": "none",
+        "cue": null,
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 502,
+        "phase": "motion",
+        "index": "1",
+        "direction": "left",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "cue": "\u2190\nPass for now\nNo position. No money used.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 593,
+        "phase": "motion",
+        "index": "1",
+        "direction": "left",
+        "transform": "matrix(0.998448, -0.0556867, 0.0556867, 0.998448, -45.9686, 0)",
+        "cue": "\u2190\nPass for now\nNo position. No money used.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 689,
+        "phase": "motion",
+        "index": "1",
+        "direction": "left",
+        "transform": "matrix(0.997361, -0.0725972, 0.0725972, 0.997361, -59.9497, 0)",
+        "cue": "\u2190\nPass for now\nNo position. No money used.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 783,
+        "phase": "motion",
+        "index": "1",
+        "direction": "left",
+        "transform": "matrix(0.996625, -0.0820845, 0.0820845, 0.996625, -67.8009, 0)",
+        "cue": "\u2190\nPass for now\nNo position. No money used.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 874,
+        "phase": "motion",
+        "index": "1",
+        "direction": "left",
+        "transform": "matrix(0.996311, -0.0858191, 0.0858191, 0.996311, -70.893, 0)",
+        "cue": "\u2190\nPass for now\nNo position. No money used.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 966,
+        "phase": "motion",
+        "index": "1",
+        "direction": "left",
+        "transform": "matrix(0.9962, -0.0870937, 0.0870937, 0.9962, -71.9486, 0)",
+        "cue": "\u2190\nPass for now\nNo position. No money used.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 1112,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 1207,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 1299,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 1390,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 1481,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 1572,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 1663,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 1763,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 1875,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 1974,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2065,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2156,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2247,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2338,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2431,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2522,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2614,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2705,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2797,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2890,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2982,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 3351,
+        "phase": "ready",
+        "index": "2",
+        "direction": "left",
+        "transform": "none",
+        "cue": null,
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 3456,
+        "phase": "motion",
+        "index": "2",
+        "direction": "right",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "cue": "\u2192\nReview the investment\nCheck quantity, cost, cash and risk.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 3588,
+        "phase": "motion",
+        "index": "2",
+        "direction": "right",
+        "transform": "matrix(0.998316, 0.0580119, -0.0580119, 0.998316, 47.8902, 0)",
+        "cue": "\u2192\nReview the investment\nCheck quantity, cost, cash and risk.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 3680,
+        "phase": "motion",
+        "index": "2",
+        "direction": "right",
+        "transform": "matrix(0.997284, 0.0736552, -0.0736552, 0.997284, 60.825, 0)",
+        "cue": "\u2192\nReview the investment\nCheck quantity, cost, cash and risk.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 3776,
+        "phase": "motion",
+        "index": "2",
+        "direction": "right",
+        "transform": "matrix(0.996592, 0.0824918, -0.0824918, 0.996592, 68.1381, 0)",
+        "cue": "\u2192\nReview the investment\nCheck quantity, cost, cash and risk.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 3867,
+        "phase": "motion",
+        "index": "2",
+        "direction": "right",
+        "transform": "matrix(0.996312, 0.0858032, -0.0858032, 0.996312, 70.8799, 0)",
+        "cue": "\u2192\nReview the investment\nCheck quantity, cost, cash and risk.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 3959,
+        "phase": "motion",
+        "index": "2",
+        "direction": "right",
+        "transform": "matrix(0.996198, 0.0871236, -0.0871236, 0.996198, 71.9733, 0)",
+        "cue": "\u2192\nReview the investment\nCheck quantity, cost, cash and risk.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 4050,
+        "phase": "motion",
+        "index": "2",
+        "direction": "right",
+        "transform": "matrix(0.996195, 0.0871557, -0.0871557, 0.996195, 72, 0)",
+        "cue": "\u2192\nReview the investment\nCheck quantity, cost, cash and risk.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 4141,
+        "phase": "motion",
+        "index": "2",
+        "direction": "right",
+        "transform": "matrix(0.996195, 0.0871557, -0.0871557, 0.996195, 72, 0)",
+        "cue": "\u2192\nReview the investment\nCheck quantity, cost, cash and risk.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 4232,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 4325,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 4423,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 4514,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 4605,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 4696,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 4787,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 4878,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 4970,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5061,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5153,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5244,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5335,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5426,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5518,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5609,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5700,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5792,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5883,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5973,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 6065,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 6156,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 6248,
+        "phase": "ready",
+        "index": "3",
+        "direction": "right",
+        "transform": "none",
+        "cue": null,
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 6339,
+        "phase": "ready",
+        "index": "3",
+        "direction": "right",
+        "transform": "none",
+        "cue": null,
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 6430,
+        "phase": "ready",
+        "index": "3",
+        "direction": "right",
+        "transform": "none",
+        "cue": null,
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 6521,
+        "phase": "motion",
+        "index": "3",
+        "direction": "up",
+        "transform": "matrix(1, 0, 0, 1, 0, -15.8531)",
+        "cue": "\u2191\nWatch and revisit\nKeep the question. No purchase.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 6613,
+        "phase": "motion",
+        "index": "3",
+        "direction": "up",
+        "transform": "matrix(1, 0, 0, 1, 0, -42.7564)",
+        "cue": "\u2191\nWatch and revisit\nKeep the question. No purchase.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 6704,
+        "phase": "motion",
+        "index": "3",
+        "direction": "up",
+        "transform": "matrix(1, 0, 0, 1, 0, -53.1739)",
+        "cue": "\u2191\nWatch and revisit\nKeep the question. No purchase.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 6795,
+        "phase": "motion",
+        "index": "3",
+        "direction": "up",
+        "transform": "matrix(1, 0, 0, 1, 0, -59.0264)",
+        "cue": "\u2191\nWatch and revisit\nKeep the question. No purchase.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 6887,
+        "phase": "motion",
+        "index": "3",
+        "direction": "up",
+        "transform": "matrix(1, 0, 0, 1, 0, -61.3081)",
+        "cue": "\u2191\nWatch and revisit\nKeep the question. No purchase.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 6978,
+        "phase": "motion",
+        "index": "3",
+        "direction": "up",
+        "transform": "matrix(1, 0, 0, 1, 0, -61.9925)",
+        "cue": "\u2191\nWatch and revisit\nKeep the question. No purchase.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 7070,
+        "phase": "motion",
+        "index": "3",
+        "direction": "up",
+        "transform": "matrix(1, 0, 0, 1, 0, -62)",
+        "cue": "\u2191\nWatch and revisit\nKeep the question. No purchase.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 7161,
+        "phase": "motion",
+        "index": "3",
+        "direction": "up",
+        "transform": "matrix(1, 0, 0, 1, 0, -62)",
+        "cue": "\u2191\nWatch and revisit\nKeep the question. No purchase.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 7252,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 7343,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 7434,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 7525,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 7616,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 7708,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 7800,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 7891,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 7984,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8075,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8166,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8258,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8349,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8441,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8532,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8623,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8715,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8806,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8897,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8988,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 9079,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 9171,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 9315,
+        "phase": "ready",
+        "index": "4",
+        "direction": "up",
+        "transform": "none",
+        "cue": null,
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 9407,
+        "phase": "ready",
+        "index": "4",
+        "direction": "up",
+        "transform": "none",
+        "cue": null,
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 9500,
+        "phase": "ready",
+        "index": "4",
+        "direction": "up",
+        "transform": "none",
+        "cue": null,
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 9592,
+        "phase": "ready",
+        "index": "4",
+        "direction": "up",
+        "transform": "none",
+        "cue": null,
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 9773,
+        "phase": "motion",
+        "index": "4",
+        "direction": "down",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "cue": "\u2193\nEdit the choice\nChange quantity or price before review.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 9991,
+        "phase": "motion",
+        "index": "4",
+        "direction": "down",
+        "transform": "matrix(1, 0, 0, 1, 0, 51.6556)",
+        "cue": "\u2193\nEdit the choice\nChange quantity or price before review.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 10084,
+        "phase": "motion",
+        "index": "4",
+        "direction": "down",
+        "transform": "matrix(1, 0, 0, 1, 0, 58.708)",
+        "cue": "\u2193\nEdit the choice\nChange quantity or price before review.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 10176,
+        "phase": "motion",
+        "index": "4",
+        "direction": "down",
+        "transform": "matrix(1, 0, 0, 1, 0, 61.1794)",
+        "cue": "\u2193\nEdit the choice\nChange quantity or price before review.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 10268,
+        "phase": "motion",
+        "index": "4",
+        "direction": "down",
+        "transform": "matrix(1, 0, 0, 1, 0, 61.9753)",
+        "cue": "\u2193\nEdit the choice\nChange quantity or price before review.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 10566,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 10658,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 10757,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 10849,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 10998,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 11336,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 11428,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 11519,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 11611,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 11707,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 11800,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 11891,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 11981,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 12073,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 12165,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 12256,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 12348,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 12439,
+        "phase": "complete",
+        "index": "4",
+        "direction": "down",
+        "transform": "none",
+        "cue": null,
+        "heading": "Example Co.",
+        "receipt": false
+      }
+    ],
+    "finalButton": "Replay the four swipes",
+    "finalPhase": "complete",
+    "permanentStripVisible": false,
+    "width": 390,
+    "scroll": 390
+  },
+  "guideReduced": {
+    "reduced": "true",
+    "samples": [
+      {
+        "t": 0,
+        "phase": "ready",
+        "index": "1",
+        "direction": "down",
+        "transform": "none",
+        "cue": null,
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 93,
+        "phase": "ready",
+        "index": "1",
+        "direction": "down",
+        "transform": "none",
+        "cue": null,
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 185,
+        "phase": "ready",
+        "index": "1",
+        "direction": "down",
+        "transform": "none",
+        "cue": null,
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 276,
+        "phase": "ready",
+        "index": "1",
+        "direction": "down",
+        "transform": "none",
+        "cue": null,
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 368,
+        "phase": "motion",
+        "index": "1",
+        "direction": "left",
+        "transform": "none",
+        "cue": "\u2190\nPass for now\nNo position. No money used.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 459,
+        "phase": "motion",
+        "index": "1",
+        "direction": "left",
+        "transform": "none",
+        "cue": "\u2190\nPass for now\nNo position. No money used.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 551,
+        "phase": "motion",
+        "index": "1",
+        "direction": "left",
+        "transform": "none",
+        "cue": "\u2190\nPass for now\nNo position. No money used.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 641,
+        "phase": "motion",
+        "index": "1",
+        "direction": "left",
+        "transform": "none",
+        "cue": "\u2190\nPass for now\nNo position. No money used.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 733,
+        "phase": "motion",
+        "index": "1",
+        "direction": "left",
+        "transform": "none",
+        "cue": "\u2190\nPass for now\nNo position. No money used.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 824,
+        "phase": "motion",
+        "index": "1",
+        "direction": "left",
+        "transform": "none",
+        "cue": "\u2190\nPass for now\nNo position. No money used.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 915,
+        "phase": "motion",
+        "index": "1",
+        "direction": "left",
+        "transform": "none",
+        "cue": "\u2190\nPass for now\nNo position. No money used.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 1006,
+        "phase": "motion",
+        "index": "1",
+        "direction": "left",
+        "transform": "none",
+        "cue": "\u2190\nPass for now\nNo position. No money used.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 1100,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 1190,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 1282,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 1373,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 1466,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 1557,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 1648,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 1739,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 1831,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 1922,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2014,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2105,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2197,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2288,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2379,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2470,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2561,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2652,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2743,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2834,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 2924,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 3015,
+        "phase": "outcome",
+        "index": "1",
+        "direction": "left",
+        "transform": null,
+        "cue": null,
+        "heading": "Passed for now.",
+        "receipt": false
+      },
+      {
+        "t": 3120,
+        "phase": "ready",
+        "index": "2",
+        "direction": "left",
+        "transform": "none",
+        "cue": null,
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 3244,
+        "phase": "ready",
+        "index": "2",
+        "direction": "left",
+        "transform": "none",
+        "cue": null,
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 3335,
+        "phase": "ready",
+        "index": "2",
+        "direction": "left",
+        "transform": "none",
+        "cue": null,
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 3431,
+        "phase": "motion",
+        "index": "2",
+        "direction": "right",
+        "transform": "none",
+        "cue": "\u2192\nReview the investment\nCheck quantity, cost, cash and risk.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 3545,
+        "phase": "motion",
+        "index": "2",
+        "direction": "right",
+        "transform": "none",
+        "cue": "\u2192\nReview the investment\nCheck quantity, cost, cash and risk.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 3636,
+        "phase": "motion",
+        "index": "2",
+        "direction": "right",
+        "transform": "none",
+        "cue": "\u2192\nReview the investment\nCheck quantity, cost, cash and risk.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 3728,
+        "phase": "motion",
+        "index": "2",
+        "direction": "right",
+        "transform": "none",
+        "cue": "\u2192\nReview the investment\nCheck quantity, cost, cash and risk.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 3819,
+        "phase": "motion",
+        "index": "2",
+        "direction": "right",
+        "transform": "none",
+        "cue": "\u2192\nReview the investment\nCheck quantity, cost, cash and risk.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 3913,
+        "phase": "motion",
+        "index": "2",
+        "direction": "right",
+        "transform": "none",
+        "cue": "\u2192\nReview the investment\nCheck quantity, cost, cash and risk.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 4004,
+        "phase": "motion",
+        "index": "2",
+        "direction": "right",
+        "transform": "none",
+        "cue": "\u2192\nReview the investment\nCheck quantity, cost, cash and risk.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 4094,
+        "phase": "motion",
+        "index": "2",
+        "direction": "right",
+        "transform": "none",
+        "cue": "\u2192\nReview the investment\nCheck quantity, cost, cash and risk.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 4186,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 4278,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 4370,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 4461,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 4552,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 4644,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 4735,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 4827,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 4918,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5009,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5101,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5192,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5282,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5373,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5464,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5556,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5647,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5738,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5829,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 5920,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 6011,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 6102,
+        "phase": "outcome",
+        "index": "2",
+        "direction": "right",
+        "transform": null,
+        "cue": null,
+        "heading": "Review the choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 6194,
+        "phase": "ready",
+        "index": "3",
+        "direction": "right",
+        "transform": "none",
+        "cue": null,
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 6296,
+        "phase": "ready",
+        "index": "3",
+        "direction": "right",
+        "transform": "none",
+        "cue": null,
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 6387,
+        "phase": "ready",
+        "index": "3",
+        "direction": "right",
+        "transform": "none",
+        "cue": null,
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 6484,
+        "phase": "motion",
+        "index": "3",
+        "direction": "up",
+        "transform": "none",
+        "cue": "\u2191\nWatch and revisit\nKeep the question. No purchase.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 6576,
+        "phase": "motion",
+        "index": "3",
+        "direction": "up",
+        "transform": "none",
+        "cue": "\u2191\nWatch and revisit\nKeep the question. No purchase.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 6667,
+        "phase": "motion",
+        "index": "3",
+        "direction": "up",
+        "transform": "none",
+        "cue": "\u2191\nWatch and revisit\nKeep the question. No purchase.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 6758,
+        "phase": "motion",
+        "index": "3",
+        "direction": "up",
+        "transform": "none",
+        "cue": "\u2191\nWatch and revisit\nKeep the question. No purchase.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 6848,
+        "phase": "motion",
+        "index": "3",
+        "direction": "up",
+        "transform": "none",
+        "cue": "\u2191\nWatch and revisit\nKeep the question. No purchase.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 6939,
+        "phase": "motion",
+        "index": "3",
+        "direction": "up",
+        "transform": "none",
+        "cue": "\u2191\nWatch and revisit\nKeep the question. No purchase.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 7031,
+        "phase": "motion",
+        "index": "3",
+        "direction": "up",
+        "transform": "none",
+        "cue": "\u2191\nWatch and revisit\nKeep the question. No purchase.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 7122,
+        "phase": "motion",
+        "index": "3",
+        "direction": "up",
+        "transform": "none",
+        "cue": "\u2191\nWatch and revisit\nKeep the question. No purchase.",
+        "heading": "Example Co.",
+        "receipt": false
+      },
+      {
+        "t": 7217,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 7308,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 7398,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 7489,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 7580,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 7672,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 7763,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 7854,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 7945,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8036,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8127,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8217,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8309,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8400,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8491,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8585,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8676,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8767,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8858,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 8950,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 9040,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 9131,
+        "phase": "outcome",
+        "index": "3",
+        "direction": "up",
+        "transform": null,
+        "cue": null,
+        "heading": "Kept on your radar.",
+        "receipt": false
+      },
+      {
+        "t": 9238,
+        "phase": "ready",
+        "index": "4",
+        "direction": "up",
+        "transform": "none",
+        "cue": null,
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 9330,
+        "phase": "ready",
+        "index": "4",
+        "direction": "up",
+        "transform": "none",
+        "cue": null,
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 9422,
+        "phase": "ready",
+        "index": "4",
+        "direction": "up",
+        "transform": "none",
+        "cue": null,
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 9513,
+        "phase": "ready",
+        "index": "4",
+        "direction": "up",
+        "transform": "none",
+        "cue": null,
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 9604,
+        "phase": "motion",
+        "index": "4",
+        "direction": "down",
+        "transform": "none",
+        "cue": "\u2193\nEdit the choice\nChange quantity or price before review.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 9696,
+        "phase": "motion",
+        "index": "4",
+        "direction": "down",
+        "transform": "none",
+        "cue": "\u2193\nEdit the choice\nChange quantity or price before review.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 9787,
+        "phase": "motion",
+        "index": "4",
+        "direction": "down",
+        "transform": "none",
+        "cue": "\u2193\nEdit the choice\nChange quantity or price before review.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 9878,
+        "phase": "motion",
+        "index": "4",
+        "direction": "down",
+        "transform": "none",
+        "cue": "\u2193\nEdit the choice\nChange quantity or price before review.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 9970,
+        "phase": "motion",
+        "index": "4",
+        "direction": "down",
+        "transform": "none",
+        "cue": "\u2193\nEdit the choice\nChange quantity or price before review.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 10063,
+        "phase": "motion",
+        "index": "4",
+        "direction": "down",
+        "transform": "none",
+        "cue": "\u2193\nEdit the choice\nChange quantity or price before review.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 10154,
+        "phase": "motion",
+        "index": "4",
+        "direction": "down",
+        "transform": "none",
+        "cue": "\u2193\nEdit the choice\nChange quantity or price before review.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 10245,
+        "phase": "motion",
+        "index": "4",
+        "direction": "down",
+        "transform": "none",
+        "cue": "\u2193\nEdit the choice\nChange quantity or price before review.",
+        "heading": "Sample market basket",
+        "receipt": false
+      },
+      {
+        "t": 10338,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 10429,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 10520,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 10612,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 10703,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 10796,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 10887,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 10979,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "4",
+        "cost": "$200.00",
+        "cash": "$9,800.00",
+        "receipt": false
+      },
+      {
+        "t": 11070,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 11160,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 11252,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 11343,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 11434,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 11525,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 11616,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 11707,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 11800,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 11891,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 11982,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 12073,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 12164,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 12255,
+        "phase": "outcome",
+        "index": "4",
+        "direction": "down",
+        "transform": null,
+        "cue": null,
+        "heading": "Edit the paper choice.",
+        "quantity": "2",
+        "cost": "$100.00",
+        "cash": "$9,900.00",
+        "receipt": false
+      },
+      {
+        "t": 12347,
+        "phase": "complete",
+        "index": "4",
+        "direction": "down",
+        "transform": "none",
+        "cue": null,
+        "heading": "Example Co.",
+        "receipt": false
+      }
+    ],
+    "finalButton": "Replay the four swipes",
+    "finalPhase": "complete",
+    "permanentStripVisible": false,
+    "width": 390,
+    "scroll": 390
+  },
+  "gestureFrames": [
+    {
+      "direction": "left",
+      "now": 754.6999999992549,
+      "phase": "motion",
+      "transform": "matrix(0.997536, -0.0701582, 0.0701582, 0.997536, -57.9323, 0)",
+      "cue": "\u2190\nPass for now\nNo position. No money used.",
+      "cueRect": {
+        "x": 65.44140625,
+        "y": 258.38671875,
+        "width": 259.1171875,
+        "height": 135.2890625,
+        "top": 258.38671875,
+        "right": 324.55859375,
+        "bottom": 393.67578125,
+        "left": 65.44140625
+      },
+      "width": 390,
+      "height": 844
+    },
+    {
+      "direction": "right",
+      "now": 3834.89999999851,
+      "phase": "motion",
+      "transform": "matrix(0.997446, 0.0714314, -0.0714314, 0.997446, 58.9854, 0)",
+      "cue": "\u2192\nReview the investment\nCheck quantity, cost, cash and risk.",
+      "cueRect": {
+        "x": 65.44140625,
+        "y": 266.57421875,
+        "width": 259.1171875,
+        "height": 135.2890625,
+        "top": 266.57421875,
+        "right": 324.55859375,
+        "bottom": 401.86328125,
+        "left": 65.44140625
+      },
+      "width": 390,
+      "height": 844
+    },
+    {
+      "direction": "up",
+      "now": 6893.79999999702,
+      "phase": "motion",
+      "transform": "matrix(1, 0, 0, 1, 0, -53.1879)",
+      "cue": "\u2191\nWatch and revisit\nKeep the question. No purchase.",
+      "cueRect": {
+        "x": 65.44140625,
+        "y": 258.38671875,
+        "width": 259.1171875,
+        "height": 135.2890625,
+        "top": 258.38671875,
+        "right": 324.55859375,
+        "bottom": 393.67578125,
+        "left": 65.44140625
+      },
+      "width": 390,
+      "height": 844
+    },
+    {
+      "direction": "down",
+      "now": 10251,
+      "phase": "motion",
+      "transform": "matrix(1, 0, 0, 1, 0, 48.8894)",
+      "cue": "\u2193\nEdit the choice\nChange quantity or price before review.",
+      "cueRect": {
+        "x": 65.44140625,
+        "y": 266.57421875,
+        "width": 259.1171875,
+        "height": 135.2890625,
+        "top": 266.57421875,
+        "right": 324.55859375,
+        "bottom": 401.86328125,
+        "left": 65.44140625
+      },
+      "width": 390,
+      "height": 844
+    }
+  ]
+}

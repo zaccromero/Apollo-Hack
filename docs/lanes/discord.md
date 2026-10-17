@@ -544,3 +544,65 @@ publicHTTPSintake remainsOPEN, no verifieddeployment/publichostingauthority.
 Integration prioritizes actualTestFlight before16:00 and nativecarryover release
 requirement; publicendpoint checkpoint15:10 afterfirstupload is a TARGET, not promise.
 This dependency timing does not remove required fullwaitlistjourney from parent.
+
+
+## Private agent operations and Yahoo paper audit — 2026-10-17 14:39 EDT /18:39 UTC
+
+Directhuman adds moreprivatechannels, Arize/taskPASSFAIL verification, companyURL
+monitoring, 9AMNewYork dailyholdings+watchlist andreadonlyYahoo fakepaperlot audit
+withthatUIindemo. HumanpersonallysignedintoNEWcorrectYahooaccount. Originalother
+account seven-symbolwatchlist/emptyportfolio is SUPERSEDED, nevermerged. Correct
+DrakoAI-Holdings has10positions/14recordedBuyentries and5watchedsymbols. Eachshare
+total independentlyreconciles10/10; source is rendered ShareLots/Transactions, no
+API/cookie/accountswitch/trade/import/datawrites. Recordeddate is not actualbroker
+execution/entrytimestamp; blankcommissionsUNKNOWN. MV3123.01/UNRL1442.39/cash0;
+displayedBuytotalssum1680.63, summaryimplies1680.62, displayedqty×pricerounds1680.61;
+up to2cprecision/feemetadata difference retained, no silentrepair. Source/asof/full
+rows in outputs/apollo-yahoo-paper-audit.json. RootreceivedactualUI/datahandofffor
+existingDemo/Game; readonlyexternalPAPERsnapshot mustnotreplaceApolloaccount.
+
+Fouractualprivatechannels underalreadyapprovedApolloPersonal1561070673047068754:
+agent-room1561082612720869376,task-verification1561082614465568849,research-inbox
+1561082616277508117,portfolio-overwatch1561082617934250135. Dedicatedbotonlywithin
+existingcategorygrant; exactEveryoneDenyView+owner1385362917582700716/Apollo text
+allow84992 verifiedbeforepublishing. Everyboardauthor/content/nomentionreadbackPASS.
+No globalgrant/Admin/ManageRoles/newGatewayintents. Currentcorebot/admissions/Gmail
+sourcehashes unchanged. Standaloneownruntimeops_delivery.py exacthash in outputs/
+apollo-operations-v1.json; no native/sharedserver/source mutation.
+
+RealownermentionpublicAppleURL viaDiscordUI→boundedRESTintake→1dedupedprivate
+QUEUED_UNVERIFIED_NOT_FETCHEDrecord+actualackPASS; secondintake0new. Untrusted
+messagesparsedonlyforURLstrings, no execution/arbitraryfetch. Query/credential/IP/
+localURLreject; onlyowner+explicitbotmention, max4URLs/message/50queue, 50message
+fullpageHOLDtoavoidbacklogskip. Unknowncreates/sendsdurablyreservedbeforeremote
+mutation, noretry; dailyone-datekey.6focusedchecksPASS; onefinalscopedreviewP0=0/
+P1=0 CLOSED, STOPreview. Parentnewcapabilitiesstillopen asbelow; noreopenednative
+or researchreview/green-suite repeats. Nativecorebetagate44 remainsindependentlyPASS.
+
+ArizeCLIabsentbut CONNECTEDMCPREADAPIworks, projecthacksprint-connection-check.
+ExistingApolloE2EhistoricalOK/ERRORspansreadsample10/10truncated; notcurrentrelease
+or currenttaskevaluationproof. ActualArizeprojectURLinprivateagent-room; newtrace
+writes/evaluator/model/providercalls0, paidpauseunchanged. CurrentApollo-task
+instrumentation/evaluations NOT_VERIFIED/NOT_RUN, do notupgradehistoricalPASS.
+
+Recurringhumanrequest→existingappheartbeatcreated ACTIVE ops5min and DAILY09:00
+America/New_Yorkpaperholdings+watchlist, sourcecorrectYahoo snapshot. Bothnames/
+cadence/targetreadbackPASS; actualfutureopswake/daily9AMdeliveryNOT_RUNyet. Daily
+freefreshreadsONLY frozenResearchsupportedAAPL/SPY/BTC-USDifactuallyheld/watched,
+max2assets/day; unsupportedcompaniesremainNOT_RUN. SourceURLsqueuecannotfetch
+arbitraryURLs; no sourceuniverseexpansion. Localcomputer+appmustremainrunning.
+
+Existingmapfollowupupdated (notduplicated) to notifyoriginalowneronce actual
+install-readinessisevidenced, separatefrominstalled/portfolio-verified, whilefinal
+map+Chartsdeliverystillpending. Latest14:32Integration: personalinvitationarrived,
+openingonphone, install/portfolio actualreadbackNOTverified; newcompanynativeissue
+beingrepaired outsideuploadedbuild. ExistingportfolioFIRSTthenONEseparately
+authorizedpaperpurchase; thislane nevertrades. Newmobilebeforeafter NOT_RUNhere.
+
+RemainingFULLoutcome: actualTestFlightinstall/portfolio andrequirednativefeatures/
+beforeafterIntegration; YahooledgerUI Demo/Game; currentArizetaskinstrumentation
+unverifiedunderpause; broaderfreshsourceadmissionResearch; actualfirst9AMdelivery;
+publicwaitlistHTTPS+verifiedpublic2demochooser/currentinstallreceipt/finalGmail
+welcome remainOPEN/held. Work-readyOct17 16:00America/New_York,16–16:30recording/
+rehearsal,16:30judging unchanged. Standalonecomponentreadyforownerreview, not full
+MVPaccepted. Next14:45scopedhandoff/status, no app/device/buildsharedsourceoverlap.

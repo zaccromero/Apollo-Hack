@@ -15,13 +15,15 @@ enum ApolloBundledInstruments {
             return try ApolloResearchMapper.asset(detail:detail,analysis:analysis)
         }
         guard Set(research.map(\.id))==Set(canonical.map(\.id)) else {throw ApolloAPIError.invalidResponse}
-        return canonical.map { item in
+        let merged = canonical.map { item in
             guard let reviewed=research.first(where:{$0.id==item.id}) else{return item}
             var result=ApolloAsset(id:item.id,ticker:item.ticker,name:item.name,kind:item.kind,headline:item.headline,summary:"Dated reviewed research · DEMO paper execution. "+item.summary,price:item.price,priceLabel:item.priceLabel,changeLabel:item.changeLabel,chart:item.chart,bullCase:reviewed.bullCase,bearCase:reviewed.bearCase,catalyst:reviewed.catalyst,lesson:item.lesson,risk:item.risk,sources:reviewed.sources,isDemo:true,multiplier:item.multiplier,expiry:item.expiry,allocations:item.allocations,quoteAsOf:item.quoteAsOf,quoteStale:true,quoteProvenance:item.quoteProvenance,evidenceTracks:reviewed.evidenceTracks)
             result.researchCorpusHash=reviewed.researchCorpusHash;result.researchEvidenceCutoff=reviewed.researchEvidenceCutoff
             result.quantityUnit=item.quantityUnit;result.quantityStep=item.quantityStep;result.optionTerms=item.optionTerms;result.stablecoin=item.stablecoin;result.bond=item.bond
             return result
         }
+        guard let profilesURL = Bundle.main.url(forResource: "company-profiles-v1", withExtension: "json") else { throw ApolloAPIError.invalidResponse }
+        return ApolloCompanyProfileDecoder.attaching(try ApolloCompanyProfileDecoder.profiles(data: Data(contentsOf: profilesURL)), to: merged)
     }
 
 }

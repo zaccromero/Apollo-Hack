@@ -72,6 +72,7 @@ public struct ApolloAsset: Codable, Identifiable, Hashable {
     public var researchEvidenceCutoff: String? = nil
     public var quantityUnit: String? = nil
     public var quantityStep: Decimal? = nil
+    public var companyProfile: ApolloCompanyProfile? = nil
     public var optionTerms: ApolloOptionTerms? = nil
     public var stablecoin: ApolloStablecoinTerms? = nil
     public var bond: ApolloBondTerms? = nil

@@ -1,16 +1,17 @@
 {
-  "experience_kind": "landing",
-  "scope": "Rebuild the full existing single marketing homepage. Ascending A and blue/light preserved. No extra routes or native changes.",
+  "experience_kind": "site_and_app",
+  "scope": "Five distinct marketing routes: Home, How it works, Practice, Demo, Access. Required purposeful causal motion and layering. Native/public hosting separate.",
   "audience": "People curious about investing who want to learn without real-money trades.",
   "story": "Direct promise, actual blue Discover screenshot, connected website learning exercise, actual native comparison screenshot, seven asset types, FAQ and honest beta availability.",
   "references": "Reuse inspected Apollo-Marketing-Grill.json R1 Bloom product/benefit pairing, R2 Invstr named tasks/outcomes, R3 Finimize content specificity; 16 prior captures. No claims copied.",
-  "signature": "One illustrative idea progresses through Discover, Understand, explicit paper preview and confirm into a coherent website-only portfolio.",
+  "signature": "Five connected routes, layered four-step explanation and an actual four-direction swipe teaching concept with no live execution.",
   "plan_challenge": "No decorative orbits, generic benefit grid or repeated serif slogans. Avenir Next/system sans display and body, Georgia only for teaching question, mono for money; accepted cool-white/white/midnight/royal-blue palette.",
   "promises": {
-    "Try the example": "#try-it; three distinct stock/ETF/options teaching examples and visible staged results",
-    "Inside the app": "#inside; actual blue comparison capture, render-only scope",
-    "iPhone beta": "#access; unavailable until verified install contract",
-    "Questions": "#questions; four actual FAQ answers"
+    "Home": "Product promise and route choices",
+    "How it works": "Distinct interactive explanation plus actual native comparison proof",
+    "Practice": "Distinct working three-topic exercise",
+    "Demo": "Both actual local video formats always visible",
+    "Access": "Honest availability and FAQ"
   },
   "invariants": {
     "startingCash": 10000,
@@ -48,23 +49,27 @@
   },
   "architecture": {
     "styles": [
-      "styles.css"
+      "styles.css",
+      "site.css"
     ],
     "state": [
-      "demo-data.js"
-    ],
-    "components": [
-      "app.js"
+      "demo-data.js",
+      "app.js",
+      "site.js"
     ],
     "views": [
-      "index.html"
+      "index.html",
+      "how-it-works.html",
+      "practice.html",
+      "demo.html",
+      "access.html"
     ]
   },
   "principles": {
     "visual_hierarchy": "Inspect native desktop/all sections plus 1440,768,390,320; clear first-screen purpose/action",
     "usability": "All examples/stages/confirm, invalid/recovery/duplicate/reset, anchors/direct/reload/Back",
     "design_consistency": "Exact logo/colors, raw approved blue app captures, action cues match controls",
-    "motion": "No timed or ambient animation; immediate state feedback. No library needed.",
+    "motion": "Visible-once and repeatable interruptible four-direction 520ms swipe guide; cues during movement, separate outcomes, reduced equivalent, explicit confirm only. Four-step causal story.",
     "accessibility": "Semantic controls, keyboard/focus/error labels, no overflow; full SR/physical audit separate",
     "return_value": "No save promise: website-only example resets on reload; native persistence outside scope",
     "validation": "Executable assertions on actual browser receipts and negative control; owner acceptance separate"
@@ -83,6 +88,12 @@
       "New native capture operation"
     ]
   },
-  "cutoffs": "16:00 EDT workready; 16:00-16:30 recording;16:30 judging.",
-  "ownership": "Marketing web/marketing and own lane record; preserve baseline, release exact old/new manifest for Integration."
+  "cutoffs": "14:35 first visible candidate;14:40 dependency checkpoint;16:00 EDT work-ready;16:00-16:30 recording;16:30 judging",
+  "ownership": "Marketing exclusive exact imports for web/marketing; no root/native/shared changes",
+  "state_contract": {
+    "practice": "Per-topic drafts, valid receipts and choices retained via sessionStorage across site navigation within this tab. Reload restarts all lessons. URL known topic/stage direct-entry; Back restores earlier route. Blocked storage shows truthful shorter lifetime. No app account or order writes.",
+    "motion": "Four state cards; 260ms transform/opacity/progress, interruptible transitions. Company/basket changes fictional evidence/cost/cash. All four articles readable without JS. OS reduced motion and explicit toggle remove transitions.",
+    "access": "Unchanged verified-install guard. Public URL/QR unavailable. Guest practice remains open. Account service and proposed hero separate required follow-on stages, not fabricated."
+  },
+  "accepted_new_steering": "Demo human01a14b2f-48b0-7e61-970b-3abc4c1a9462: icons appear during swipe; remove permanent action strip. Controls retained in native disclosure."
 }

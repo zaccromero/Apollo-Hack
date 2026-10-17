@@ -2,6 +2,9 @@ import SwiftUI
 
 struct ApolloOrderView: View {
     let asset: ApolloAsset
+    let swipeBudget: Decimal?
+    let editSwipePitch: Bool
+    @State private var swipeReviewPrepared = false
     @ObservedObject var store: ApolloGameStore
     @Environment(\.dismiss) private var dismiss
     @State private var amount = ""
@@ -21,7 +24,18 @@ struct ApolloOrderView: View {
     @FocusState private var focused: Field?
     private enum Field { case amount, reason, risk, invalidation }
     private var thesis: ApolloThesis { .init(reason: reason, risk: risk, invalidation: invalidation) }
-    private var quantity: Decimal? { Decimal(string: amount.replacingOccurrences(of: ",", with: "."), locale: Locale(identifier: "en_US_POSIX")) }
+    private var enteredAmount: Decimal? { Decimal(string: amount.replacingOccurrences(of: ",", with: "."), locale: Locale(identifier: "en_US_POSIX")) }
+    private var quantity: Decimal? { guard let enteredAmount else { return nil }; return swipeBudget == nil ? enteredAmount : ApolloCardInteraction.quantity(budget: enteredAmount, asset: asset) }
+    init(asset: ApolloAsset, store: ApolloGameStore, swipeBudget: Decimal? = nil, editSwipePitch: Bool = false) {
+        self.asset = asset; self.store = store; self.swipeBudget = swipeBudget; self.editSwipePitch = editSwipePitch
+        if let swipeBudget {
+            _amount = State(initialValue: swipeBudget.apolloQuantity)
+            _reason = State(initialValue: "Practice a paper allocation to " + asset.ticker + ".")
+            _risk = State(initialValue: asset.risk)
+            _invalidation = State(initialValue: "Revisit the pitch if: " + asset.bearCase)
+        }
+    }
+
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -42,6 +56,8 @@ struct ApolloOrderView: View {
                 .toolbar { ToolbarItem(placement: .topBarTrailing) { Button(filled ? "Done" : "Cancel") { dismiss() }.disabled(preparing || store.busy).accessibilityIdentifier("order-close") }; ToolbarItemGroup(placement: .keyboard) { Spacer(); Button("Done") { focused = nil } } }
         }.sheet(isPresented: $showingComparison) { ApolloPaperComparisonView(store: store, initialAssetID: asset.kind == .strategy ? "AAPL" : asset.id, initialQuantity: asset.kind == .strategy ? 1 : (quantity ?? 1), initialStrategyBudget: asset.kind == .strategy ? quantity : nil) }
         .tint(ApolloStyle.lime).interactiveDismissDisabled(preparing || store.busy)
+        .task { if editSwipePitch { focused = .amount }; prepareSwipeReviewIfReady() }
+        .onChange(of: store.account.riskProfile?.tolerance) { _, _ in prepareSwipeReviewIfReady() }
     }
     private var formContent: some View {
         VStack(alignment: .leading, spacing: 20) {
@@ -50,12 +66,20 @@ struct ApolloOrderView: View {
                 Text("Available paper cash").font(.caption).foregroundStyle(ApolloStyle.muted)
                 Text(store.account.cash.apolloMoney).font(.title2.weight(.semibold)).monospacedDigit()
                 Divider()
-                Text(asset.kind == .strategy ? "Paper copy budget (USD)" : asset.kind == .option ? "Whole contracts" : asset.kind == .bond ? "Whole bonds" : "Number of \(asset.unit)").font(.subheadline.weight(.semibold))
-                TextField(asset.kind == .strategy ? "500" : asset.kind == .crypto ? "0.001" : "1", text: $amount).keyboardType(.decimalPad).font(.title).focused($focused, equals: .amount).accessibilityIdentifier("order-quantity")
+                Text(swipeBudget != nil ? "Paper investment budget (USD)" : asset.kind == .strategy ? "Paper copy budget (USD)" : asset.kind == .option ? "Whole contracts" : asset.kind == .bond ? "Whole bonds" : "Number of \(asset.unit)").font(.subheadline.weight(.semibold))
+                TextField(swipeBudget != nil ? "10" : asset.kind == .strategy ? "500" : asset.kind == .crypto ? "0.001" : "1", text: $amount).keyboardType(.decimalPad).font(.title).focused($focused, equals: .amount).accessibilityIdentifier("order-quantity")
                 if asset.kind == .option { Text("\(asset.price.apolloMoney) × \(asset.multiplier) = \((asset.price * Decimal(asset.multiplier)).apolloMoney) per contract. Entire premium may be lost.").font(.caption).foregroundStyle(ApolloStyle.amber) }
                 else if asset.kind == .strategy { Text("Copies the listed holdings using fractional simulated units. Rounding may leave a small cash remainder.").font(.caption).foregroundStyle(ApolloStyle.muted) }
                 else { Text("\(asset.price.apolloMoney) per demo \(asset.unit) · step \((asset.quantityStep ?? Decimal(string: "0.00000001")!).apolloQuantity)").font(.caption).foregroundStyle(ApolloStyle.muted) }
             } }
+            if swipeBudget != nil {
+                Text("Starting DEMO pitch — review or edit these notes before confirming. Nothing fills until you confirm.").font(.caption).foregroundStyle(ApolloStyle.muted).accessibilityIdentifier("swipe-pitch-notice")
+                if let budget = enteredAmount, budget > 0, quantity == nil {
+                    Label("This budget cannot buy the minimum allowed unit. Edit the amount; Apollo will not increase it automatically.", systemImage: "exclamationmark.triangle").font(.caption).foregroundStyle(ApolloStyle.amber).accessibilityIdentifier("swipe-minimum-notice")
+                } else if let quantity, asset.kind != .strategy {
+                    Text("Up to \(amount) USD → \(quantity.apolloQuantity) \(asset.unit). The review shows the actual rounded paper cost.").font(.caption).foregroundStyle(ApolloStyle.muted).accessibilityIdentifier("swipe-budget-quantity")
+                }
+            }
             if asset.bond != nil || asset.stablecoin != nil { ApolloInstrumentTermsView(asset: asset) }
             thesisField("01 · Why this investment?", hint: "The evidence behind my interest…", text: $reason, field: .reason, id: "thesis-reason")
             thesisField("02 · What is the main risk?", hint: "I could lose money if…", text: $risk, field: .risk, id: "thesis-risk")
@@ -67,6 +91,10 @@ struct ApolloOrderView: View {
     }
     private func confirmationContent(_ preview: ApolloOrderPreview) -> some View {
         VStack(alignment: .leading, spacing: 18) {
+            if swipeBudget != nil {
+                Label("Paper budget: \(enteredAmount?.apolloMoney ?? "Unknown") · edit amount or pitch below", systemImage: "square.and.pencil").font(.caption).foregroundStyle(ApolloStyle.muted).accessibilityIdentifier("swipe-review-notice")
+                Text("Starting DEMO pitch: " + ApolloThesis.display(preview.thesis)).font(.caption).foregroundStyle(ApolloStyle.muted)
+            }
             ApolloPanel { VStack(alignment: .leading, spacing: 12) {
                 ForEach(preview.lines) { line in HStack(alignment: .firstTextBaseline) {
                     VStack(alignment: .leading, spacing: 5) { Text(store.asset(line.assetID)?.ticker ?? line.assetID).font(.headline); Text("\(line.quantity.apolloQuantity) × \(line.price.apolloMoney)\(line.multiplier == 1 ? "" : " × \(line.multiplier)")").font(.caption).foregroundStyle(ApolloStyle.muted) }
@@ -138,6 +166,12 @@ struct ApolloOrderView: View {
     }
     private func percentage(_ value: Decimal) -> String { value.apolloDouble.formatted(.percent.precision(.fractionLength(0))) }
     private func score(_ value: Decimal?) -> String { value.map { $0.apolloDouble.formatted(.number.precision(.fractionLength(1))) + "/5" } ?? "Unknown" }
+    private func prepareSwipeReviewIfReady() {
+        guard swipeBudget != nil, !editSwipePitch, !swipeReviewPrepared, store.account.riskProfile != nil else { return }
+        swipeReviewPrepared = true
+        guard quantity != nil else { return }
+        prepare()
+    }
     private func prepare() {
         guard let quantity, thesis.isComplete else { return }
         focused = nil; preparing = true; localError = nil

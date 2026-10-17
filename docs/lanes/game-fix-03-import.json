@@ -1,0 +1,27 @@
+{
+  "kind": "focused_delta",
+  "source_directory": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-game-lane/work/releases/game-fix-03",
+  "destination_directory": "/Users/zaccromero/code/hackathon/Apollo-Hack/ios/ApolloHack/Game",
+  "reason": "Exactly three canonical research evidence tracks; track-scoped source links; no extra generic unknown sections",
+  "import_release": {
+    "receiver_thread": "01a14a33-e4a0-7ae1-a942-353fd5883fd3",
+    "scope": "one-time replacement/add of these two files on oldhash/absence match"
+  },
+  "verification": {
+    "iOS_typecheck": "PASS",
+    "focused_evidence_checks": "7 PASS",
+    "runtime": "NOT_RUN; integration-owned"
+  },
+  "files": [
+    {
+      "name": "ApolloAssetDetailView.swift",
+      "expected_destination_sha256": "5c1fad3d85da7b6ea198275013d13be324f2dbda84d91f99afb0590e9603cd0b",
+      "sha256": "60079e89527d9a2b2e2893990146267db76223a0eafca194ebb958ac101ea519"
+    },
+    {
+      "name": "ApolloEvidenceTracks.swift",
+      "expected_destination_sha256": null,
+      "sha256": "2f5f3e68dfbb3ab3b1c58147b14cc895218760fb6a784fe1cd49aa171e1ffb66"
+    }
+  ]
+}

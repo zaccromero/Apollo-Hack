@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "scope": "Marketing static-source focused gate; no established repo web CI; not game/release or real install verification",
+  "results": [
+    {
+      "command": [
+        "/Users/zaccromero/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "--check",
+        "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-marketing-lane/outputs/apollo-marketing-package/web/marketing/app.js"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-marketing-lane/outputs/apollo-marketing-package/web/marketing/tools/assert-receipts.py"
+      ],
+      "exitCode": 0,
+      "stdout": "{\n  \"result\": \"PASS\",\n  \"checks\": [\n    \"Three distinct substantive learning examples\",\n    \"Each example selects, opens and closes\",\n    \"Option contract cost and premium risk\",\n    \"Unavailable distribution has no install target or QR\",\n    \"All incomplete or unsafe install configs rejected\",\n    \"Attested fixture accepted by validator only\",\n    \"Four measured responsive widths with visible sections and no overflow\",\n    \"Keyboard activates learning answer and displays focus\",\n    \"Direct hash entry reload resets ephemeral example and preserves unavailable access\",\n    \"All visible images loaded\",\n    \"Final source navigation and unavailable access\",\n    \"Reduced-motion equivalent disables smooth scrolling\",\n    \"QR request is destination-specific to prevent stale cached QR\"\n  ],\n  \"proof\": \"Assertions over saved actual browser tool returns; not owner acceptance\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "swift",
+        "-module-cache-path",
+        "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-marketing-lane/work/swift-module-cache",
+        "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-marketing-lane/outputs/apollo-marketing-package/web/marketing/tools/qr.swift",
+        "https://testflight.apple.com/join/TESTONLY",
+        "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-marketing-lane/work/qr-test-only.png"
+      ],
+      "exitCode": 0,
+      "stdout": "QR_DECODE_MATCH: https://testflight.apple.com/join/TESTONLY\n",
+      "stderr": ""
+    },
+    {
+      "check": "negative-control rejects deliberately false unavailable-state expectation",
+      "exitCode": 1,
+      "rejectionObserved": true,
+      "stderr": "Traceback (most recent call last):\n  File \"/Users/zaccromero/Documents/Codex/2026-10-17/apollo-marketing-lane/outputs/apollo-marketing-package/web/marketing/tools/assert-receipts.py\", line 18, in <module>\n    check('Unavailable distribution has no install target or QR',e['install']['hidden']==expected_hidden and e['install']['qrHidden'] and e['install']['href'] is None and e['install']['status']=='TestFlight access coming soon')\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/zaccromero/Documents/Codex/2026-10-17/apollo-marketing-lane/outputs/apollo-marketing-package/web/marketing/tools/assert-receipts.py\", line 12, in check\n    if not condition: raise AssertionError(name)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Unavailable distribution has no install target or QR\n"
+    }
+  ],
+  "distributionShipped": "unavailable, no URL, no QR",
+  "testQR": "TESTONLY fixture outside distributable source, not an available install destination"
+}

@@ -1,0 +1,91 @@
+{
+  "checks" : [
+    {
+      "name" : "repaired valid import retains real saved financial account and original bytes",
+      "status" : "PASS"
+    },
+    {
+      "name" : "actual typed supplement callbacks retain completed quiz and discovery",
+      "status" : "PASS"
+    },
+    {
+      "name" : "completed journal validates and preserves legitimate changed target without reimport or duplicate fill",
+      "status" : "PASS"
+    },
+    {
+      "name" : "P1 completed journal corrupt current account fails closed without writes",
+      "status" : "PASS"
+    },
+    {
+      "name" : "P1 completed journal missing current account fails closed without writes",
+      "status" : "PASS"
+    },
+    {
+      "name" : "P1 completed journal wrong-type current account fails closed without writes",
+      "status" : "PASS"
+    },
+    {
+      "name" : "non-Data source account rejected without journal or target creation",
+      "status" : "PASS"
+    },
+    {
+      "name" : "non-Data source apollo.demo.onboarding.v1 rejected before writes",
+      "status" : "PASS"
+    },
+    {
+      "name" : "valid JSON but invalid typed source apollo.demo.onboarding.v1 rejected before writes",
+      "status" : "PASS"
+    },
+    {
+      "name" : "non-Data completed target apollo.demo.onboarding.v1 fails closed without writes",
+      "status" : "PASS"
+    },
+    {
+      "name" : "invalid typed completed target apollo.demo.onboarding.v1 fails closed without writes",
+      "status" : "PASS"
+    },
+    {
+      "name" : "missing previously saved completed target apollo.demo.onboarding.v1 fails closed without writes",
+      "status" : "PASS"
+    },
+    {
+      "name" : "non-Data source apollo.demo.discovery.v1 rejected before writes",
+      "status" : "PASS"
+    },
+    {
+      "name" : "valid JSON but invalid typed source apollo.demo.discovery.v1 rejected before writes",
+      "status" : "PASS"
+    },
+    {
+      "name" : "non-Data completed target apollo.demo.discovery.v1 fails closed without writes",
+      "status" : "PASS"
+    },
+    {
+      "name" : "invalid typed completed target apollo.demo.discovery.v1 fails closed without writes",
+      "status" : "PASS"
+    },
+    {
+      "name" : "missing previously saved completed target apollo.demo.discovery.v1 fails closed without writes",
+      "status" : "PASS"
+    },
+    {
+      "name" : "valid pending journal resumes under typed supplemental validation",
+      "status" : "PASS"
+    },
+    {
+      "name" : "pending journal invalid typed quiz fails closed before target writes",
+      "status" : "PASS"
+    },
+    {
+      "name" : "unreadable completed backup rejected without replacing current data",
+      "status" : "PASS"
+    },
+    {
+      "name" : "conflicting existing stage remains intact after repair",
+      "status" : "PASS"
+    }
+  ],
+  "normal_owner_defaults_access" : false,
+  "scope" : "One affected repair verification against actual repaired helper, real current DTOs\/readers and exact typed callbacks inspected in actual app root. Disposable native macOS UserDefaults only; native Release\/owner carryover not certified.",
+  "status" : "PASS"
+}

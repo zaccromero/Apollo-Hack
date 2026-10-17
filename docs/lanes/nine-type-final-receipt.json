@@ -1,0 +1,23 @@
+{
+  "result": "PASS",
+  "xcresult": "/private/tmp/apollo-nine-type-acceptance-20261017-1338.xcresult",
+  "passed": 1,
+  "failed": 0,
+  "types": [
+    "stock",
+    "etf",
+    "commodity",
+    "crypto",
+    "real_estate",
+    "option",
+    "stablecoin",
+    "bond",
+    "strategy"
+  ],
+  "finalCash": "7737.50",
+  "holdings": 8,
+  "ownerStorageTouched": false,
+  "paidCalls": 0,
+  "mcpResponse": "timeout300seconds; finalized underlying xcresult PASS",
+  "retry": "NOT_RUN; allowance closed"
+}

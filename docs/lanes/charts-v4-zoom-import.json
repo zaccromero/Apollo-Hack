@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-17T19:03:27.423950+00:00",
+  "scope": "ONE remaining focused V4 Round3 preparation; Integration import/execution only",
+  "decision": "Real tap at(336,702)confirmed by Xcode eventrecord; video aftertap stays1.0x. Asynchrony vs hit handling not conclusively separated. Preserve assertion and add bounded wait; explicit44ptlabelhitshape/plainstyle. Do not call controlsPASS withoutRound3.",
+  "files": [
+    {
+      "path": "ios/ApolloHack/Charts/ApolloChartView.swift",
+      "staged_path": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-charts-lane/outputs/charts-advanced-v4-zoom-fix/ApolloChartView.swift",
+      "old_sha256": "050cabd4a8a2eff655ec7bc116c784ec3e7017bb2757b8fc9253f42075f6d1f8",
+      "new_sha256": "182c782ce346482dd6c679ae13fa77eb1c37345e6e23bc29a22a8b0a99788c8f"
+    }
+  ],
+  "driver": {
+    "path": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-charts-lane/outputs/charts-advanced-v4-zoom-fix/ApolloAdvancedChartAcceptanceTests.swift",
+    "old_sha256": "fcfc21a4f9e05677ed9db2ed98d1414d7bf25ba351270773dfd982d0288e9d0c",
+    "new_sha256": "c1d8b37d1e8a6f8b9f963542f14db87195333046653b39fdd341678d143759fd",
+    "selector": "ApolloHackUITests/ApolloAdvancedChartAcceptanceTests/testAdvancedChartsAndCategoryViews",
+    "change": "Retainallassertions;5sec enabledpredicate beforeoriginalzoomOutassert plusactualbefore/after screenshots and treeonfailure",
+    "max_seconds": 420
+  },
+  "checks": {
+    "chart_module_typecheck": "PASS exit0 iOS17Simulator, all8Swiftfiles withfinalpatch",
+    "driver_typecheck": "PASS exit0 iOS17XCTestoverlay",
+    "math": "Prior57PASS unchanged; no green suite rerun",
+    "focused_delta": "No P0/P1source finding in two buttonhitshape/stylemodifiers and boundedpredicate; nativezoom OPEN",
+    "native_round2": "FAIL atzoom; dailyweeklyaggregation andInspect\u2192PanPASS reported; actualpanmotion/RSI/events/financial/categoriesNOT_REACHED",
+    "native_round3": "NOT_RUN, finalallowedround Integrationowned"
+  },
+  "deadline": "2026-10-17T16:00:00-04:00 workready;16:00\u201316:30rehearsal;16:30judging",
+  "next": "Integrationcontrolledimport thenfinalRound3underremaininglease; stopafterresultregardlessoutcome",
+  "canonical_mutated_by_charts": false,
+  "paid_calls": 0,
+  "portfolio_actions": 0,
+  "imported_at": "2026-10-17T19:04:04.970226+00:00"
+}

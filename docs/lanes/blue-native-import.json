@@ -1,0 +1,53 @@
+{
+  "manifests": {
+    "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-game-lane/work/releases/game-fix-06/manifest.json": "4015808fba77454f7f6e419f7c82c0b835c80b49e9ea1225dbb59b26cca3eb29",
+    "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-charts-lane/outputs/charts-brand-v2/manifest.json": "11566743769d9e9b44ecde031b6182e06915f5a22e124715e4d2ba99bf84f14d"
+  },
+  "files": [
+    {
+      "path": "ios/ApolloHack/Game/ApolloAssetDetailView.swift",
+      "sha256": "3362b14fd243326e96bf6a29cdab728f5260376c45b699414bc90b1415ed28f0"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloBrandView.swift",
+      "sha256": "ec657d0a9cf1c04fc37586c2632752f40ea61d9e26ae29c01eb23ae40b5db41f"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloCollectionViews.swift",
+      "sha256": "9c38484f85c90bfe67335afca94e9025bccfb4a7e85ba3d3b3972eca45dcf216"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloGameRootView.swift",
+      "sha256": "cd8686b690604ac75272b5d5c58d148978e1e2c30d2a81b0ed57ca71798b2673"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloGameStore.swift",
+      "sha256": "3749e18a416c40649143da3daf4df0adfb5c36292b45a8b09ce139a85573e813"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloOrderView.swift",
+      "sha256": "905a262e21b8dba6383e59a9d70eadfbae1b72a23c7976970dd489ec2d07b623"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloPaperComparisonView.swift",
+      "sha256": "e8e8d79aca81f44b64c66dba71d72392bc0dad9b818d3b2d67ae61399576474f"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloThesisChallengeView.swift",
+      "sha256": "5f01e86336513f21e603ca529b8615c7e9b4348a6bca3d865b2cd7307fe5149e"
+    },
+    {
+      "path": "ios/ApolloHack/Charts/ApolloChartView.swift",
+      "sha256": "d57296bd9e90e12ee5122a049bf1783392418c53b9d2daf22bb97d27728707bc"
+    },
+    {
+      "path": "ios/ApolloHack/Charts/ApolloChartBrandThemes.swift",
+      "sha256": "64e919245f31d70f4abb87252dacc4dcdecade7dc9f4751c629baf5015e9d3bf"
+    },
+    {
+      "path": "docs/lanes/charts.md",
+      "sha256": "297ece1cbbb9ce097779848bf23c79e6842ab17613d27a4cb80842a43bd7073c"
+    }
+  ],
+  "native_visual": "NOT_RUN"
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "requested": "320x740x2,mobile,touch",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Script ran on page and returned:\n```json\n{\"mode\":\"browser\",\"tool\":\"mcp__chrome_devtools__evaluate_script\",\"url\":\"http://127.0.0.1:4177/\",\"width\":320,\"client\":320,\"height\":740,\"scrollWidth\":320,\"overflow\":false,\"navVisible\":true,\"sections\":[{\"id\":\"main\",\"visible\":true,\"width\":320,\"heading\":\"Less doomscroll.\\nMore “tell me more.”\"},{\"id\":\"how-it-works\",\"visible\":true,\"width\":280,\"heading\":\"Build conviction.\\nKeep perspective.\"},{\"id\":\"preview\",\"visible\":true,\"width\":320,\"heading\":\"A great company.\\nAt what price?\"},{\"id\":\"access\",\"visible\":true,\"width\":280,\"heading\":\"Your next\\n“tell me more”\\nstarts here.\"}],\"accessStatus\":\"TestFlight access coming soon\",\"openAnswer\":true}\n```"
+        }
+      ]
+    }
+  },
+  {
+    "requested": "390x844x2,mobile,touch",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Script ran on page and returned:\n```json\n{\"mode\":\"browser\",\"tool\":\"mcp__chrome_devtools__evaluate_script\",\"url\":\"http://127.0.0.1:4177/\",\"width\":390,\"client\":390,\"height\":844,\"scrollWidth\":390,\"overflow\":false,\"navVisible\":true,\"sections\":[{\"id\":\"main\",\"visible\":true,\"width\":390,\"heading\":\"Less doomscroll.\\nMore “tell me more.”\"},{\"id\":\"how-it-works\",\"visible\":true,\"width\":350,\"heading\":\"Build conviction.\\nKeep perspective.\"},{\"id\":\"preview\",\"visible\":true,\"width\":390,\"heading\":\"A great company.\\nAt what price?\"},{\"id\":\"access\",\"visible\":true,\"width\":350,\"heading\":\"Your next\\n“tell me more”\\nstarts here.\"}],\"accessStatus\":\"TestFlight access coming soon\",\"openAnswer\":true}\n```"
+        }
+      ]
+    }
+  },
+  {
+    "requested": "768x1024x1",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Script ran on page and returned:\n```json\n{\"mode\":\"browser\",\"tool\":\"mcp__chrome_devtools__evaluate_script\",\"url\":\"http://127.0.0.1:4177/\",\"width\":768,\"client\":768,\"height\":1024,\"scrollWidth\":768,\"overflow\":false,\"navVisible\":true,\"sections\":[{\"id\":\"main\",\"visible\":true,\"width\":768,\"heading\":\"Less doomscroll.\\nMore “tell\\nme more.”\"},{\"id\":\"how-it-works\",\"visible\":true,\"width\":704,\"heading\":\"Build conviction.\\nKeep perspective.\"},{\"id\":\"preview\",\"visible\":true,\"width\":768,\"heading\":\"A great company.\\nAt what price?\"},{\"id\":\"access\",\"visible\":true,\"width\":704,\"heading\":\"Your next\\n“tell me more”\\nstarts here.\"}],\"accessStatus\":\"TestFlight access coming soon\",\"openAnswer\":true}\n```"
+        }
+      ]
+    }
+  },
+  {
+    "requested": "1440x900x1",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Script ran on page and returned:\n```json\n{\"mode\":\"browser\",\"tool\":\"mcp__chrome_devtools__evaluate_script\",\"url\":\"http://127.0.0.1:4177/\",\"width\":1440,\"client\":1440,\"height\":900,\"scrollWidth\":1440,\"overflow\":false,\"navVisible\":true,\"sections\":[{\"id\":\"main\",\"visible\":true,\"width\":1440,\"heading\":\"Less doomscroll.\\nMore “tell\\nme more.”\"},{\"id\":\"how-it-works\",\"visible\":true,\"width\":1280,\"heading\":\"Build conviction.\\nKeep perspective.\"},{\"id\":\"preview\",\"visible\":true,\"width\":1440,\"heading\":\"A great company.\\nAt what price?\"},{\"id\":\"access\",\"visible\":true,\"width\":1280,\"heading\":\"Your next\\n“tell me more”\\nstarts here.\"}],\"accessStatus\":\"TestFlight access coming soon\",\"openAnswer\":true}\n```"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "experience_kind": "site_and_app",
+  "basic_build_ready": true,
+  "state": "CANDIDATE_VERIFIED_READY_FOR_OWNER_REVIEW",
+  "checks": {
+    "site_assertions": 119,
+    "gesture_threshold_cancel": 13,
+    "install_guard": 14,
+    "negative_control": "EXPECTED_FAIL_wrong_stock_cost",
+    "routes_widths": "5routes x320/390/768/1440",
+    "motion": "Actual normal/reduced/interruption CSS state samples; four saved outcome captures. No continuous recording or capture-time binding claimed.",
+    "video": "actual local89/60 decode/play/seek"
+  },
+  "not_claimed": [
+    "native adoption",
+    "public hosting",
+    "account verification",
+    "physical-phone full-video acceptance",
+    "owner visual acceptance",
+    "full repository CI"
+  ],
+  "required_next": [
+    "guarded canonical import and actualmainreadback",
+    "Onboard frozen account UI +same-originpublichost; real sender/cookie/email/QR acceptance",
+    "new full-demo video update fromDemo"
+  ]
+}

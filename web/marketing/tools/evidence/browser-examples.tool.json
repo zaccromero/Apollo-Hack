@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Script ran on page and returned:\n```json\n{\"mode\":\"browser\",\"tool\":\"mcp__chrome_devtools__evaluate_script\",\"url\":\"http://127.0.0.1:4177/\",\"viewport\":{\"width\":445,\"height\":963},\"examples\":[{\"key\":\"stock\",\"selected\":\"true\",\"kind\":\"STOCKS\",\"answerHidden\":false,\"expanded\":\"true\",\"answer\":\"Separate the business from the price. Look at earnings, competition, and the assumptions behind growth. A company you love can still be an investment you can’t explain.\",\"closedAgain\":true},{\"key\":\"etf\",\"selected\":\"true\",\"kind\":\"ETFs\",\"answerHidden\":false,\"expanded\":\"true\",\"answer\":\"Look through the holdings, concentration, and fees. Diversification depends on what is inside the basket—not simply how many names appear on the label.\",\"closedAgain\":true},{\"key\":\"option\",\"selected\":\"true\",\"kind\":\"OPTIONS\",\"answerHidden\":false,\"expanded\":\"true\",\"answer\":\"$5 × 100 = $500 before fees. For a long option, the entire premium can be lost. Expiration and contract terms matter as much as the direction of the underlying asset.\",\"closedAgain\":true}],\"install\":{\"hidden\":true,\"qrHidden\":true,\"status\":\"TestFlight access coming soon\",\"href\":null},\"images\":[{\"src\":\"assets/sun.svg\",\"loaded\":true},{\"src\":\"assets/apollo-demo.jpg\",\"loaded\":true},{\"src\":\"assets/sun.svg\",\"loaded\":true},{\"src\":\"assets/sun.svg\",\"loaded\":true}]}\n```"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "imported_at": "2026-10-17T17:02:57.088446+00:00",
+  "manifest_sha256": "dbc8ceced7b27017ed161633baacad0e84aad6c3affa9c6181a2b1f48c8ec06c",
+  "changes": [
+    {
+      "path": "web/marketing/app.js",
+      "oldSHA256": "5a0049940873f1b8ed0fb786d0b84d754e707d5f944ed5594ad77e48352db6dd",
+      "newSHA256": "aa3fd43a60841b742f26ba533b6c69fb2768302e0cd38dd6e7b741fbe46de139",
+      "bytes": 6757
+    },
+    {
+      "path": "web/marketing/assets/apollo-comparison-blue.png",
+      "oldSHA256": null,
+      "newSHA256": "6b02dbe9a812ade81950e1939f1053fd85a74c2e333f339e371ae27ce0c5d161",
+      "bytes": 277104
+    },
+    {
+      "path": "web/marketing/assets/apollo-discover-blue.png",
+      "oldSHA256": null,
+      "newSHA256": "979c7abb0191ec1d382a1fe507c4772ced2abcbb7e6a0d7944b19eb9507250d1",
+      "bytes": 304752
+    },
+    {
+      "path": "web/marketing/brief.json",
+      "oldSHA256": null,
+      "newSHA256": "30a2248cbe08852ca7b253b74fa2dac4e01884bad1911c1495c967c01d2806e1",
+      "bytes": 3692
+    },
+    {
+      "path": "web/marketing/delivery.json",
+      "oldSHA256": "1a6cfb75c10e502968bf9da637098147408438718a4e54461b5b3af36cbd1bd4",
+      "newSHA256": "9db8547a2ab501c1a81f3dde0d72d989f5e0d9d69a99707573f6f1ce7c6fbe07",
+      "bytes": 6933
+    },
+    {
+      "path": "web/marketing/demo-data.js",
+      "oldSHA256": null,
+      "newSHA256": "75c99b2b5920ca84e6ff927582b74654441d4bf3e68422081d68988b4d924936",
+      "bytes": 3152
+    },
+    {
+      "path": "web/marketing/index.html",
+      "oldSHA256": "691a99b3134b6cb49e3e3d51668050f4eeb26a1b597082530468a7e05544c77c",
+      "newSHA256": "bca8d5df609a13a47e7455e809aed86e940b79192b095016cf7d9a1cd6fbd3d5",
+      "bytes": 11391
+    },
+    {
+      "path": "web/marketing/install.js",
+      "oldSHA256": null,
+      "newSHA256": "ad53b2c124f0cff4d4e4a715205c28d68480f6e3f03c0f6e7bfd1d923c9a5577",
+      "bytes": 2641
+    },
+    {
+      "path": "web/marketing/styles.css",
+      "oldSHA256": "bdb63f340b5489dc3ad0eea2fcbed57bfdc698920eb76e8a20e621bf899c892e",
+      "newSHA256": "ef39f27c541daa2faa55bb74e31b6b7f23810cbe7d0ec2d54e0aa67639ad0ded",
+      "bytes": 20021
+    },
+    {
+      "path": "web/marketing/tools/check-install.cjs",
+      "oldSHA256": null,
+      "newSHA256": "6d741d4891d91f6d3bdcafc66a8ff325b5597d5405dabb4e2e3dd4a2250d7b18",
+      "bytes": 1522
+    },
+    {
+      "path": "web/marketing/tools/check-rebuild.py",
+      "oldSHA256": null,
+      "newSHA256": "1e4471a028f776f313a2870855b2beaf77d86a087dff15001af25e23e9a9ac5d",
+      "bytes": 5505
+    },
+    {
+      "path": "web/marketing/tools/evidence/rebuild/anchors.tool.json",
+      "oldSHA256": null,
+      "newSHA256": "9d2d35c15b67a3d049acf105bae3593b028c2b9b3e5ad19dcb5e3fc61e417693",
+      "bytes": 1062
+    },
+    {
+      "path": "web/marketing/tools/evidence/rebuild/boundaries.tool.json",
+      "oldSHA256": null,
+      "newSHA256": "0f698deeffdf5a379463a2146277b813567862326db846b10a22928f7c41ae37",
+      "bytes": 1425
+    },
+    {
+      "path": "web/marketing/tools/evidence/rebuild/final-review.json",
+      "oldSHA256": null,
+      "newSHA256": "bb14117fee6d9d0074e5bec9b0e09c89e0f1dedb4290dc8093810d201a4173b4",
+      "bytes": 826
+    },
+    {
+      "path": "web/marketing/tools/evidence/rebuild/footer-focused.tool.json",
+      "oldSHA256": null,
+      "newSHA256": "a1738a37bd98e6e8ab3104ad73a6e7d774e851739b8db70f95d7c27195601c74",
+      "bytes": 596
+    },
+    {
+      "path": "web/marketing/tools/evidence/rebuild/gate.json",
+      "oldSHA256": null,
+      "newSHA256": "456f86034c41bc6355475af307bb9c5ac7eb0d27e519a71f7ed8b813fa030979",
+      "bytes": 2697
+    },
+    {
+      "path": "web/marketing/tools/evidence/rebuild/invalid.tool.json",
+      "oldSHA256": null,
+      "newSHA256": "659d74f8f9eab45b974a515c8d02b65dbe20bd418ca533570effb4a91b4fb793",
+      "bytes": 1249
+    },
+    {
+      "path": "web/marketing/tools/evidence/rebuild/journey.tool.json",
+      "oldSHA256": null,
+      "newSHA256": "a820bbb178c02254ad51567eb9cad5fa30e547c445e10ae506013b1402f68244",
+      "bytes": 3664
+    },
+    {
+      "path": "web/marketing/tools/evidence/rebuild/keyboard-confirm.tool.json",
+      "oldSHA256": null,
+      "newSHA256": "c144b8c3424373a635063773ad630594b62ee6fddc0cdba3d45415873f4d3715",
+      "bytes": 307
+    },
+    {
+      "path": "web/marketing/tools/evidence/rebuild/keyboard-stage.tool.json",
+      "oldSHA256": null,
+      "newSHA256": "f91fcfdfdf0313bdcc13d8f8f33a23d824c3dcacda99ce26592d8af699ad020d",
+      "bytes": 566
+    },
+    {
+      "path": "web/marketing/tools/evidence/rebuild/keyboard-topic.tool.json",
+      "oldSHA256": null,
+      "newSHA256": "224ba5ce07054d04f88e426c6ab4ad1c75797c7e57c13a2f0254a00cc7a33313",
+      "bytes": 190
+    },
+    {
+      "path": "web/marketing/tools/evidence/rebuild/mobile-content.tool.json",
+      "oldSHA256": null,
+      "newSHA256": "5e53f13b42e6aedf43b5d0cab306e1e3d81667b849599a774fb374fb97ee0f47",
+      "bytes": 2198
+    },
+    {
+      "path": "web/marketing/tools/evidence/rebuild/native.tool.json",
+      "oldSHA256": null,
+      "newSHA256": "dd1046441f63f72b7e895eba68908a62cc6a361d77122c4f6ca447a68a803759",
+      "bytes": 1250
+    },
+    {
+      "path": "web/marketing/tools/evidence/rebuild/reload.tool.json",
+      "oldSHA256": null,
+      "newSHA256": "522c27ea45c659abe7da2a41ec967676439f7c76ac97c15d2073478e2f2c6824",
+      "bytes": 567
+    },
+    {
+      "path": "web/marketing/tools/evidence/rebuild/responsive.tool.json",
+      "oldSHA256": null,
+      "newSHA256": "3d3b03b2cf2cb9b6fb15fde8bbdadaab0b18efe14ee3f90ec1a5c41b0ec7e05f",
+      "bytes": 7932
+    }
+  ],
+  "actual_4177_verification": "PENDING owner check"
+}

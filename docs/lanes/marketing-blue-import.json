@@ -1,0 +1,173 @@
+{
+  "manifest": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-marketing-lane/outputs/APOLLO-MARKETING-BLUE-DELTA.json",
+  "manifest_sha256": "2d9d056ca6cbd7e2713eb117156457bfc11eb3994872f8288f9c48c5a4f12391",
+  "changes": [
+    {
+      "path": "docs/lanes/marketing.md",
+      "oldSHA256": "01f43781d81ff3415b09759c430f1202ea695885a8a43ddf80385e85b6cf28b4",
+      "newSHA256": "ed56aa057eddb009a462f35100b176c36afd4a79550fe0468fc0a5f6530cf8ec",
+      "bytes": 12740
+    },
+    {
+      "path": "web/marketing/README.md",
+      "oldSHA256": "b52b4d65dd1a418ad50e46a478e201fda098f31734fa571ab6f43be29e716cae",
+      "newSHA256": "6acdcb93c3ad6e19f9c6bbe82dc4fba3000e463cf6ec75f14c8e3246752d6291",
+      "bytes": 3507
+    },
+    {
+      "path": "web/marketing/brand/GUIDE.md",
+      "oldSHA256": "89c133d36e6e759fac834cc60270385a28dd511d2ae52f53243ed4c0a5291615",
+      "newSHA256": "6bc5c59a89ccc5d4532cb8b04ca079dbce91dafbd6727f1178349d78faa3b202",
+      "bytes": 2460
+    },
+    {
+      "path": "web/marketing/brand/ascending-blue/icon-1024.png",
+      "oldSHA256": null,
+      "newSHA256": "2cafe4041f45d8b4b832b75a8f12214f3cfc05c22fb9e398ffcbbb3dc32ad910",
+      "bytes": 44667
+    },
+    {
+      "path": "web/marketing/brand/ascending-blue/logo-light.svg",
+      "oldSHA256": null,
+      "newSHA256": "dffea6ce516140730c395e01539535eab6320163caed44f22e86b243ce6b57d2",
+      "bytes": 3515
+    },
+    {
+      "path": "web/marketing/brand/ascending-blue/logo-mono.svg",
+      "oldSHA256": null,
+      "newSHA256": "597f8012894755444c75d8072675afd386f9073d0cf4973316c2513b3f0e77b4",
+      "bytes": 3515
+    },
+    {
+      "path": "web/marketing/brand/ascending-blue/logo-on-dark.png",
+      "oldSHA256": null,
+      "newSHA256": "ff049c2aef0f7b768b2a915cdc3c977eed11e22d835acd7cb4d140efee4bddec",
+      "bytes": 80252
+    },
+    {
+      "path": "web/marketing/brand/ascending-blue/logo-transparent.png",
+      "oldSHA256": null,
+      "newSHA256": "a1c44fe14db9fd78e431e34b78f478dc72f62b04a31924c786e5ccb5a35f22ad",
+      "bytes": 81122
+    },
+    {
+      "path": "web/marketing/brand/ascending-blue/logo-white.svg",
+      "oldSHA256": null,
+      "newSHA256": "acabbdd35006dd4c4a62c849ca1d0109a7115492cf4e68601b93f2faefd9793c",
+      "bytes": 3515
+    },
+    {
+      "path": "web/marketing/brand/ascending-blue/logo.svg",
+      "oldSHA256": null,
+      "newSHA256": "985bfc1e6d0a89e780d2d996be136fef399c7feb23711d7934cbf05338889b47",
+      "bytes": 3515
+    },
+    {
+      "path": "web/marketing/brand/ascending-blue/mark-light.svg",
+      "oldSHA256": null,
+      "newSHA256": "899e12be0188e5c8ae75a82cb88e4e9e38bcb229191f42c4fd03c482520a9114",
+      "bytes": 405
+    },
+    {
+      "path": "web/marketing/brand/ascending-blue/mark-mono.svg",
+      "oldSHA256": null,
+      "newSHA256": "16ed4c846cf4f11a519182932c9b67cae782da56fcce9a880bad70e9e319073c",
+      "bytes": 405
+    },
+    {
+      "path": "web/marketing/brand/ascending-blue/mark-white.svg",
+      "oldSHA256": null,
+      "newSHA256": "592d27c4823f76efdea66aaf612da43adae2a3c4e7db23dfe670d80198a754cf",
+      "bytes": 405
+    },
+    {
+      "path": "web/marketing/brand/ascending-blue/mark.svg",
+      "oldSHA256": null,
+      "newSHA256": "aab0cbca4666bfcad79f1c7db2158075a664e9a541ea321bd4ec50d97c09a671",
+      "bytes": 405
+    },
+    {
+      "path": "web/marketing/brand/ascending-blue/owner-direction.json",
+      "oldSHA256": null,
+      "newSHA256": "83be1aa77db4e34a1a3df3da55f5aadd0cc1c559bc7bfc083adf43b32a604f65",
+      "bytes": 573
+    },
+    {
+      "path": "web/marketing/brand/ascending-blue/wordmark.svg",
+      "oldSHA256": null,
+      "newSHA256": "993b986dfe608d5a524a39667cffbcc737f82609a5aaebb4e4f4bf0cf9260eb2",
+      "bytes": 3170
+    },
+    {
+      "path": "web/marketing/brand/tokens.json",
+      "oldSHA256": "b795cd3ffbf2f453e8cf695b299056f8b9e3c3842bf0bb1d6a5ab28db769d624",
+      "newSHA256": "5d69b0a0bbcddf153515187593d75c09d537f596821342ad95afa84a5b420d5a",
+      "bytes": 817
+    },
+    {
+      "path": "web/marketing/delivery.json",
+      "oldSHA256": "9579353b42a691dc17a242c8c69086a1e82c398f05299369b757bc14f082a79e",
+      "newSHA256": "1a6cfb75c10e502968bf9da637098147408438718a4e54461b5b3af36cbd1bd4",
+      "bytes": 4088
+    },
+    {
+      "path": "web/marketing/index.html",
+      "oldSHA256": "6e6487ebe9dd5e4aee5a49aa4a0963cf84ccf59ec58e2c464c1bfef5ecc4c93b",
+      "newSHA256": "691a99b3134b6cb49e3e3d51668050f4eeb26a1b597082530468a7e05544c77c",
+      "bytes": 10007
+    },
+    {
+      "path": "web/marketing/styles.css",
+      "oldSHA256": "e514f41cb7576fe6a81cf73c7f49a348b69acafc9fd881e05b3edc5544f3192e",
+      "newSHA256": "bdb63f340b5489dc3ad0eea2fcbed57bfdc698920eb76e8a20e621bf899c892e",
+      "bytes": 13611
+    },
+    {
+      "path": "web/marketing/tools/evidence/blue-refresh/assertions.json",
+      "oldSHA256": null,
+      "newSHA256": "3d6b61b8af3643abd8c94ed6ad04052a40d5faad5d70115cf0a49cad753baafd",
+      "bytes": 626
+    },
+    {
+      "path": "web/marketing/tools/evidence/blue-refresh/keyboard.tool.json",
+      "oldSHA256": null,
+      "newSHA256": "3454c856fe1a7dedf16e4b320b3be70d7197e785b0338b0bb159dcf5968c107b",
+      "bytes": 228
+    },
+    {
+      "path": "web/marketing/tools/evidence/blue-refresh/native-geometry.tool.json",
+      "oldSHA256": null,
+      "newSHA256": "588f6eddd4d96a3b27fd3cece3e8120a4c6a687f4b85ab51cdc3302c84ae3cbd",
+      "bytes": 324
+    },
+    {
+      "path": "web/marketing/tools/evidence/blue-refresh/native-preflight.txt",
+      "oldSHA256": null,
+      "newSHA256": "4b76f77e82524a2a1bbb0fb757ccee6b9dd7723d38ba844ba45e24d582b72adb",
+      "bytes": 345
+    },
+    {
+      "path": "web/marketing/tools/evidence/blue-refresh/reload.tool.json",
+      "oldSHA256": null,
+      "newSHA256": "5382810ceccb3cc9cad86844722ae21fbd9cc5046bf5f6a318034dc96d3335b0",
+      "bytes": 358
+    },
+    {
+      "path": "web/marketing/tools/evidence/blue-refresh/responsive.tool.json",
+      "oldSHA256": null,
+      "newSHA256": "c7b8ddfb12725a78922c8ee2e39ce3be02376f18a7cff71a463d8ac204e3a052",
+      "bytes": 7606
+    },
+    {
+      "path": "web/marketing/tools/verify-branding.py",
+      "oldSHA256": null,
+      "newSHA256": "966afa26f5c07517e21e885ace0a662347a6777cd010a51c1366524288bbd95c",
+      "bytes": 2521
+    }
+  ],
+  "behavior_unchanged": {
+    "app.js": "5a0049940873f1b8ed0fb786d0b84d754e707d5f944ed5594ad77e48352db6dd",
+    "install.json": "4043ecea55bc45d83e78f2d481e6e0867435454b92fc0b3f8347a53f591a803a"
+  },
+  "deployment": "NOT_RUN"
+}

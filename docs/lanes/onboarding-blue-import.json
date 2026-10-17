@@ -1,0 +1,71 @@
+{
+  "manifest": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-onboarding-lane/outputs/ApolloOnboarding-v2/manifest.json",
+  "manifest_sha256": "896680bd61ff1438434bc05a80739779db36880251dd8ed7f6d066afba021c99",
+  "files": [
+    {
+      "target_path": "ios/ApolloHack/OnboardingSettings/ApolloOnboardingContract.swift",
+      "source_path": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-onboarding-lane/outputs/ApolloOnboarding-v2/ios/ApolloHack/OnboardingSettings/ApolloOnboardingContract.swift",
+      "sha256": "65d00aa78739a0a8629c14239c2fa2fbee957193b8bc8c6c3d7f6f6719f80a78",
+      "expected_old_sha256": "3490794607cd1655d871c222885ee8b4730ef96b00b16f48fae284aad8781eca",
+      "action": "REPLACE",
+      "production_swift": true
+    },
+    {
+      "target_path": "ios/ApolloHack/OnboardingSettings/ApolloOnboardingProgress.swift",
+      "source_path": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-onboarding-lane/outputs/ApolloOnboarding-v2/ios/ApolloHack/OnboardingSettings/ApolloOnboardingProgress.swift",
+      "sha256": "495674bfca4d3a7ca25ff3fa58d38a80a46126e43352964083d291327b78e19a",
+      "expected_old_sha256": "495674bfca4d3a7ca25ff3fa58d38a80a46126e43352964083d291327b78e19a",
+      "action": "UNCHANGED",
+      "production_swift": true
+    },
+    {
+      "target_path": "ios/ApolloHack/OnboardingSettings/ApolloOnboardingSession.swift",
+      "source_path": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-onboarding-lane/outputs/ApolloOnboarding-v2/ios/ApolloHack/OnboardingSettings/ApolloOnboardingSession.swift",
+      "sha256": "9a580d433db3ad1e9c06ce1b34411a2a64eed1c63b198f402031e7b6fc8f2d9f",
+      "expected_old_sha256": "9a580d433db3ad1e9c06ce1b34411a2a64eed1c63b198f402031e7b6fc8f2d9f",
+      "action": "UNCHANGED",
+      "production_swift": true
+    },
+    {
+      "target_path": "ios/ApolloHack/OnboardingSettings/ApolloOnboardingStyle.swift",
+      "source_path": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-onboarding-lane/outputs/ApolloOnboarding-v2/ios/ApolloHack/OnboardingSettings/ApolloOnboardingStyle.swift",
+      "sha256": "e118e532b0ad4f3607264b6528db163b8e6922057f7f4976bb3dbab559227aa5",
+      "expected_old_sha256": "da3bdc6e89633a54a01a1a1965d2ca8c4de9c4faa3fe05240702dad5eb4fc385",
+      "action": "REPLACE",
+      "production_swift": true
+    },
+    {
+      "target_path": "ios/ApolloHack/OnboardingSettings/ApolloOnboardingView.swift",
+      "source_path": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-onboarding-lane/outputs/ApolloOnboarding-v2/ios/ApolloHack/OnboardingSettings/ApolloOnboardingView.swift",
+      "sha256": "0cf8be8faeb2203aacd8c55316a2ea57c156fe4257d84e306a06dd21325bfa22",
+      "expected_old_sha256": "dbb990c7d48570ce309daeffae68e1247d569fee36c704f7c21b8681935a4f28",
+      "action": "REPLACE",
+      "production_swift": true
+    },
+    {
+      "target_path": "ios/ApolloHack/OnboardingSettings/ApolloSettingsView.swift",
+      "source_path": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-onboarding-lane/outputs/ApolloOnboarding-v2/ios/ApolloHack/OnboardingSettings/ApolloSettingsView.swift",
+      "sha256": "b6c3a60e0183e79195b6257068deb13dab8f3020cdca8d8881378389a7548c7d",
+      "expected_old_sha256": "c314fbfac8d90973b2ab9759553d45dbd6d104c586615e0b204a43ac1f08532a",
+      "action": "REPLACE",
+      "production_swift": true
+    },
+    {
+      "target_path": "ios/ApolloHack/OnboardingSettings/Tests/ApolloOnboardingChecks.swift",
+      "source_path": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-onboarding-lane/outputs/ApolloOnboarding-v2/ios/ApolloHack/OnboardingSettings/Tests/ApolloOnboardingChecks.swift",
+      "sha256": "c8081617a63ed1902e7eecfc18dffc44bef4a7a2f9f3e1e722c3384fc24178b5",
+      "expected_old_sha256": "c8081617a63ed1902e7eecfc18dffc44bef4a7a2f9f3e1e722c3384fc24178b5",
+      "action": "UNCHANGED",
+      "production_swift": false
+    },
+    {
+      "target_path": "docs/lanes/onboarding.md",
+      "source_path": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-onboarding-lane/outputs/ApolloOnboarding-v2/docs/lanes/onboarding.md",
+      "sha256": "def8ae0a3c1a0b3503394669af1a22a7052d61d1b5b976f998d43cfad8e78197",
+      "expected_old_sha256": "2df4309562eee5266fa3d4f207abc562ec33f0ea9ac2d951c622ca45bb5529d5",
+      "action": "REPLACE",
+      "production_swift": false
+    }
+  ],
+  "native_visual": "NOT_RUN"
+}

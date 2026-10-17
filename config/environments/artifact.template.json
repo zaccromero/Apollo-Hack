@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "status": "TEMPLATE_NOT_A_BUILD_RECEIPT",
+  "environment": null,
+  "source": {
+    "commit": null,
+    "dirty": null,
+    "included_file_manifest_sha256": null
+  },
+  "configuration_sha256": null,
+  "bundle_id": "com.zaccromero.ApolloHack",
+  "team_id": "6GB3JDVN8D",
+  "version": null,
+  "build_number": null,
+  "build_number_available_in_apple": null,
+  "artifact": {
+    "path": null,
+    "sha256": null,
+    "archive_source_commit": null
+  },
+  "signing": {
+    "identity_name": null,
+    "certificate_expires_at": null,
+    "profile_name": null,
+    "profile_uuid": null,
+    "profile_expires_at": null,
+    "allowed_application_identifier": null,
+    "device_count": null
+  },
+  "evidence": {
+    "contract_validation": "NOT_RUN",
+    "native_environment_wiring": "NOT_RUN",
+    "affected_native_journey": "NOT_RUN",
+    "data_isolation": "NOT_RUN",
+    "combined_game_gate": "NOT_RUN",
+    "final_p0_p1_review": "NOT_RUN",
+    "archive": "NOT_RUN",
+    "export": "NOT_RUN",
+    "apple_validation": "NOT_RUN",
+    "upload": "NOT_RUN",
+    "processing": "NOT_RUN",
+    "internal_install": "NOT_RUN",
+    "owner_acceptance": "NOT_RUN"
+  },
+  "note": "Populate only from actual Integration receipts. No credentials, raw profiles, private keys, device UDIDs, or private user profiles."
+}

@@ -1,0 +1,52 @@
+{
+  "imported_at": "2026-10-17T15:43:45.674853+00:00",
+  "manifest": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-game-lane/work/releases/game-fix-02/manifest.json",
+  "files": [
+    {
+      "name": "ApolloCollectionViews.swift",
+      "expected_destination_sha256": "8f8ba58fb3476dbe4c6f2f2bd828de4c2d932c539c968f03a9b74bd10e7956a8",
+      "sha256": "128334afac66d115b9a17c1328f46708ea30a4b102c80cfeb4b475a902f601c0"
+    },
+    {
+      "name": "ApolloDemoGameService.swift",
+      "expected_destination_sha256": "a48b459151cccf639d8dd78b7d85b68fa51e8ec158f309dca95a46f7d0ecd581",
+      "sha256": "18c7424ae2a062225bbf52c4bbe4d8554cab21ac0482c6d893dbbc222c92b55f"
+    },
+    {
+      "name": "ApolloGameModels.swift",
+      "expected_destination_sha256": "a5c83c2c1c4e7d278b7f33ad81024f8e8605ccfe456e2b84e1e77e18228bb6c0",
+      "sha256": "cb8eb79dc480d1bc3b5978955e2bb19a8e8ecd8ca359a480d32553fe51f4da8a"
+    },
+    {
+      "name": "ApolloGameRootView.swift",
+      "expected_destination_sha256": "9a67b8d320bd23a310216f9b9b991d6aebc804f30e003b7226459ceb22869cea",
+      "sha256": "ec31feca88d6997bc1c86c602f33a5fcf545c1d27ea08d7338d8df56a4a26b3f"
+    },
+    {
+      "name": "ApolloGameStore.swift",
+      "expected_destination_sha256": "6d65d96ed9674cba227e0d8b08902cf471f72ffa1c0ca910cb2148daece31501",
+      "sha256": "61c6dff2626083553ceb95a0391a2cb9b2e736056b23edd93aac0703432e268e"
+    },
+    {
+      "name": "ApolloOrderView.swift",
+      "expected_destination_sha256": "3be0ef1dc60d382ca8e7c5942a80ccec32499243dafdc011cfda3920094fa193",
+      "sha256": "588f35b194cc4866bfdfbd41a21900cadeeb948c17baf1d93feecc2c1f93ac8c"
+    },
+    {
+      "name": "ApolloPortfolioInsightsView.swift",
+      "expected_destination_sha256": null,
+      "sha256": "28185bee56206c611c2e3ad81ba96fd52e7a92a1b5ba6e3242ec5567f20518ed"
+    },
+    {
+      "name": "ApolloRiskProfileView.swift",
+      "expected_destination_sha256": null,
+      "sha256": "412c2d07bcfd7822d4e6fb9f21267a5d2341dcfb5860e98099ee72b40cc634ce"
+    },
+    {
+      "name": "INTEGRATION.md",
+      "expected_destination_sha256": "20c2fe3e52db67f6015f4a070139f1ab298bc0127a688c6877e6298974f32621",
+      "sha256": "39cc1c78c714f053df9418988933807001a03803241868be9d50aef0950fd34a"
+    }
+  ],
+  "runtime": "NOT_RUN"
+}

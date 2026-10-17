@@ -1,0 +1,15 @@
+{
+  "scope": "Full marketing rebuild source diff and actual focused journey receipts, not repository/native release audit.",
+  "reviewer": "Codex self-review, inline; no independent agent",
+  "P0": 0,
+  "P1": 0,
+  "checks": [
+    "All owner interactions confined to website-local state; no real orders/account writes",
+    "Numeric quantity guards and explicit confirmation, duplicate protection",
+    "Fail-closed install host/build/time/QR coupling preserved",
+    "Raw app captures approved and scoped, fictional examples labelled",
+    "Selected identity retained; source ownership and baseline preserved"
+  ],
+  "remaining": "Owner visual acceptance, current-game install handoff and native whole-product checks remain open.",
+  "budget": "One final bounded review; STOP with no observed P0/P1. No further polish loop."
+}

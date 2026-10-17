@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T15:38:00.827428+00:00",
+  "manifest": {
+    "source_directory": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-game-lane/work/releases/game-fix-01",
+    "destination_directory": "/Users/zaccromero/code/hackathon/Apollo-Hack/ios/ApolloHack/Game",
+    "kind": "focused_delta",
+    "reason": "Explicit watchlist removal; authoritative paper valuation and visible provenance",
+    "import_release": {
+      "receiver_thread": "01a14a33-e4a0-7ae1-a942-353fd5883fd3",
+      "scope": "one-time replacement of listed files only if destination old hashes match"
+    },
+    "verification": {
+      "iOS_swift_typecheck": "PASS",
+      "demo_service": "21 PASS",
+      "valuation": "6 PASS",
+      "runtime": "NOT_RUN after delta; integrator owns"
+    },
+    "files": [
+      {
+        "name": "ApolloGameModels.swift",
+        "expected_destination_sha256": "c3e179686dbcc00c1067e8ac7b2540daf190734ce849987976a114954acf9e18",
+        "sha256": "a5c83c2c1c4e7d278b7f33ad81024f8e8605ccfe456e2b84e1e77e18228bb6c0"
+      },
+      {
+        "name": "ApolloGameStore.swift",
+        "expected_destination_sha256": "b506f59783cb0413436f233fba82b587541dc090a4aaaace3817a9d72319c3b7",
+        "sha256": "6d65d96ed9674cba227e0d8b08902cf471f72ffa1c0ca910cb2148daece31501"
+      },
+      {
+        "name": "ApolloCollectionViews.swift",
+        "expected_destination_sha256": "ae8bad7cd0a50760d4360fb04f9e94ea52b7ff385ac6f059f81510a28c53ff9f",
+        "sha256": "8f8ba58fb3476dbe4c6f2f2bd828de4c2d932c539c968f03a9b74bd10e7956a8"
+      }
+    ]
+  },
+  "status": "IMPORTED_MATCHING_OLD_NEW_HASHES"
+}

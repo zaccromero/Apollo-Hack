@@ -1,0 +1,21 @@
+{
+  "status": "proposed-owner-review",
+  "source": "app-icon.svg",
+  "exports": [
+    {
+      "file": "app-icon-1024.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "alpha": false
+    },
+    {
+      "file": "app-icon-180.png",
+      "width": 180,
+      "height": 180,
+      "mode": "RGB",
+      "alpha": false
+    }
+  ],
+  "assetCatalogMutation": false
+}

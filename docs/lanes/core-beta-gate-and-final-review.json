@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-17T18:08:34.638398+00:00",
+  "scope": "Current core internal Beta candidate on actual integration base; full hackathon outcome remains OPEN",
+  "native_source_sha256": "fa75ca0a1cbd15837e2457d0b80f489e19a2e7349adbb83b9a8d34e7c6094789",
+  "gate": {
+    "backend": "101PASS after stale seven-asset test repair; no further full rerun",
+    "discord": "44PASS existing dependency runtime; first system Python9 dependency errors preserved as environment-blocked",
+    "environment_policy": "48PASS",
+    "carryover_component_repair": "21PASS actual helper746186c6...; prior14 invariants reused",
+    "native_release_carryover": "1PASS0FAIL populated account and reopen",
+    "native_original_dev_preservation": "1PASS0FAIL",
+    "nine_types": "1PASS0FAIL unchanged Game07-15; isolated Debug",
+    "prior_native_proofs_reused": [
+      "physical onboarding/settings",
+      "physical read-only three-profile comparison",
+      "Simulator chart/crosshair/approved option slider",
+      "paused five-step provider and historical/current disclosure"
+    ]
+  },
+  "final_adversarial_review": {
+    "P0": 0,
+    "P1": 0,
+    "status": "READY_FOR_OWNER_REVIEW; review closed, authorized internal upload continues",
+    "reviewed_boundaries": [
+      "build metadata and guards before service/diagnostics/carryover; production off",
+      "validated recoverable one-time own-account carryover, conflicts and legitimate target edits",
+      "explicit paper confirmation, duplicate action exclusion, immutable preview terms and reset confirmation",
+      "read-only comparison does not persist orders/profile",
+      "same-origin loopback transport and strict bounded local JSON adapters",
+      "provider paid/network/telemetry defaults OFF; no credential bundle",
+      "exact source/binary/signing/app-ID binding and internal-only export"
+    ],
+    "fixed_P1": "Completed journal previously skipped target validation; repaired before final review and verified21/21",
+    "P2_followups": [
+      "negative frame warning",
+      "provider keyboard remains visible",
+      "header/option layout refinements staged, not imported"
+    ]
+  },
+  "required_still_open": [
+    "signed archive/export/validation/upload/processing/internal invitation/install",
+    "actual owner one-share paper buy before first staging launch",
+    "six company panels Game17/18 and selected mobile refinements staged/nativeNOT_RUN",
+    "fresh PDF actual rendered body after Safari introduction",
+    "pending-order comparison return and remaining Library/social/Learn acceptance",
+    "general positive social retrieval/admission",
+    "public waitlist delivery/install QR/marketing new refinements/demo playback/owner acceptance"
+  ]
+}

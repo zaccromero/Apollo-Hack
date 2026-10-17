@@ -1,0 +1,47 @@
+{
+  "manifest": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-marketing-lane/outputs/APOLLO-LOGO-MANIFEST.json",
+  "files": [
+    {
+      "path": "web/marketing/brand/logos/README.md",
+      "sha256": "8608162bc2f5cd3cb7b3d524cac31fb7d4bd2a6b7e99be6afd011e43238d2850",
+      "bytes": 1408
+    },
+    {
+      "path": "web/marketing/brand/logos/apollo-logo-dark.png",
+      "sha256": "64023cfb3217bc642ae6998117266a3696cc3b9fa1a414b279f67aa8f806c508",
+      "bytes": 110228
+    },
+    {
+      "path": "web/marketing/brand/logos/apollo-logo-dark.svg",
+      "sha256": "9cbe7070f9719955992c63f18538d7f7d3c7139a79eeb4a100ef660412714fb7",
+      "bytes": 5825
+    },
+    {
+      "path": "web/marketing/brand/logos/apollo-logo-light.png",
+      "sha256": "de565243bd787b0c5fd8b2ad8af67ce235e0ddd0e3af62fd448fc77e82f8b629",
+      "bytes": 108387
+    },
+    {
+      "path": "web/marketing/brand/logos/apollo-logo-light.svg",
+      "sha256": "25ef1bc67cf7c2486ad28b58aad6835797afceddbd22d81b4a0654fcfb9a6188",
+      "bytes": 5825
+    },
+    {
+      "path": "web/marketing/brand/logos/apollo-logo-preview.png",
+      "sha256": "59ec4e2023268bb8f2026572a56d17a92f0dd09174c7dfe36be815ac29f9cd93",
+      "bytes": 143091
+    },
+    {
+      "path": "web/marketing/brand/logos/apollo-logo-white.png",
+      "sha256": "805ea74e2652263b19caea9bf60c0ca915729891de3bdbf510b26bdb8549c978",
+      "bytes": 96254
+    },
+    {
+      "path": "web/marketing/brand/logos/apollo-logo-white.svg",
+      "sha256": "4dde9e3606d17aa1a2aad3739e9c5e1257e0667833f0623984ae7b1b8afb31d8",
+      "bytes": 5825
+    }
+  ],
+  "native_icon_changed": false,
+  "owner_acceptance": "OPEN"
+}

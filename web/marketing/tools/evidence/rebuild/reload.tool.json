@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Script ran on page and returned:\n```json\n{\"url\":\"http://127.0.0.1:4182/#try-it\",\"viewport\":{\"width\":1440,\"height\":900},\"stage\":\"0\",\"topic\":\"stock\",\"receiptPresent\":false,\"visible_text\":\"DISCOVER / STOCK EXAMPLE\\n\\nStart with curiosity, not certainty.\\n\\nRecognizing a business is different from understanding an investment. Before deciding, ask what the price assumes about its future.\\n\\nUnderstand the idea\\n→\",\"installHidden\":true,\"qrHidden\":true}\n```"
+    }
+  ]
+}

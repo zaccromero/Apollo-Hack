@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Script ran on page and returned:\n```json\n{\"selectedStage\":\"1\",\"focusedId\":\"panel-title\",\"visibleText\":\"UNDERSTAND / ETF EXAMPLE\\n\\nLook through the label.\\nThe holdings: what does the fund actually own?\\nThe concentration: are a few companies doing most of the work?\\nThe costs: how might fees affect what an investor keeps?\\n\\nThis is an illustrative fund, not a real ETF or a representation of current holdings.\\n\\nReview paper practice\\n→\\nBack to the idea\"}\n```"
+    }
+  ]
+}

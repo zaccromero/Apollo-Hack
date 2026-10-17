@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "environment": "staging",
+  "contract_only": true,
+  "runtime_wired": false,
+  "bundle_id": "com.zaccromero.ApolloHack",
+  "team_id": "6GB3JDVN8D",
+  "runtime": {
+    "enabled": false,
+    "mode": "fixture",
+    "backend_url": null,
+    "endpoint_allowlist": []
+  },
+  "data": {
+    "storage_namespace": "apollo.stage.fixture.v1",
+    "backend_database": "data/staging/apollo-paper.sqlite",
+    "test_identity": "stage-fixture-tester",
+    "identity_is_authenticated": false,
+    "private_profile_import": false
+  },
+  "safety": {
+    "real_money_trades": false,
+    "paid_provider_calls": false,
+    "provider_network": false,
+    "telemetry": false,
+    "automatic_upload": false,
+    "external_testers": false,
+    "public_release": false,
+    "new_signing_assets": false
+  },
+  "delivery": {
+    "channel": "internal_testflight_preparation",
+    "signing": "existing_apollo_distribution",
+    "testflight_internal_only": true,
+    "upload_authorized_by_template": false
+  }
+}

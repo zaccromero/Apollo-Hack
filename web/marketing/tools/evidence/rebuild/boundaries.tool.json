@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Script ran on page and returned:\n```json\n{\"url\":\"http://127.0.0.1:4182/#try-it\",\"viewport\":{\"width\":1440,\"height\":900},\"observations\":[{\"topic\":\"stock\",\"action\":\"over maximum\",\"quantity\":101,\"receiptPresent\":false,\"error\":\"That costs more than the $10,000 paper balance. Try a smaller quantity.\"},{\"topic\":\"stock\",\"action\":\"exact balance\",\"quantity\":100,\"preview\":{\"cost\":\"$10,000.00\",\"cash\":\"$0.00\"},\"cash\":\"$0.00\",\"holdings\":\"$10,000.00\",\"equity\":\"$10,000.00\"},{\"topic\":\"etf\",\"action\":\"over maximum\",\"quantity\":201,\"receiptPresent\":false,\"error\":\"That costs more than the $10,000 paper balance. Try a smaller quantity.\"},{\"topic\":\"etf\",\"action\":\"exact balance\",\"quantity\":200,\"preview\":{\"cost\":\"$10,000.00\",\"cash\":\"$0.00\"},\"cash\":\"$0.00\",\"holdings\":\"$10,000.00\",\"equity\":\"$10,000.00\"},{\"topic\":\"option\",\"action\":\"over maximum\",\"quantity\":21,\"receiptPresent\":false,\"error\":\"That costs more than the $10,000 paper balance. Try a smaller quantity.\"},{\"topic\":\"option\",\"action\":\"exact balance\",\"quantity\":20,\"preview\":{\"cost\":\"$10,000.00\",\"cash\":\"$0.00\"},\"cash\":\"$0.00\",\"holdings\":\"$10,000.00\",\"equity\":\"$10,000.00\"},{\"action\":\"cancel preview\",\"stage\":\"1\",\"receiptPresent\":false}]}\n```"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "imported_at": "2026-10-17T16:49:51.596705+00:00",
+  "scope": "exact immutable Game files; no running native operation; risk parity10 before expanded catalog activation",
+  "releases": [
+    {
+      "release": 7,
+      "manifest_sha256": "dfd074585858b0c91ea7e373a95f75bde4208d0eadd1b2aea4fca489de7378b6",
+      "files": [
+        {
+          "name": "ApolloAssetDetailView.swift",
+          "expected_destination_sha256": "3362b14fd243326e96bf6a29cdab728f5260376c45b699414bc90b1415ed28f0",
+          "sha256": "efb7f238bfde08dc8a2f8b26881f3e3163ad96b82351c7982c7aebc1f16d6e64"
+        },
+        {
+          "name": "ApolloDemoGameService.swift",
+          "expected_destination_sha256": "f525511de210c9db652657e55ddd69ab074b8762984d4f4ff8d1353e5e5fbe2b",
+          "sha256": "31d27f99437ce0001896dca9106d911b917841a97df9d348a8be04c189660ad6"
+        },
+        {
+          "name": "ApolloDiscoveryPreferences.swift",
+          "expected_destination_sha256": null,
+          "sha256": "21221f7bdb4185e439e3f642c76a06b2e5fc6e3a352ba511ba460969b5cf6e5e"
+        },
+        {
+          "name": "ApolloEvidenceReasoning.swift",
+          "expected_destination_sha256": null,
+          "sha256": "d19de028e9914af181208523e76effc33b534f4a11a0ec0cd78263e1dec2a3ac"
+        },
+        {
+          "name": "ApolloEvidenceReasoningView.swift",
+          "expected_destination_sha256": null,
+          "sha256": "b1b1a331f120b36236aba5865ef8cf655031f3916b643bae358df72f8b141d31"
+        },
+        {
+          "name": "ApolloEvidenceTracks.swift",
+          "expected_destination_sha256": "2f5f3e68dfbb3ab3b1c58147b14cc895218760fb6a784fe1cd49aa171e1ffb66",
+          "sha256": "7b57e7d5b526ce140b0c8737499bf6e231cc2b0d5a6d5edc04c0630186ca706e"
+        },
+        {
+          "name": "ApolloGameModels.swift",
+          "expected_destination_sha256": "63bbda73ea0fac6974d60977ba9629501867adffa4e8f6e5ab8b335231e1ddfc",
+          "sha256": "8bec6f9cdb6d99489c99ae7f6b0be1a11581a28ddbc6a0fcea2306b8eecee2e5"
+        },
+        {
+          "name": "ApolloGameRootView.swift",
+          "expected_destination_sha256": "cd8686b690604ac75272b5d5c58d148978e1e2c30d2a81b0ed57ca71798b2673",
+          "sha256": "6eb408dbd8f939114add4bf17a193c61a7b5791d56759abfa6368db73b4611be"
+        },
+        {
+          "name": "ApolloGameStore.swift",
+          "expected_destination_sha256": "3749e18a416c40649143da3daf4df0adfb5c36292b45a8b09ce139a85573e813",
+          "sha256": "932802d6d0be9a6795dd5236102b7c2bcc4b32c7444f28f4ff39b51edf7e0cb0"
+        },
+        {
+          "name": "ApolloInstrumentSpecs.swift",
+          "expected_destination_sha256": null,
+          "sha256": "23c292a119f5aff14a2baf35d14a3ea7e0d7418bed66274c444f73487d908a48"
+        },
+        {
+          "name": "ApolloInstrumentTermsView.swift",
+          "expected_destination_sha256": null,
+          "sha256": "f3c83868b1e49dcde09dfbb2da167bf88fb6c06aa642605c5d8a7e667b4b698d"
+        },
+        {
+          "name": "ApolloLibraryView.swift",
+          "expected_destination_sha256": null,
+          "sha256": "b4a9e02122d7163f51daea0020606c5c728b0019513ca1ecf0b0caa5d50fe35a"
+        },
+        {
+          "name": "ApolloOrderView.swift",
+          "expected_destination_sha256": "905a262e21b8dba6383e59a9d70eadfbae1b72a23c7976970dd489ec2d07b623",
+          "sha256": "b3099387b08ff63a8e6d03a496ecd361f81a5c5ed7b52bf128f4f7b2cdea05a6"
+        },
+        {
+          "name": "INTEGRATION.md",
+          "expected_destination_sha256": "dfac0b85b5eee352b02178fa967ce86e804522aca7f1db1ddd998ffed1365c9f",
+          "sha256": "607b2a36ddfab741acf285652c11db4d6aa1cc79c4daad0140da23f29985ccce"
+        }
+      ]
+    },
+    {
+      "release": 8,
+      "manifest_sha256": "76ce9e596b2cd5f426f16671e279395ad6b9c94416e1ee0df1c6c5cd38b65d93",
+      "files": [
+        {
+          "name": "ApolloGameModels.swift",
+          "expected_destination_sha256": "8bec6f9cdb6d99489c99ae7f6b0be1a11581a28ddbc6a0fcea2306b8eecee2e5",
+          "sha256": "95c84fca3775cf1336691bb40d95017dffb59d282b307992b234c09a1ec72548"
+        },
+        {
+          "name": "ApolloLibraryView.swift",
+          "expected_destination_sha256": "b4a9e02122d7163f51daea0020606c5c728b0019513ca1ecf0b0caa5d50fe35a",
+          "sha256": "05754c0f3921db0879aca3040f2413e157b2923447da7db39dca4592221c57e6"
+        },
+        {
+          "name": "ApolloSocialResearchModels.swift",
+          "expected_destination_sha256": null,
+          "sha256": "98e1fe186686c4a4ce5d86671a35283252f2dd63c887a430045181b8b17353d5"
+        },
+        {
+          "name": "ApolloSocialResearchView.swift",
+          "expected_destination_sha256": null,
+          "sha256": "7098e811ff2844e36a0cf1a86ecd1cac59466eb65d44383d1de7820db8b6ef88"
+        },
+        {
+          "name": "INTEGRATION.md",
+          "expected_destination_sha256": "607b2a36ddfab741acf285652c11db4d6aa1cc79c4daad0140da23f29985ccce",
+          "sha256": "c6ba6a8130be7de8fb07519e0b156184f781414f8edff4954915d1347210695f"
+        }
+      ]
+    },
+    {
+      "release": 9,
+      "manifest_sha256": "bd171d19d176c82402de282bbc89a9cf544fd07265be55a69e62f844bd65e99c",
+      "files": [
+        {
+          "name": "ApolloSocialResearchModels.swift",
+          "expected_destination_sha256": "98e1fe186686c4a4ce5d86671a35283252f2dd63c887a430045181b8b17353d5",
+          "sha256": "39cb73fca46aa8aa52dc2fa8de24f6f65fd4475fc3de3953adc29ee41365d801"
+        },
+        {
+          "name": "ApolloSocialResearchView.swift",
+          "expected_destination_sha256": "7098e811ff2844e36a0cf1a86ecd1cac59466eb65d44383d1de7820db8b6ef88",
+          "sha256": "7a7927228895d34554948d7dd76927558fc6814de7b3daf6cb64564311b15276"
+        },
+        {
+          "name": "ApolloSocialIntakeDecoder.swift",
+          "expected_destination_sha256": null,
+          "sha256": "5abf44509b9c05ddcf7cb3ed19f880fc0aed3fe9277403f41013371685c4068a"
+        },
+        {
+          "name": "INTEGRATION.md",
+          "expected_destination_sha256": "c6ba6a8130be7de8fb07519e0b156184f781414f8edff4954915d1347210695f",
+          "sha256": "568944bc6aa357994f3c9fb93fd6d13567863d8b6623cb71a8a0b94df5096753"
+        }
+      ]
+    },
+    {
+      "release": 10,
+      "manifest_sha256": "b8c23d1e230d9af4409807bd00eb16f278bb552d24ef233bd5df2188a24566b4",
+      "files": [
+        {
+          "name": "ApolloDemoGameService.swift",
+          "expected_destination_sha256": "31d27f99437ce0001896dca9106d911b917841a97df9d348a8be04c189660ad6",
+          "sha256": "b5ad840fb651b52ec33cf3b389a43bd37a4522cd6f53784ad829a6e760895536"
+        }
+      ]
+    },
+    {
+      "release": 11,
+      "manifest_sha256": "55a9c3f8c721bc7a99fee2010b4e8b305d0c82ba0984214f25d25b38f51cc960",
+      "files": [
+        {
+          "name": "ApolloGameRootView.swift",
+          "expected_destination_sha256": "6eb408dbd8f939114add4bf17a193c61a7b5791d56759abfa6368db73b4611be",
+          "sha256": "56137ca846609f9dd13e6b4322da5b8c93edbf15ddf13710e7cd35b107978a70"
+        },
+        {
+          "name": "ApolloGameStore.swift",
+          "expected_destination_sha256": "932802d6d0be9a6795dd5236102b7c2bcc4b32c7444f28f4ff39b51edf7e0cb0",
+          "sha256": "3ea92c3f28aeba58642d923595c19ccc006649bd83d06f0461effdeb528226c1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-17T16:37:45.255036+00:00",
+  "source_lane": "research",
+  "component_status": "READY_FOR_INTEGRATION",
+  "contract": "backend.research.ResearchAPI().handle(method,path,body=None) -> (status,dict)",
+  "catalog_count": 8,
+  "kinds": [
+    "stock",
+    "etf",
+    "commodity",
+    "crypto",
+    "real_estate",
+    "option",
+    "strategy"
+  ],
+  "focused_tests": "10 PASS",
+  "whole_app_gate": "NOT_RUN in research; integration owner retains canonical combined gate",
+  "final_broad_review": "NOT_RUN in research; integration owner retains final project review",
+  "model_or_paid_calls": 0,
+  "plutus_writes": false,
+  "source_hashes": {
+    "backend/research/service.py": "59ff8d2a103c50119c2396f7a4515c9f3017fb4cbf382cd2430a110a3bf5a424",
+    "backend/research/reviewed.json": "4b2c70e0160c66422268accd8d750eb0554b99a42e9bea447da1ca2d79a1990f",
+    "backend/research/test_service.py": "c31cf3a06e9cc4e47154e57d9ff52b4b9dbdf1ce584fbc141444c7d1428c5ba0",
+    "backend/research/__init__.py": "f0d1805a7c7cb677ee847d0b5ebb835494e0a887893aad44d56cabc1c9225abe",
+    "backend/research/sponsor_audit.json": "f6cadfd210c5c3a9c1c1bdeb0c7223b34d761fff961aa1845d9779c462a19a17",
+    "backend/research/api.py": "7aabb943ed11e845ed5efe231e702f42d3e8adcfc0548efb30a11b411b0176c7",
+    "backend/research/market_snapshot.json": "6b8bee99a6e6e090ec6ed3f6cd9788eb2dd27a31fd0c5647db664fd1563b4ca8",
+    "backend/research/registry_extension.py": "8c53aa57a8e8060f3c297deb76a943bff9908c7345099b3408d25b65e1cbfbb2",
+    "backend/research/discord_brief.py": "55acb17b10b890c7189308b926e833feecb53d55a7cc5e495daac393aca08588",
+    "backend/research/reasoning.py": "7e759e711c8c0013bd77eeec3c7cbf0f9bf01ef17b02273c3d9093fb70c0c073",
+    "backend/research/social/service.py": "720866e26c2fb4bdb5aeafaaaf8d6e40c08032f61e7e4cc203935a155b225b22",
+    "backend/research/social/__init__.py": "558f7fa997c84f9083d4c73a83a4e393cd65875593354b8cc9ff34ced3dbdb04",
+    "backend/research/social/inspections.json": "de097f58bd2bb0695c42c82fabf9849b7a0787de8661cc99c527e547b25c48ad",
+    "backend/research/fresh.py": "78e49965fbbd338f14648e8ce4f3e62984d0d74f84a1749173d48202e1d25ada",
+    "backend/research/fresh_content.py": "ad5978cbc201063e74309aac49f8ca4307ca62c83c6cfabdbaf75962a9bc0a17"
+  },
+  "record_hash": "f57c121d05e1995897324a8bb0722d01837da29caa67dfd17435a28d556a09f8",
+  "runtime_acceptance": "Default7 shared HTTP eightassetPASS11:47EDT on previous loadedsource. Optional9type source not yet activated insharedserver.",
+  "disposition": "ACTIVE_KEEP",
+  "last_delta": "Additive reasoning fields within exact3tracks: source summaries / labeled interpretations / reviewed counterevidence / unknowns; native mapping pending.",
+  "expansion": {
+    "activation": "ResearchService(include_expansion=True); defaultFalse",
+    "catalog_count": 10,
+    "kind_count": 9,
+    "canonical_registry": "backend.paper.fixtures.get_instrument_specs",
+    "focused_checks": "2newkind parity/demo/unknown/unit/formatterPASS; default7PASS; existing10testsPASS",
+    "native_acceptance": "NOT_RUN in research"
+  },
+  "social_intake": "Component ready; saved inspections only; newURL retrieval blocked; native dispatch NOT_RUN",
+  "fresh_source_component": "V1 actual fresh HTTP metadata only; full source-content research remains open"
+}

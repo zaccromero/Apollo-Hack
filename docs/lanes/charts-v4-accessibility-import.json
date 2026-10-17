@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-17T18:53:52.018000+00:00",
+  "scope": "ONE batched V4 Round1 actual AX identity repair; Integration controlled import only",
+  "parent_manifest_sha256": "70c1d2351c171e561366629d7d17ae92318e38c8ef837b6b1b3e8dffdcc1f7bc",
+  "actual_failure": "SwiftUI chart root ID propagated to all child controls; Round1 before firstcapture; not functional acceptance. Exactresult /private/tmp/apollo-advanced-chart-v4-20261017-1451.xcresult",
+  "files": [
+    {
+      "path": "ios/ApolloHack/Charts/ApolloCategoryChartsView.swift",
+      "staged_path": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-charts-lane/outputs/charts-advanced-v4-accessibility-fix/ApolloCategoryChartsView.swift",
+      "old_sha256": "84fd2d35bb0673bce392d4a0fec23e9e2abc490a56d06aa85c667448e2719fc1",
+      "new_sha256": "67134429e2036832f166f429143dd195b8e83330ea3244249a2db8d8d18a4845"
+    },
+    {
+      "path": "ios/ApolloHack/Charts/ApolloChartView.swift",
+      "staged_path": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-charts-lane/outputs/charts-advanced-v4-accessibility-fix/ApolloChartView.swift",
+      "old_sha256": "7b22784e4d28094b029b105d36d7fce18e07451d071aa763f56053bce2914052",
+      "new_sha256": "050cabd4a8a2eff655ec7bc116c784ec3e7017bb2757b8fc9253f42075f6d1f8"
+    }
+  ],
+  "change": "Explicit accessibility children containment at chart root, nested category root, source-events container to preserve child control identities. No visual/math/economic/storage changes.",
+  "checks": {
+    "actualsource_typecheck": "PASS exit0 iOS17Simulator V4replacementCharts + actualcanonicalGame + replacementBridge",
+    "driver_typecheck": "PASS exit0 iOS17 XCTest overlay",
+    "prior_math": "36advanced +21baseline PASS retained; untouchedmath",
+    "focused_delta_review": "P0=0/P1=0 for3containmentmodifiers and harnessdelta only; no newbroadreview",
+    "native_after": "NOT_RUN; soleIntegrationRound2"
+  },
+  "driver": {
+    "path": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-charts-lane/outputs/charts-advanced-v4-accessibility-fix/ApolloAdvancedChartAcceptanceTests.swift",
+    "old_sha256": "529e671d2434b5a573d0113279dac0e4a864b4a568f7fdb54aeb57f946da346e",
+    "new_sha256": "fcfc21a4f9e05677ed9db2ed98d1414d7bf25ba351270773dfd982d0288e9d0c",
+    "selector": "ApolloHackUITests/ApolloAdvancedChartAcceptanceTests/testAdvancedChartsAndCategoryViews",
+    "change": "exists guarded before frame; disclosure uses actual label button first, avoiding fullheightexpandedgroup midpoint. All assertions retained; no scopes cut.",
+    "max_seconds": 420
+  },
+  "budget": "Round1 consumed; onebatchedrepair prepared; Round2 Integration controlled. max3 rounds remains; no autoplay",
+  "canonical_mutated_by_charts": false,
+  "portfolio_actions": 0,
+  "paid_calls": 0,
+  "imported_at": "2026-10-17T18:54:38.171326+00:00"
+}

@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Script ran on page and returned:\n```json\n{\"focused\":\"reveal\",\"outline\":\"solid\",\"kind\":\"OPTIONS\",\"visible\":true,\"expanded\":\"true\"}\n```"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Script ran on page and returned:\n```json\n{\"url\":\"http://127.0.0.1:4182/\",\"viewport\":{\"width\":390,\"height\":844},\"observations\":[{\"action\":\"reject invalid quantity\",\"input\":\"\",\"receiptPresent\":false,\"error\":\"Enter a whole number of at least 1.\",\"errorHidden\":false,\"invalid\":\"true\"},{\"action\":\"reject invalid quantity\",\"input\":\"-1\",\"receiptPresent\":false,\"error\":\"Enter a whole number of at least 1.\",\"errorHidden\":false,\"invalid\":\"true\"},{\"action\":\"reject invalid quantity\",\"input\":\"0\",\"receiptPresent\":false,\"error\":\"Enter a whole number of at least 1.\",\"errorHidden\":false,\"invalid\":\"true\"},{\"action\":\"reject invalid quantity\",\"input\":\"1.5\",\"receiptPresent\":false,\"error\":\"Enter a whole number of at least 1.\",\"errorHidden\":false,\"invalid\":\"true\"},{\"action\":\"reject invalid quantity\",\"input\":\"1001\",\"receiptPresent\":false,\"error\":\"That costs more than the $10,000 paper balance. Try a smaller quantity.\",\"errorHidden\":false,\"invalid\":\"true\"},{\"action\":\"recover with 2 shares\",\"cash\":\"$9,800.00\",\"holdings\":\"$200.00\",\"equity\":\"$10,000.00\"}]}\n```"
+    }
+  ]
+}

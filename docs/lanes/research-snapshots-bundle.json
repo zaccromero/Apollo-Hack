@@ -1,0 +1,17 @@
+{
+  "sha256": "b5084b7dd89a38ab144a80672006a16fd45d2d60d6c995f898df4e323d9f42a3",
+  "assets": [
+    "AAPL",
+    "WINA",
+    "SPY",
+    "GLD",
+    "BTC-USD",
+    "VNQ",
+    "AAPL_20261120_C350_DEMO",
+    "DEMO_PATIENT_BUILDER",
+    "USDC-USD_DEMO",
+    "DEMO_USD_BOND_20281115"
+  ],
+  "scope": "public research source records only; read-only local cache; no private databases/provider credentials; no paid or external network calls",
+  "execution_prices": "not used from this bundle"
+}

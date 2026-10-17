@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Script ran on page and returned:\n```json\n{\"viewport\":[390,844],\"overflow\":false,\"footer\":{\"x\":20,\"y\":655.765625,\"width\":350,\"height\":188.2421875,\"top\":655.765625,\"right\":370,\"bottom\":844.0078125,\"left\":20},\"tagline\":{\"x\":205,\"y\":690.6875,\"width\":150,\"height\":17.59375,\"top\":690.6875,\"right\":355,\"bottom\":708.28125,\"left\":205},\"visibleText\":\"Build your investing instinct.\\n\\nQuestions\\nBack to top ↑\\nEducational game · Paper investing only · No promised returns\"}\n```"
+    }
+  ]
+}

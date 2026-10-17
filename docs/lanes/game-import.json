@@ -1,0 +1,58 @@
+{
+  "imported_at": "2026-10-17T15:31:13.397752+00:00",
+  "receiver": "01a14a33-e4a0-7ae1-a942-353fd5883fd3",
+  "manifest": {
+    "created_at": "2026-10-17T15:29:49.550725+00:00",
+    "source_directory": "/Users/zaccromero/Documents/Codex/2026-10-17/apollo-game-lane/work/Game",
+    "destination_directory": "/Users/zaccromero/code/hackathon/Apollo-Hack/ios/ApolloHack/Game",
+    "import_release": {
+      "receiver_thread": "01a14a33-e4a0-7ae1-a942-353fd5883fd3",
+      "scope": "one-time import of listed files after no-overwrite/current-delta check",
+      "authorization": "owner-selected Game lane, coordinator-supported controlled import"
+    },
+    "verification": {
+      "swift_typecheck": "PASS",
+      "app_build": "NOT_RUN; integrator-owned",
+      "device_journey": "NOT_RUN; integrator-owned"
+    },
+    "files": [
+      {
+        "name": "ApolloAssetDetailView.swift",
+        "sha256": "5c1fad3d85da7b6ea198275013d13be324f2dbda84d91f99afb0590e9603cd0b"
+      },
+      {
+        "name": "ApolloCollectionViews.swift",
+        "sha256": "ae8bad7cd0a50760d4360fb04f9e94ea52b7ff385ac6f059f81510a28c53ff9f"
+      },
+      {
+        "name": "ApolloDemoCatalog.swift",
+        "sha256": "c861a7c7d5b569931647f4b062e1ef6c598ebe800f3648142b621295d8e7feff"
+      },
+      {
+        "name": "ApolloDemoGameService.swift",
+        "sha256": "a48b459151cccf639d8dd78b7d85b68fa51e8ec158f309dca95a46f7d0ecd581"
+      },
+      {
+        "name": "ApolloGameModels.swift",
+        "sha256": "c3e179686dbcc00c1067e8ac7b2540daf190734ce849987976a114954acf9e18"
+      },
+      {
+        "name": "ApolloGameRootView.swift",
+        "sha256": "9a67b8d320bd23a310216f9b9b991d6aebc804f30e003b7226459ceb22869cea"
+      },
+      {
+        "name": "ApolloGameStore.swift",
+        "sha256": "b506f59783cb0413436f233fba82b587541dc090a4aaaace3817a9d72319c3b7"
+      },
+      {
+        "name": "ApolloOrderView.swift",
+        "sha256": "3be0ef1dc60d382ca8e7c5942a80ccec32499243dafdc011cfda3920094fa193"
+      },
+      {
+        "name": "INTEGRATION.md",
+        "sha256": "20c2fe3e52db67f6015f4a070139f1ab298bc0127a688c6877e6298974f32621"
+      }
+    ]
+  },
+  "status": "IMPORTED_MATCHING_HASHES"
+}

@@ -1,0 +1,37 @@
+{
+  "imported_at": "2026-10-17T17:02:57.075898+00:00",
+  "manifest_sha256": "79549cea16a32ca86c8b46365a31802b8045155d87c470f2ed975508222afb29",
+  "files": [
+    {
+      "name": "ApolloGameModels.swift",
+      "expected_destination_sha256": "95c84fca3775cf1336691bb40d95017dffb59d282b307992b234c09a1ec72548",
+      "sha256": "26637c3427f75af586d4f21909fddff667d836fedcec8cbb152bfc5cb34e99c6"
+    },
+    {
+      "name": "ApolloOrderView.swift",
+      "expected_destination_sha256": "b3099387b08ff63a8e6d03a496ecd361f81a5c5ed7b52bf128f4f7b2cdea05a6",
+      "sha256": "71af1cb4dfc9010049d8bfb886eea3fab4c70f687e6f6bc632180adeb404a88a"
+    },
+    {
+      "name": "ApolloPaperComparisonView.swift",
+      "expected_destination_sha256": "e8e8d79aca81f44b64c66dba71d72392bc0dad9b818d3b2d67ae61399576474f",
+      "sha256": "702ff2338d5303ebc48421a059827e6fa3c482a2d06f856dc7f2a408728bff6d"
+    },
+    {
+      "name": "ApolloComparisonPresentation.swift",
+      "expected_destination_sha256": null,
+      "sha256": "e7575db10670db5f2ae6de2446d85d87d3b67db6149216bfebcbf3668471908c"
+    },
+    {
+      "name": "ApolloComparisonRequest.swift",
+      "expected_destination_sha256": null,
+      "sha256": "1382f1276925f30b1ab0e6e5d78f62909c94e924a9ed9a004834311ceda4d6d1"
+    },
+    {
+      "name": "INTEGRATION.md",
+      "expected_destination_sha256": "568944bc6aa357994f3c9fb93fd6d13567863d8b6623cb71a8a0b94df5096753",
+      "sha256": "c6e452996c026a3179c87a82c1cc3c7adfcc939aeaabd2e48cc1c338e16f33d9"
+    }
+  ],
+  "native_verification": "NOT_RUN"
+}

@@ -1,0 +1,286 @@
+{
+  "at": "2026-10-17T19:26:48.392825+00:00",
+  "build": "1.0(3)",
+  "scope": "Final internal TestFlight candidate, hard upload15:40EDT; not full owner acceptance",
+  "nativeSourceBinding": "d8f397a630de94cf41418064624c79b8488ac6af2a52867178d7ec834fd6ff2e",
+  "files": [
+    {
+      "path": "config/environments/ApolloEnvironmentPolicy.swift",
+      "sha256": "054040b6294d89b51b7b7043b0bd4077c1305cacbf713d73282fa85f0ab581ee"
+    },
+    {
+      "path": "ios/ApolloHack/ApolloHackApp.swift",
+      "sha256": "20f4c69132d79b3c972f57b0e03fb0ecb46420b54af628989f29925167f6ee31"
+    },
+    {
+      "path": "ios/ApolloHack/Charts/ApolloAdvancedChartMath.swift",
+      "sha256": "c3989c1f4000ca03b047ce016e2de0bc05f17e83e9b6e7559f66bb418f2932b4"
+    },
+    {
+      "path": "ios/ApolloHack/Charts/ApolloCategoryChartsView.swift",
+      "sha256": "67134429e2036832f166f429143dd195b8e83330ea3244249a2db8d8d18a4845"
+    },
+    {
+      "path": "ios/ApolloHack/Charts/ApolloChartBrandThemes.swift",
+      "sha256": "64e919245f31d70f4abb87252dacc4dcdecade7dc9f4751c629baf5015e9d3bf"
+    },
+    {
+      "path": "ios/ApolloHack/Charts/ApolloChartContext.swift",
+      "sha256": "816fcba838a57193d2282c95e067a66398660f70d50698a264b1168e021eef40"
+    },
+    {
+      "path": "ios/ApolloHack/Charts/ApolloChartMath.swift",
+      "sha256": "1b622312ba1183cf9d1b03ef424d94c89744e410cd2f20a8715fff98a97e53fa"
+    },
+    {
+      "path": "ios/ApolloHack/Charts/ApolloChartModels.swift",
+      "sha256": "bfede6c494179cd395059caa70d890109735ba69b4d96558315ec874d0a2eca5"
+    },
+    {
+      "path": "ios/ApolloHack/Charts/ApolloChartView.swift",
+      "sha256": "182c782ce346482dd6c679ae13fa77eb1c37345e6e23bc29a22a8b0a99788c8f"
+    },
+    {
+      "path": "ios/ApolloHack/Charts/ApolloOptionPayoffView.swift",
+      "sha256": "88e33fe4bb5942f61cef2c5593fba98d13e7a2f7c0f67188f1ec751161cba3fd"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloAssetDetailView.swift",
+      "sha256": "808a2ad8101e5650ae9ca8db6cad6add0bec4c4b207c9a86768edac31ef0c649"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloBrandView.swift",
+      "sha256": "ec657d0a9cf1c04fc37586c2632752f40ea61d9e26ae29c01eb23ae40b5db41f"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloCardInteraction.swift",
+      "sha256": "d228ffc623e142d029c035708c59b783b286fab634680daf893cf6aa68a3e143"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloCollectionViews.swift",
+      "sha256": "69026e6ccb4cec69418ae37944aac7c665084415975603cc00721af1f9851a95"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloCompanyCardView.swift",
+      "sha256": "eb5934e922f14da9d3970fbe959d82623cb8487e8cf233a2c691ad4eb00f71c0"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloCompanyProfile.swift",
+      "sha256": "e542736494a5c0517af1ad2f825e0619e680882443238046ac7d13222b55b02e"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloComparisonPresentation.swift",
+      "sha256": "e7575db10670db5f2ae6de2446d85d87d3b67db6149216bfebcbf3668471908c"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloComparisonRequest.swift",
+      "sha256": "1382f1276925f30b1ab0e6e5d78f62909c94e924a9ed9a004834311ceda4d6d1"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloDemoCatalog.swift",
+      "sha256": "c861a7c7d5b569931647f4b062e1ef6c598ebe800f3648142b621295d8e7feff"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloDemoGameService.swift",
+      "sha256": "b5ad840fb651b52ec33cf3b389a43bd37a4522cd6f53784ad829a6e760895536"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloDiscoveryPreferences.swift",
+      "sha256": "21221f7bdb4185e439e3f642c76a06b2e5fc6e3a352ba511ba460969b5cf6e5e"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloEvidenceReasoning.swift",
+      "sha256": "d19de028e9914af181208523e76effc33b534f4a11a0ec0cd78263e1dec2a3ac"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloEvidenceReasoningView.swift",
+      "sha256": "b1b1a331f120b36236aba5865ef8cf655031f3916b643bae358df72f8b141d31"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloEvidenceTracks.swift",
+      "sha256": "7b57e7d5b526ce140b0c8737499bf6e231cc2b0d5a6d5edc04c0630186ca706e"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloGameModels.swift",
+      "sha256": "c9826387830ec35788a3bc9482056db57494067f7d72f4cb93a844e3bbb28ff4"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloGameRootView.swift",
+      "sha256": "6e4b1d2fe58f3901786571e06b4a0631512fe6c7394e952e6bd8018d6460bfe9"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloGameStore.swift",
+      "sha256": "3ea92c3f28aeba58642d923595c19ccc006649bd83d06f0461effdeb528226c1"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloInstrumentSpecs.swift",
+      "sha256": "23c292a119f5aff14a2baf35d14a3ea7e0d7418bed66274c444f73487d908a48"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloInstrumentTermsView.swift",
+      "sha256": "f3c83868b1e49dcde09dfbb2da167bf88fb6c06aa642605c5d8a7e667b4b698d"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloLibraryView.swift",
+      "sha256": "05754c0f3921db0879aca3040f2413e157b2923447da7db39dca4592221c57e6"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloOrderView.swift",
+      "sha256": "fa4cf4d751955eb69c99b42fa7d12562d2272d3313c9162152e607ecffa7ba6b"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloPaperComparisonModels.swift",
+      "sha256": "d7ec4c8042ee01ee8d8ae66bba5d93a447f034de0b978170e148182de0debcb7"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloPaperComparisonView.swift",
+      "sha256": "702ff2338d5303ebc48421a059827e6fa3c482a2d06f856dc7f2a408728bff6d"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloPortfolioInsightsView.swift",
+      "sha256": "28185bee56206c611c2e3ad81ba96fd52e7a92a1b5ba6e3242ec5567f20518ed"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloRiskProfileView.swift",
+      "sha256": "412c2d07bcfd7822d4e6fb9f21267a5d2341dcfb5860e98099ee72b40cc634ce"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloSocialIntakeDecoder.swift",
+      "sha256": "5abf44509b9c05ddcf7cb3ed19f880fc0aed3fe9277403f41013371685c4068a"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloSocialResearchModels.swift",
+      "sha256": "39cb73fca46aa8aa52dc2fa8de24f6f65fd4475fc3de3953adc29ee41365d801"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloSocialResearchView.swift",
+      "sha256": "7a7927228895d34554948d7dd76927558fc6814de7b3daf6cb64564311b15276"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloThesisChallengeModels.swift",
+      "sha256": "6c43c07307ab80fe9c91ccd3c3d7950ff007f6188b2e69dc18b872dc0e3f3e79"
+    },
+    {
+      "path": "ios/ApolloHack/Game/ApolloThesisChallengeView.swift",
+      "sha256": "57bfdaccbdae9175a47e92dbf275769e671e6bbac443d176c6cf3945467781d9"
+    },
+    {
+      "path": "ios/ApolloHack/Integration/ApolloAPIClient.swift",
+      "sha256": "99a89c2999f55dcf4a5cf31713f365d40d423f3dd28562f180d2e900a7943132"
+    },
+    {
+      "path": "ios/ApolloHack/Integration/ApolloAppHost.swift",
+      "sha256": "f03a33849099f05f858ac80df84851b16b90edd785662557ce587896ba5ecd9b"
+    },
+    {
+      "path": "ios/ApolloHack/Integration/ApolloBundledInstruments.swift",
+      "sha256": "9331455352da5c8449bc3c88b5d3286abbec6939464cc051e6c0cc7f5cd2fd78"
+    },
+    {
+      "path": "ios/ApolloHack/Integration/ApolloChallengeMapper.swift",
+      "sha256": "0555d4655232c9b28615cb7de35fe1ba1b837412bae81ad19277ef845debd9eb"
+    },
+    {
+      "path": "ios/ApolloHack/Integration/ApolloChartBridge.swift",
+      "sha256": "c0df67bac4467952dfa87fcd07337a5d2fd3e5cce422468779ab307dccbaaa44"
+    },
+    {
+      "path": "ios/ApolloHack/Integration/ApolloHTTPGameService.swift",
+      "sha256": "157b82a45ff585995fc904a787cb65d8e4d1cb3e93ffb688ce2627f2061ae346"
+    },
+    {
+      "path": "ios/ApolloHack/Integration/ApolloResearchMapper.swift",
+      "sha256": "38a94925a11ef97b5ffc1a02b7c0a7bdc7d3869fbe7bd2a75911a79e64286faa"
+    },
+    {
+      "path": "ios/ApolloHack/Integration/ApolloStagingCarryover.swift",
+      "sha256": "746186c6deb979151c0cf7ffc07658cec3bf88ea2965828c75b6855fb9b71aa4"
+    },
+    {
+      "path": "ios/ApolloHack/Integration/chart-financials.json",
+      "sha256": "a91ef1bde6481f5042d9b780812c9c23ce9bfa0cf836c862dbe21317234e01e4"
+    },
+    {
+      "path": "ios/ApolloHack/Integration/chart-snapshots.json",
+      "sha256": "24bd17b3ab09cf3fd7c1ee7f7ebac9de3fca88316ec9fc8d801c91201f14b76e"
+    },
+    {
+      "path": "ios/ApolloHack/Integration/chart-source-events.json",
+      "sha256": "55f0a3bc24555dc0a4a46e967af273d05bb0af06dad347c53d7b2b07e775766a"
+    },
+    {
+      "path": "ios/ApolloHack/Integration/company-profiles-v1.json",
+      "sha256": "a26fe4f243a41c8593d40e9150a181311baf7415ac02da98c6f209cc4673952a"
+    },
+    {
+      "path": "ios/ApolloHack/Integration/instrument-specs.json",
+      "sha256": "5c9b82296626ef4b8d696b4a120089f60b7889353ffd344fc339e2fb237adfe5"
+    },
+    {
+      "path": "ios/ApolloHack/Integration/research-snapshots.json",
+      "sha256": "b5084b7dd89a38ab144a80672006a16fd45d2d60d6c995f898df4e323d9f42a3"
+    },
+    {
+      "path": "ios/ApolloHack/OnboardingSettings/ApolloOnboardingContract.swift",
+      "sha256": "65d00aa78739a0a8629c14239c2fa2fbee957193b8bc8c6c3d7f6f6719f80a78"
+    },
+    {
+      "path": "ios/ApolloHack/OnboardingSettings/ApolloOnboardingProgress.swift",
+      "sha256": "495674bfca4d3a7ca25ff3fa58d38a80a46126e43352964083d291327b78e19a"
+    },
+    {
+      "path": "ios/ApolloHack/OnboardingSettings/ApolloOnboardingSession.swift",
+      "sha256": "9a580d433db3ad1e9c06ce1b34411a2a64eed1c63b198f402031e7b6fc8f2d9f"
+    },
+    {
+      "path": "ios/ApolloHack/OnboardingSettings/ApolloOnboardingStyle.swift",
+      "sha256": "e118e532b0ad4f3607264b6528db163b8e6922057f7f4976bb3dbab559227aa5"
+    },
+    {
+      "path": "ios/ApolloHack/OnboardingSettings/ApolloOnboardingView.swift",
+      "sha256": "0cf8be8faeb2203aacd8c55316a2ea57c156fe4257d84e306a06dd21325bfa22"
+    },
+    {
+      "path": "ios/ApolloHack/OnboardingSettings/ApolloSettingsView.swift",
+      "sha256": "b6c3a60e0183e79195b6257068deb13dab8f3020cdca8d8881378389a7548c7d"
+    },
+    {
+      "path": "ios/ApolloHack/OnboardingSettings/Tests/ApolloOnboardingChecks.swift",
+      "sha256": "c8081617a63ed1902e7eecfc18dffc44bef4a7a2f9f3e1e722c3384fc24178b5"
+    },
+    {
+      "path": "ios/project.yml",
+      "sha256": "f10fb19d5f5b0bb77c7bc342f2803ae274875c07de67d005881a23e6bdc01747"
+    }
+  ],
+  "gate": {
+    "existingCore": "REUSED actualcore receipt a736297 backend101/Discord44/env48/carryover21 +releasecarryover/reopen/devreturn PASS; untouchedboundaries",
+    "newDirections": "1PASS0FAIL /private/tmp/apollo-final-four-directions-discovered-20261017-1523.xcresult; earlier1521ZEROtestsNOTacceptance",
+    "watchRecovery": "1PASS0FAIL /private/tmp/apollo-watch-authorized-recovery-20261017-1506.xcresult, closedhuman8mingrant",
+    "charts": "Originalgreenprefix +1PASS0FAIL /private/tmp/apollo-chart-tail-approved-recovery-20261017-1515.xcresult; closedhuman6min tail grant; no productchangefortoggle",
+    "companyPanels": "AAPL/WINA12sections andsame-stocktapzonespassingprefix ofRound3; oldWatchfailure retained thenfocusedrepairPASS",
+    "PDF": "1PASS0FAIL strictURL/bodyAX; actualR3operations/cashflowvisible; R2keyboardoverlayvisualgap retained",
+    "NicrronOffline": "200success+502error/3tracks/quotes/roleprefixPASS; wholecaseFAILambiguousDone/draftreopenNOTVERIFIED; zeroexternal/providercalls",
+    "newRolePanel": "Presentation-only exact57bfd source diff reviewed, actualReleasecompilepending",
+    "nativeWarning": "P2invalidframewarning retained; no new loop"
+  },
+  "focusedReviews": {
+    "coreFinal": "CLOSED P0=0/P1=0",
+    "Game20": "CLOSED targetedP0=0/P1=0",
+    "Game21": "CLOSED targeted3fileP0=0/P1=0 source + actualnativePASS",
+    "Charts": "CLOSED source/math57 and actualnativeprefix+tail; no fullreviewrestart",
+    "NicrronRole": "Additive3-stage displayonly; no requests/config/storage changes, P0=0/P1=0 scopedsource"
+  },
+  "ownerFinancialBaseline": "ActualinstalledBeta2 10000cash/noholdings/Adventurous5 matchesbackup; receiptworkspacework/testflight/owner-beta-preservation-receipt.json",
+  "ownerOneShare": "Invocationfailedboundednavigation; hostlatchretained/read-onlyrecovery ONLY, no duplicateconfirmation",
+  "notIncludedRequiredOpen": [
+    "Staged fundV5 data/views and compactrealpreview/compactchrome/presentation22 not admitted without required affectednativeproof",
+    "ActualfeatureBetaall6phoneacceptance",
+    "Nicrronlastdraftreopen, freshcurrentcorpus/liveevaluations",
+    "Publicauthemail/endtoendaccount and actualrecordeddemo finalacceptance"
+  ],
+  "signing": "DedicatedApolloDistributiononly, existingMiloGymassetsuntouched; helperfreshDevelopmentseparate",
+  "paidCalls": 0,
+  "production": "OFF",
+  "status": "SOURCE_FROZEN_PENDING_SIGNED_ARCHIVE_VALIDATION_UPLOAD_PROCESSING"
+}

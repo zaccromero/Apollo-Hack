@@ -2,6 +2,7 @@
 for(const article of document.querySelectorAll('.video-choice')){
  const video=article.querySelector('video'),button=article.querySelector('[data-video-fullscreen]'),status=article.querySelector('.playback-status');
  button.hidden=false;
+ video.addEventListener('play',()=>{for(const other of document.querySelectorAll('.video-choice video'))if(other!==video)other.pause();});
  button.addEventListener('click',()=>{
   status.textContent='';
   // Both operations begin in the user's gesture; native controls remain available.

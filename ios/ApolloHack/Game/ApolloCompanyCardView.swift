@@ -20,12 +20,21 @@ struct ApolloCompanyCardView: View {
     private var profile: ApolloCompanyProfile? { guard let value = asset.companyProfile, value.matches(assetID: asset.id, corpusHash: asset.researchCorpusHash) else { return nil }; return value }
     private var index: Int { ApolloCompanyPanel.allCases.firstIndex(of: panel) ?? 0 }
     var body: some View {
-        VStack(alignment: .leading, spacing: 16) {
-            browseSurface(id: "company-header-tap") { HStack(alignment: .top) {
-                Image(systemName: "building.2").font(.title2).foregroundStyle(ApolloStyle.lime)
-                VStack(alignment: .leading, spacing: 4) { Text(asset.ticker).font(.headline).accessibilityIdentifier("company-ticker"); Text(asset.name).font(.subheadline).foregroundStyle(ApolloStyle.muted) }
-                Spacer(); Text("\(index + 1) / 6").font(.caption.monospacedDigit()).accessibilityIdentifier("company-panel-progress")
-            }
+        VStack(alignment: .leading, spacing: 10) {
+            HStack(spacing: 6) {
+                browseSurface(id: "company-header-tap") {
+                    HStack(spacing: 8) {
+                        Image(systemName: "building.2").font(.title3).foregroundStyle(ApolloStyle.lime)
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text(asset.ticker).font(.headline).accessibilityIdentifier("company-ticker")
+                            Text(asset.name).font(.caption).foregroundStyle(ApolloStyle.muted)
+                        }
+                        Spacer(minLength: 0)
+                    }
+                }
+                Button { move(.previous) } label: { Image(systemName: "chevron.left").frame(width: 44, height: 44) }.disabled(index == 0).accessibilityLabel("Previous company panel").accessibilityIdentifier("company-panel-previous")
+                Text("\(index + 1) / 6").font(.caption.monospacedDigit()).accessibilityIdentifier("company-panel-progress")
+                Button { move(.next) } label: { Image(systemName: "chevron.right").frame(width: 44, height: 44) }.disabled(index == 5).accessibilityLabel("Next company panel").accessibilityIdentifier("company-panel-next")
             }
             HStack(spacing: 5) {
                 ForEach(ApolloCompanyPanel.allCases) { item in
@@ -33,25 +42,19 @@ struct ApolloCompanyCardView: View {
                         .buttonStyle(.plain).accessibilityLabel(item.title).accessibilityIdentifier("company-panel-\(item.rawValue)").accessibilityAddTraits(item == panel ? .isSelected : [])
                 }
             }
-            HStack {
-                Button { move(.previous) } label: { Image(systemName: "chevron.left").frame(width: 44, height: 44) }.disabled(index == 0).accessibilityLabel("Previous company panel").accessibilityIdentifier("company-panel-previous")
-                Spacer(); Text(panel.title).font(.subheadline.weight(.semibold)); Spacer()
-                Button { move(.next) } label: { Image(systemName: "chevron.right").frame(width: 44, height: 44) }.disabled(index == 5).accessibilityLabel("Next company panel").accessibilityIdentifier("company-panel-next")
-            }
-            HStack {
-                if panel == .chart {
-                    Button { presentChart() } label: { Label("Inspect chart", systemImage: "chart.xyaxis.line").frame(minHeight: 44) }.accessibilityIdentifier("company-inspect-chart")
-                } else {
-                    Button { presentDetails() } label: { Label("Read more & sources", systemImage: "text.alignleft").frame(minHeight: 44) }.accessibilityIdentifier("company-read-more")
+            if panel == .overview {
+                ApolloStockDecisionBrief(asset: asset, profile: profile)
+            } else {
+                browseSurface(id: "company-tap") {
+                    VStack(alignment: .leading, spacing: 10) {
+                        Text(panel.title).font(.headline)
+                        ApolloCompanyPanelContent(asset: asset, profile: profile, panel: panel, compact: true)
+                    }.frame(maxWidth: .infinity, alignment: .leading)
                 }
-                Spacer()
             }
-            browseSurface(id: "company-tap") {
-                VStack(alignment: .leading, spacing: 12) {
-                    Text(panel.question).font(.system(.title2, design: .serif)).fixedSize(horizontal: false, vertical: true)
-                    ApolloCompanyPanelContent(asset: asset, profile: profile, panel: panel, compact: true)
-                }.frame(maxWidth: .infinity, alignment: .leading)
-            }
+            Button { panel == .chart ? presentChart() : presentDetails() } label: {
+                Label(panel == .chart ? "Inspect chart" : "Read more & sources", systemImage: panel == .chart ? "chart.xyaxis.line" : "text.alignleft").font(.caption.weight(.semibold)).frame(minHeight: 44)
+            }.accessibilityIdentifier(panel == .chart ? "company-inspect-chart" : "company-read-more")
             Divider()
             HStack { VStack(alignment: .leading, spacing: 3) { Text(asset.price.apolloMoney).font(.title3.weight(.semibold)); Text(asset.priceLabel).font(.caption2).foregroundStyle(ApolloStyle.muted) }; Spacer(); Button("Research") { if canBrowse() { openResearch() } }.frame(minHeight: 44).accessibilityIdentifier("company-full-research") }
             Text(decisionGesturesEnabled ? "Tap either side to browse sections. Read more opens a safe reading view. Swipe left to pass, up to watch, or right to review." : "Tap either side to browse sections. Read more and chart inspection keep this investment open.").font(.caption2).foregroundStyle(ApolloStyle.muted)
@@ -181,5 +184,94 @@ struct ApolloCompanyProfileView: View {
                 .navigationTitle("\(asset.ticker) · Company").navigationBarTitleDisplayMode(.inline)
                 .toolbar { ToolbarItem(placement: .topBarTrailing) { Button("Done") { dismiss() }.accessibilityIdentifier("company-profile-done") } }
         }.tint(ApolloStyle.lime)
+    }
+}
+
+
+/// A readable decision summary from the already-reviewed, asset/hash-bound corpus.
+/// No new research, quote, model request or inferred sentiment score.
+private struct ApolloStockDecisionBrief: View {
+    let asset: ApolloAsset
+    let profile: ApolloCompanyProfile?
+    private var reviewed: Bool { profile != nil && ["AAPL", "WINA"].contains(asset.id) }
+    private var gist: String {
+        guard reviewed else { return "Reviewed research is unavailable for this company. Do not treat a catalog description as an investment case." }
+        return asset.id == "AAPL"
+            ? "Sales and profits rose. Tariff refunds helped the headline results."
+            : "Franchise royalties grew. Headline growth includes advertising-fund receipts."
+    }
+    private var meaning: String {
+        asset.id == "AAPL"
+            ? "Check whether earnings hold up without the refund benefit. Growth alone does not establish a fair share price."
+            : "Separate royalty growth from advertising receipts that have matching expenses. Revenue growth is not the same as profit growth."
+    }
+    private var risk: String {
+        asset.id == "AAPL"
+            ? "Refund benefits may not recur. These results predate the new CEO and do not establish his impact or a cheap valuation."
+            : "A marketing pilot is not a systemwide rollout. Debt maturities, dividends and buybacks compete for cash."
+    }
+    private var sourceIDs: [String] { asset.id == "AAPL" ? ["AAPL-R1", "AAPL-R2"] : ["S3", "S4", "S5"] }
+    private var metrics: [ApolloCompanyMetric] {
+        guard let profile else { return [] }
+        let wanted = asset.id == "AAPL" ? ["Services revenue", "Operating income"] : ["Royalty revenue", "Net income"]
+        return wanted.compactMap { name in profile.metrics.first { $0.name == name } }
+    }
+    var body: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            section("The gist", gist, id: "stock-gist")
+            if reviewed, let profile {
+                VStack(alignment: .leading, spacing: 6) {
+                    Text("Key sourced facts").font(.caption.bold()).foregroundStyle(ApolloStyle.muted)
+                    ForEach(metrics) { metric in
+                        HStack(alignment: .firstTextBaseline) {
+                            Text(metric.name).font(.subheadline)
+                            Spacer(minLength: 6)
+                            Text(formatted(metric)).font(.subheadline.weight(.semibold)).monospacedDigit()
+                        }
+                    }
+                    Text("Quarter ended " + (metrics.first?.periodEnd ?? "date unavailable") + " · reported figures")
+                        .font(.caption2).foregroundStyle(ApolloStyle.muted)
+                }.accessibilityIdentifier("stock-key-facts")
+                section("Why it matters · interpretation", meaning, id: "stock-why-it-matters")
+                section("What could go wrong", risk, id: "stock-what-could-go-wrong")
+                VStack(alignment: .leading, spacing: 4) {
+                    ForEach(profile.sources(for: sourceIDs), id: \.id) { source in
+                        if let url = URL(string: source.url), url.scheme == "https" {
+                            Link(destination: url) {
+                                Label(source.id + " · " + source.title, systemImage: "arrow.up.right")
+                                    .font(.caption).multilineTextAlignment(.leading).frame(minHeight: 32, alignment: .leading)
+                            }.accessibilityIdentifier("stock-brief-source-" + source.id)
+                        }
+                    }
+                }
+                Text("Reviewed " + profile.reviewCutoff + " · not live news or a buy recommendation")
+                    .font(.caption2).foregroundStyle(ApolloStyle.muted)
+                Divider()
+                VStack(alignment: .leading, spacing: 6) {
+                    ForEach(ApolloEvidenceTracks.canonical(asset.evidenceTracks, isDemo: asset.isDemo)) { track in
+                        HStack(alignment: .top, spacing: 8) {
+                            Text(track.topic).font(.caption.weight(.semibold))
+                            Spacer(minLength: 4)
+                            Text(track.status).font(.caption2).multilineTextAlignment(.trailing).foregroundStyle(ApolloStyle.muted)
+                        }
+                    }
+                }.accessibilityIdentifier("stock-brief-three-tracks")
+            } else {
+                Text("Leadership: unknown · Promises vs results: unknown · Public sentiment: unknown. Open Research for available sources; no facts or market consensus are invented.")
+                    .font(.caption).foregroundStyle(ApolloStyle.amber)
+            }
+        }.accessibilityElement(children: .contain).accessibilityIdentifier("stock-decision-brief")
+    }
+    private func section(_ heading: String, _ text: String, id: String) -> some View {
+        VStack(alignment: .leading, spacing: 4) {
+            Text(heading).font(.caption.bold()).foregroundStyle(ApolloStyle.muted)
+            Text(text).font(.subheadline).fixedSize(horizontal: false, vertical: true)
+        }.accessibilityIdentifier(id)
+    }
+    private func formatted(_ metric: ApolloCompanyMetric) -> String {
+        guard let value = Double(metric.value), value.isFinite else { return metric.value + " " + metric.unit }
+        if metric.unit == "USD millions" { return "$" + (value * 1_000_000).formatted(.number.notation(.compactName).precision(.fractionLength(2))) }
+        if metric.unit == "USD" { return "$" + value.formatted(.number.notation(.compactName).precision(.fractionLength(2))) }
+        return metric.value + " " + metric.unit
     }
 }

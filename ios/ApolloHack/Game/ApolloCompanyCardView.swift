@@ -43,7 +43,13 @@ struct ApolloCompanyCardView: View {
                 }
             }
             if panel == .overview {
-                ApolloStockDecisionBrief(asset: asset, profile: profile)
+                VStack(alignment: .leading, spacing: 0) {
+                    ApolloStockDecisionBrief(asset: asset, profile: profile, gistContent: { text in
+                        AnyView(browseSurface(id: "company-tap") {
+                            Text(text).font(.subheadline).fixedSize(horizontal: false, vertical: true).frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
+                        })
+                    })
+                }.accessibilityElement(children: .contain).accessibilityIdentifier("company-content-overview")
             } else {
                 browseSurface(id: "company-tap") {
                     VStack(alignment: .leading, spacing: 10) {
@@ -193,6 +199,7 @@ struct ApolloCompanyProfileView: View {
 private struct ApolloStockDecisionBrief: View {
     let asset: ApolloAsset
     let profile: ApolloCompanyProfile?
+    let gistContent: (String) -> AnyView
     private var reviewed: Bool { profile != nil && ["AAPL", "WINA"].contains(asset.id) }
     private var gist: String {
         guard reviewed else { return "Reviewed research is unavailable for this company. Do not treat a catalog description as an investment case." }
@@ -218,7 +225,10 @@ private struct ApolloStockDecisionBrief: View {
     }
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
-            section("The gist", gist, id: "stock-gist")
+            VStack(alignment: .leading, spacing: 4) {
+                Text("The gist").font(.caption.bold()).foregroundStyle(ApolloStyle.muted)
+                gistContent(gist)
+            }.accessibilityIdentifier("stock-gist")
             if reviewed, let profile {
                 VStack(alignment: .leading, spacing: 6) {
                     Text("Key sourced facts").font(.caption.bold()).foregroundStyle(ApolloStyle.muted)
